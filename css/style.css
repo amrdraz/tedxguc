@@ -1,0 +1,790 @@
+
+body, html{
+   height: 100%;
+   padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	position: relative;
+}
+
+#container {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	min-width: 1024px;
+	width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+	overflow:hidden;
+}
+
+.main-container {
+	width: 960px;
+	display: block;
+	margin: 130px auto 260px auto;
+}
+
+.main-container .content {
+	width:620px;
+	position:relative;
+}
+
+.centredShape {
+	display: block;
+	margin: 0 auto;
+}
+
+.centredText {
+	text-align: center;
+}
+
+strong {
+	font-weight: 900;
+}
+
+span {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #FF2B06;
+	
+}
+
+a {
+	font-weight: 300;
+	color: #BBBBBB;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-weight: 300;
+}
+
+/*-----------------------------------sidebar in about and event page ------------------------------------------*/
+.main-container sidebar {
+	width: 300px;
+	float: right;
+	background: #fafafa;
+	padding:10px 20px;
+	border: 1px solid #F6F6F6;
+	margin-bottom: 250px;
+}
+
+.main-container sidebar hr {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border-top: 1px solid #ECECEC;
+}
+
+.main-container sidebar h3 {
+	text-align: center;
+	margin: -15 auto 4 auto;
+	font-size: 20px;
+	font-weight: 300;
+	height:37px;
+	width: 20%;
+	color: #aaa;
+	padding: 0 8px;
+	background: #fafafa;
+}
+
+.tweet {
+	margin-bottom: 10px;
+	font-weight: 300;
+	color: #555;
+}
+
+.tweet .time {
+	float: right;
+	color: red;
+}
+.tweet .tweet-content {
+	clear:right;
+	padding: 5px;
+}
+
+.about .content {
+	width: 460px;
+	margin-left: 60px;
+}
+
+/*---------------------------------site main navigation ----------------------------------*/
+
+header {
+	position:absolute;
+	width: 1020px;
+	top: 30px;
+	right:50%;
+	margin-right:-480px;
+	z-index: 1;
+}
+			
+	.socialMedia {
+		float: right;
+		margin-left: 30px;
+		margin-top: -5px;
+		padding-top: 0px;
+	}
+	
+	.socialMedia a {
+		min-width: 20px;
+		margin-left: 5px;
+	}
+	.socialMedia img {
+		height: 14px;
+	}
+	
+	.fb-like {
+		float: left;
+		margin-top: -22px;
+		margin-left: 65px;
+	}
+	
+	#recommend {
+		margin-top: 0px;
+		left: 50%;
+		margin-left: -440;
+	}
+	
+	.youTube img {
+		height: 20px;
+		margin-left: 198px;
+		margin-top: -22px;
+		border-radius: 3px;
+		float: left;
+	}
+	
+			
+	header nav {
+		overflow: hidden;
+		float: right;
+		margin-left: 250px;
+	}
+	
+		header nav li {
+			float: left;
+			list-style: none;
+			margin-left: 46px;
+			
+		}
+		
+			header nav li a {
+				color: #000000;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 300;
+				font-size: 14px;
+				padding-bottom: 1px;
+			}
+			
+			header nav li a:hover {
+				border-bottom: solid #FF2B06 3px;
+				text-decoration: none;
+			}
+			
+			header li.active {
+				border-bottom: solid #FF2B06 3px;
+			}
+			
+	header > img, .homepage footer > img {
+		width: 200px;
+		margin-top:-30px;
+		margin-left:0;
+	}
+
+/*==============================HOMEPAGE=====================================*/
+
+
+#container.homepage {
+	width:100%;
+	min-width: 1020px;
+	height:400%;
+	background:#222;
+}
+
+.slide {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+}
+#background {
+	z-index: 0;
+	width: 1920px;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+}
+#intro {
+	top:0px;
+	height:200%;
+	z-index: 2;
+	overflow:hidden;
+}
+
+.logoAndInstructions {
+	position: absolute;
+	top: 12%;
+	left: 50%;
+}
+
+.homepageLogo {
+	position:absolute;
+	width: 650px;
+	left:50%;
+	margin-left:-325px;
+}	
+.instructions {
+	width: 455px;
+	position: absolute;
+	left:50%;
+	margin-left:-230px;
+	margin-top: 140px;
+}
+
+html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
+	display: none;
+}
+
+	.instructionLine {
+		width: 455px;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}		
+	
+		.instructionLine p {
+			font-size: 18px;
+			font-weight: 300;
+			width: 380px;
+			float: left;
+			margin-top: 22px;
+		}
+		
+		.instructionLine img {
+			float: right;
+		}
+		
+			.instructionLine .img1 {
+				width: 70px;
+				
+			}
+			
+			.instructionLine .img2 {
+				width: 35px;
+				margin-right: 18px;
+				
+			}
+		
+			
+			
+/*Parallelogram*/
+
+.parallelogram {
+	position:absolute;
+	display: block;
+	left:65%;
+	bottom:50%;
+	margin-left:-2000px;
+	margin-bottom:-200px;
+	width: 2000px;
+	height: 2000px;
+	background:#fff;
+
+		-webkit-transform: rotate(-20deg);
+		   -moz-transform: rotate(-20deg);
+		   		-o-transform: rotate(-20deg);
+			 		-ms-transform: rotate(-20deg);
+}
+
+.parallelogram h2 {
+	position:absolute;
+	bottom:0px;
+	right:0;
+	font-size:40px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.neg-parallelogram {
+	position:absolute;
+	left:65%;
+	bottom:50%;
+	margin-left:-410px;
+	margin-bottom:-100px;
+	display: block;
+	background:#fff;
+	width: 3000px;
+	height: 2000px;
+
+		-webkit-transform: rotate(70deg);
+		   -moz-transform: rotate(70deg);
+		   		-o-transform: rotate(70deg);
+			 		-ms-transform: rotate(70deg);
+}
+
+
+#conclusion {
+	top: 100%;
+	z-index: 5;
+	background: #fff;
+}
+#conclusion .container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+}
+
+.illustratedLogo {
+	width: 960px;
+	margin-top: 180px;
+	
+}
+/*Header 2*/
+
+#conclusion .header2 {
+	width: 720px;
+	display: block;
+	margin: 40px auto 40px auto;
+	overflow: hidden;
+}
+
+
+	#conclusion .header2 input[type=email] {
+		padding: 6px 10px;
+		margin-right: 1px;
+		margin-top:0px;
+		background: #f5f5f5;
+		color: #f88;
+		font-size:20px;
+		font-weight:300;
+		font-family: Lato;
+		border:none;
+		float: left;
+	}
+	
+	#conclusion input[type=email]:focus {
+		border: none;
+		outline: none;
+		color:#222;
+	}
+	
+	#conclusion .header2 input[type=email] {
+		width: 495px;
+	}
+
+	#conclusion .callToAction {
+		color: #fff;
+		background: #000;
+		height: 30px;
+		float: left;
+		font-size: 20px;
+		font-weight: 300;
+		padding: 6px 10px 0 10px;
+		text-align: center;
+	}
+	
+	#conclusion .callToAction:hover {
+		background: #ff2b06;
+	}
+		
+		#subscribe-submit:hover {
+			text-decoration: none;
+		}
+		
+	
+/*==========================ABOUT===================================*/
+
+
+.about nav ul {
+	overflow: auto;
+	list-style: none;
+}
+
+.about nav li {
+	float:left;
+	width:152px;
+	margin-left: 1px;
+}
+
+.about nav li a {
+	text-decoration: none;
+	display: block;
+	line-height: 22.5px;
+	padding: 10px;
+	font-weight: 300;
+	font-size: 20px;
+
+	background: #fafafa;
+	color: #111;
+}
+
+.about nav ul li:hover a {
+	background: #111;
+	color: #eee;
+}
+
+.about nav ul li a.active  {
+	background: #111;
+	color: #eee;
+}
+
+
+.about article{
+	margin-top: 28px;
+}
+
+.aboutImg {
+	margin-bottom: 20px;
+}
+
+.about p {
+	font-weight: 300;
+	color: #555;
+	line-height: 20px;
+}
+
+
+/*========================Team Styles==============================*/
+	
+	
+	.team h3 {
+		font-weight: 900;
+		font-size: 50px;
+		line-height: 50px;
+		text-transform: uppercase;
+	}
+	
+	
+	
+	.members {
+		position: relative;
+		overflow: hidden;
+		margin-top: -180px;
+		height: 570px;
+	}
+		.members > div {
+			position:absolute;
+		}
+		.members img {
+			width: 960px;
+			height: 541px;
+			margin-top: 0;
+		}
+	
+	.firstMemberList {
+		margin-top: -100px;
+	}
+	
+	/*Labels*/
+	
+	.team h5, .team h4 {
+		float: left;
+		font-size: 14px;
+		text-transform: uppercase;
+		width: 226px;
+	}
+	
+	.team h5 {
+		font-weight: 400;
+	}
+	
+	.team h4 {
+		font-weight: 500;
+	}
+	
+	.team .names1 {
+	
+		-webkit-transform: translate(-22px,145px) rotate(-20deg);
+		   -moz-transform: translate(-15px,140px) rotate(-20deg);
+		   		-o-transform: translate(-15px,140px) rotate(-20deg);
+			 		-ms-transform: translate(-15px,140px) rotate(-20deg);
+	}
+	
+	.team .titles1 {
+	
+		-webkit-transform: translate(-22px,-118px) rotate(-20deg);
+		   -moz-transform: translate(-10px,-120px) rotate(-20deg);
+		   		-o-transform: translate(-10px,-120px) rotate(-20deg);
+			 		-ms-transform: translate(-10px,-120px) rotate(-20deg);
+	}
+	
+	.team .names2 {
+	
+		text-align: right;
+	
+		-webkit-transform: translate(740px,57px) rotate(20deg) ;
+		   -moz-transform: translate(740px,55px) rotate(20deg);
+		   		-o-transform: translate(740px,55px) rotate(20deg);
+			 		-ms-transform: translate(740px,55px) rotate(20deg);
+	}	
+	
+	.team .titles2 {
+	
+		text-align: right;
+		
+		-webkit-transform: translate(740px,-206px)  rotate(20deg);
+		   -moz-transform: translate(740px,-205px) rotate(20deg);
+		   		-o-transform: translate(740px,-205px) rotate(20deg);
+			 		-ms-transform: translate(740px,-205px) rotate(20deg);
+		
+	}
+	
+	.team .secondTitle, .team .secondName, .team .thirdTitle, .team .thirdName {
+		margin-left:30px;
+	}
+	
+	#ashry {
+		margin-top:-120px;
+		margin-left:491px;
+	}
+	
+	.founder {
+		margin-left:639px;
+	}
+	.founder .firstName {
+			-webkit-transform: translate(-150px,-35px)  rotate(20deg);
+		   -moz-transform: translate(-150px,-35px) rotate(20deg);
+		   		-o-transform: translate(-150px,-35px) rotate(20deg);
+			 		-ms-transform: translate(-150px,-35px) rotate(20deg);
+	}
+		.founder .firstTitle {
+			-webkit-transform: translate(180px, -80px) rotate(-20deg);
+		   -moz-transform: translate(180px, -80px)  rotate(-20deg);
+		   		-o-transform: translate(180px, -80px) rotate(-20deg);
+			 		-ms-transform: translate(180px, -80px) rotate(-20deg);
+	}
+
+	html.ie8 .team .names1 ,html.ie8 .team .titles1,html.ie8 .team .names1 ,html.ie8 .team .titles2,html.ie8 .founder .firstName,html.ie8 .founder .firstTitle,
+	html.ie7 .team .names1 ,html.ie7 .team .titles1,html.ie7 .team .names1 ,html.ie7 .team .titles2,html.ie7 .founder .firstName,html.ie7 .founder .firstTitle,
+	html.ie6 .team .names1 ,html.ie6 .team .titles1,html.ie6 .team .names1 ,html.ie6 .team .titles2,html.ie6 .founder .firstName,html.ie6 .founder .firstTitle
+	{
+		display: none;
+	}
+	
+
+/*==============================EVENTS===============================================*/
+
+/*this hides the Diplaying 1 of x that appears in the paggination widget*/
+.events .summary {
+	display: none;
+}
+
+/*this is the pager that holds the pagination elements, you also hae full control over that*/
+.events .pager {
+	position: absolute;
+	top: -20px;
+	left:300px;
+}
+
+.events .pager .selected > a {
+	background: red;
+}
+
+.events .items article {
+	clear: both;
+	height: 200px;
+	position: relative;
+	top: -150px;
+}
+.events .items article:first-child {
+	top: 0;
+	clear: none;
+}
+.events .items article img {
+	float: left;
+	width: 220px;
+}
+
+.events .items article img:hover {
+	opacity: 0.8;
+}
+
+.events .items article section {
+	float: right;
+	width: 360px;
+	margin-right: 20px;
+}
+.events .items article h3 {
+	font-size: 26px;
+	text-transform: capitalize;
+}
+.events .items article h3 a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.events .items article h3 a:hover{
+	color: #BBBBBB;
+} 
+
+/*==============================EVENT===============================================*/
+
+.event h1 {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.event article {
+	margin: 10px 0;
+}
+
+.eventImg {
+	width: 600px;
+	margin-top: 10px;
+}
+
+
+
+/*==============================SPONSORS===============================================*/
+
+	
+	
+	
+	
+/*==============================CONTACT==============================================*/	
+	
+a.red, .red a {
+	text-decoration: none;
+	color: #FF2B06;
+}	
+
+.sponsors a:hover, .contact a:hover {
+	text-decoration: underline;
+}
+	
+	
+/*Footer*/
+
+footer {
+	background: #EDEDED;
+	height: 210px;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	width: 100%;
+}
+
+footer .footer-container {
+	position: absolute;
+	width: 960px;
+	left: 50%;
+	margin-left: -480px;
+	padding: 30px 0;
+}
+
+footer p {
+	color: #808080;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+footer .footer-bottom-right {
+	position: relative;
+	float: right;
+	overflow: hidden;
+	margin-top: -22px;
+	width: 500px;
+}
+
+footer .footer-bottom {
+	clear: both;
+}
+
+footer .socialMedia {
+	margin-top: 0;
+}
+
+.subscribe-box {
+	float: right;
+	white-space: nowrap;
+	margin-left: 30px;
+}
+.subscribe-box input[type=email] {
+	padding: 3px 10px;
+	margin-right: 1px;
+	margin-top:0px;
+	background: #f5f5f5;
+	color: #808080;
+	font-size:13px;
+	font-weight:300;
+	font-family: Lato;
+	border:none;
+	float: left;
+}
+	
+	.subscribe-box input[type=email]:focus {
+		border: none;
+		outline: none;
+		color:#222;
+	}
+	
+	.subscribe-box input[type=email] {
+		width: 200px;
+	}
+
+	.subscribe-box .callToAction {
+		color: #fff;
+		background: #000;
+		height: 18px;
+		float: left;
+		font-size: 13px;
+		font-weight: 300;
+		padding: 2px 10px 0 10px;
+		text-align: center;
+	}
+	
+	.subscribe-box .callToAction:hover {
+		background: #ff2b06;
+	}
+
+.clear {
+	clear: both;
+}
+
+/*==============================Scroll to Top==============================*/
+
+.top {
+	position:absolute;
+	right:45px;
+	top:45px;
+	width:50px;
+	height:10px;
+	background: rgba(2, 2, 2,0.7);
+	padding-top:25px;
+	line-height:25px;	
+	color:#999;
+	display:block;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	font-size:14px;
+	behavior:url(../js/PIE.htc);
+}
+
+.top:before {
+	position:absolute;
+	top:11px;
+	left:14px;
+	content:"";
+	display: ;
+	border-bottom:11px solid #888;
+	border-left:11px solid transparent;
+	border-right:11px solid transparent;
+}
+
+.top:hover {
+	color: #555555;
+}
+
+.top:hover:before {
+	border-bottom-color:#eee;
+}

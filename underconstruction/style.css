@@ -1,0 +1,17 @@
+iframe {
+	position: fixed;
+	border: none;
+	margin-top: -80px;
+	margin-left: -80px;
+	z-index: 0;
+}
+
+img {
+	position: fixed;
+	z-index: 10;
+	width: 550px;
+	left: 50%;
+	margin-left: -275px;
+	top: 55%;
+	margin-top: -200px;
+}
