@@ -341,16 +341,31 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 }
 
 .illustratedLogo {
+	position: absolute;
+	top: 50%;
+	left:50%;
 	width: 960px;
-	margin-top: 180px;
+	margin-top: -260px;
+	margin-left: -480px;
 	
 }
 /*Header 2*/
-
+#conclusion .fb-like {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-top: 20px;
+	margin-left: -480px;
+}
 #conclusion .header2 {
-	width: 720px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 720px;
+	white-space: nowrap;
+	margin-top: -50px;
+	margin-left: -360px;
 	display: block;
-	margin: 40px auto 40px auto;
 	overflow: hidden;
 }
 
@@ -755,7 +770,7 @@ footer .socialMedia {
 .top {
 	position:absolute;
 	right:45px;
-	top:45px;
+	top:25px;
 	width:50px;
 	height:10px;
 	background: rgba(2, 2, 2,0.7);
