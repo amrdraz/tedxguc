@@ -178,16 +178,18 @@ header {
 				text-transform: uppercase;
 				font-weight: 300;
 				font-size: 14px;
-				padding-bottom: 1px;
+				padding-bottom: 3px;
+				
+				-webkit-transition: border 0.3s ease;
+				-moz-transition: border 0.3s ease;
+				-o-transition: border 0.3s ease;
+				transition: border 0.3s ease;
 			}
 			
-			header nav li a:hover {
+			header nav li a:hover, header nav li.active {
+				padding-bottom: 3px;
 				border-bottom: solid #FF2B06 3px;
 				text-decoration: none;
-			}
-			
-			header li.active {
-				border-bottom: solid #FF2B06 3px;
 			}
 			
 	header > img, .homepage footer > img {
