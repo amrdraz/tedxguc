@@ -126,8 +126,10 @@ header {
 	.socialMedia {
 		float: right;
 		margin-left: 30px;
-		margin-top: -5px;
+		margin-top: 2px;
 		padding-top: 0px;
+		height: 14px;
+		overflow: hidden;
 	}
 	
 	.socialMedia a {
@@ -135,7 +137,17 @@ header {
 		margin-left: 5px;
 	}
 	.socialMedia img {
-		height: 14px;
+		height: 28px;
+		margin-top: 0px;
+		
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+	
+	.socialMedia img:hover {
+		margin-top: -28px;
 	}
 	
 	.fb-like {
