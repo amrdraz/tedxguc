@@ -114,6 +114,21 @@ p {
 
 /*---------------------------------site main navigation ----------------------------------*/
 
+@-webkit-keyframes pulse {
+0% {
+top: -2px;
+}
+50% {
+top: 1px;
+}
+100% {
+top: -1px;
+}
+}
+
+
+
+
 header {
 	position:absolute;
 	width: 1020px;
@@ -284,9 +299,15 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 			float: right;
 		}
 		
-			.instructionLine .img1 {
+			.instructionLine .img1, #dynamicArrow {
 				width: 70px;
 				
+			}
+			
+			#dynamicArrow {
+				position: absolute;
+				left: 385px;
+				-webkit-animation: pulse 1s infinite ease-in-out;
 			}
 			
 			.instructionLine .img2 {
@@ -294,6 +315,8 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 				margin-right: 18px;
 				
 			}
+			
+			
 		
 			
 			
@@ -324,6 +347,7 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	text-transform: uppercase;
 	font-weight: 300;
 }
+
 .neg-parallelogram {
 	position:absolute;
 	left:65%;

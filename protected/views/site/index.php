@@ -45,7 +45,7 @@
 				
 				<div class="instructions centredShape">
 				
-					<div class="instructionLine"><p>Navigate vertically using your keyboard arrows</p><img class="img1" src="img/mainElements/keyboardArrows.png" /></div>
+					<div class="instructionLine"><p>Navigate vertically using your keyboard arrows</p><img class="img1" src="img/mainElements/staticKeyboardArrows.png" /><img id="dynamicArrow" src="img/mainElements/dynamicKeyboardArrow.png" /></div>
 					<div class="instructionLine"><p>Or just slowly scroll using your mouse wheel</p><img class="img2" src="img/mainElements/mouse.png" /></div>
 					
 				</div>
