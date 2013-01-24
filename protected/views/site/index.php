@@ -1,10 +1,16 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
 <div id="container" class="homepage" >
+
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/background.jpg" id="background" alt="">
 	<section id="intro" class="slide" >
+	
+	<div class="awardsHome">
+		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/cssda-nominee-dark-top-left.png" /></a>
+	</div>
+	
 		<header>
-
+		
 			<div class="socialMedia">
 				<a target="_blank" href="http://www.youtube.com/user/TEDxGUC"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/subscribeOnYoutube.png" /></a>
 				<a target="_blank" href="http://www.facebook.com/TEDxGUC"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/fb.png" /></a>
@@ -12,8 +18,8 @@
 			</div>
 			
 			<nav>
-				<?php 
-				$mainmenu = array(
+					<?php 
+					$mainmenu = array(
 					array('label'=>'Home', 'url'=>array('/site/index')),
 					array('label'=>'About', 'url'=>array('/site/about')),
 					array('label'=>'Team', 'url'=>array('/site/team')),
@@ -26,12 +32,13 @@
 					'items'=>$mainmenu,
 					));
 					?>
-				</nav>
+			</nav>
 
-				<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
+			<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial">
+			</div>
 
-			</header>
-
+		</header>
+			
 			<div class="neg-parallelogram">
 				&nbsp;
 			</div>

@@ -1,6 +1,10 @@
 <?php $this->beginContent('//layouts/main'); ?>
 <div id="container">
 
+	<div class="awards">
+		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/cssda-nominee-dark-top-left.png" /></a>
+	</div>
+	
 	<header >
 	
 		<div class="socialMedia">

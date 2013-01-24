@@ -64,6 +64,24 @@ p {
 	font-weight: 300;
 }
 
+/*Awards*/
+
+.awards, {
+	position: absolute;
+	top: 0;
+	left: 0;
+	top: -30px;
+	z-index: 20;
+}
+
+.slide .awardsHome {
+	position: absolute;
+	top: 0;
+	left: 0;
+	top: 0px;
+	z-index: 20;
+}
+
 /*-----------------------------------sidebar in about and event page ------------------------------------------*/
 .main-container sidebar {
 	width: 300px;
