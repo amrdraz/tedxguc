@@ -73,16 +73,25 @@ p {
 	top: 0px;
 	z-index: 20;
 	overflow: none;
-	
-	opacity: 0.7;
-	
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition: all 0.1s ease-in-out;
-	-o-transition: all 0.1s ease-in-out;
-	transition: all 0.1s ease-in-out;
+	width: 80px;
 }
 
-.slide .awards:hover, .awards:hover {
+
+	.slide .awards img, .awards img {
+		margin-bottom: 20px;
+		width: 65px;
+		
+		opacity: 0.7;
+		
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+	}
+
+
+
+.slide .awards img:hover, .awards img:hover {
 	
 opacity: 0.9;
 	

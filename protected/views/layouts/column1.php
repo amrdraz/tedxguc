@@ -3,6 +3,8 @@
 
 	<div class="awards">
 		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/css-design-awards-nominee-left-black.png" /></a>
+		
+		<a target="_blank" href="http://www.csswinner.com/details/tedxguc/4282/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/nominee-black-left.png" /></a>
 	</div>
 	
 	<header >
