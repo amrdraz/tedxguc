@@ -84,12 +84,7 @@ p {
 
 .slide .awards:hover, .awards:hover {
 	
-opacity: 1;
-	
--webkit-transform: rotate(-5deg);
--moz-transform: rotate(-5deg);
--o-transform: rotate(-5deg);
--ms-transform: rotate(-5deg);
+opacity: 0.9;
 	
 }
 
