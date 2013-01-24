@@ -5,8 +5,8 @@
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/background.jpg" id="background" alt="">
 	<section id="intro" class="slide" >
 	
-	<div class="awardsHome">
-		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/cssda-nominee-dark-top-left.png" /></a>
+	<div class="awards">
+		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/css-design-awards-nominee-left-black.png" /></a>
 	</div>
 	
 		<header>
