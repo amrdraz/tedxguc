@@ -5,10 +5,15 @@
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/background.jpg" id="background" alt="">
 	<section id="intro" class="slide" >
 	
-	<div class="awards">
+	<div class="awardsLeft">
+		
 		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/css-design-awards-nominee-left-black.png" /></a>
 		
 		<a target="_blank" href="http://www.csswinner.com/details/tedxguc/4282/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/nominee-black-left.png" /></a>
+	</div>
+	
+	<div class="awardsRight">
+		<a target="_blank" href="http://www.awwwards.com/best-websites/tedxguc-1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/awwwards.png" /></a>
 	</div>
 	
 		<header>

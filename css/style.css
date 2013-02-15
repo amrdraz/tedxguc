@@ -66,18 +66,18 @@ p {
 
 /*Awards*/
 
-.slide .awards, .awards {
+.awardsLeft {
 	position: absolute;
 	top: 0;
 	left: 0;
-	top: 0px;
+	top: 20px;
 	z-index: 20;
 	overflow: none;
 	width: 80px;
 }
 
 
-	.slide .awards img, .awards img {
+	.awardsLeft img {
 		margin-bottom: 20px;
 		width: 65px;
 		
@@ -88,10 +88,33 @@ p {
 		-o-transition: all 0.1s ease-in-out;
 		transition: all 0.1s ease-in-out;
 	}
+	
+.awardsRight {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	top: 18%;
+	z-index: 20;
+	overflow: none;
+	width: 85px;
+	margin-top: 60px;
+}
+
+
+	.awardsRight img {
+		width: 85px;
+		
+		opacity: 1;
+		
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+	}
 
 
 
-.slide .awards img:hover, .awards img:hover {
+.awardsLeft img:hover, .awardsRight img:hover {
 	
 opacity: 0.9;
 	
