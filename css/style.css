@@ -70,10 +70,11 @@ p {
 	position: absolute;
 	top: 0;
 	left: 0;
-	top: 20px;
+	top: 18%;
 	z-index: 20;
 	overflow: none;
 	width: 80px;
+	display: none;
 }
 
 
@@ -93,7 +94,7 @@ p {
 	position: absolute;
 	top: 0;
 	right: 0px;
-	top: 18%;
+	top: 8%;
 	z-index: 20;
 	overflow: none;
 	width: 85px;
