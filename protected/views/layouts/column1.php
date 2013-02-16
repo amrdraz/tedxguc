@@ -60,7 +60,7 @@
 			
 			<br/><br/>
 			
-			Designed by <a target="_blank" href="http://ranaelgohary.com">Rana Elgohary</a>, developed by <a href="mailto:amr.m.draz@gmail.com">Amr Draz</a> and illustrations by <a target="_blank" href="http://www.behance.net/K-A-S-S-A-B">Omar Kassab</a>
+			Designed by <a target="_blank" href="http://ranaelgohary.com">Rana Elgohary</a> developed by <a href="mailto:amr.m.draz@gmail.com">Amr Draz</a> and illustrations by <a target="_blank" href="http://www.behance.net/K-A-S-S-A-B">Omar Kassab</a>
 			
 			</p>
 			
