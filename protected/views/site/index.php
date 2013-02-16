@@ -5,15 +5,8 @@
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/background.jpg" id="background" alt="">
 	<section id="intro" class="slide" >
 	
-	<div class="awardsLeft">
-		
-		<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/css-design-awards-nominee-left-black.png" /></a>
-		
-		<a target="_blank" href="http://www.csswinner.com/details/tedxguc/4282/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/nominee-black-left.png" /></a>
-	</div>
-	
 	<div class="awardsRight">
-		<a target="_blank" href="http://www.awwwards.com/best-websites/tedxguc-1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/awwwards.png" /></a>
+		<a target="_blank" href="http://www.awwwards.com/best-websites/tedxguc-1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/awwwards.png" /></a>
 	</div>
 	
 		<header>
@@ -76,8 +69,22 @@
 		<section id="conclusion" class="slide">
 				
 				<a id="scrollTop" class="top" href="#" title="Back to top"></a>
+				
+				<div id="cssa" class="awards">
+					<a target="_blank" href="http://www.cssawards.net/tedxguc/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/cssa.png" /></a>
+				</div>
+				
+				<div id="cssda" class="awards">
+					<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/cssda.png" /></a>
+				</div>
+				
+				<div id="csswinner" class="awards">
+					<a target="_blank" href="http://www.csswinner.com/details/tedxguc/4282/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/csswinner.png" /></a>
+				</div>
 
 				<img class="illustratedLogo centredShape" src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/illustratedLogo.png" />
+				
+				
 			
 			
 				<form class="header2 centredShape">
@@ -90,6 +97,8 @@
 					</a>
 
 				</form>
+				
+				
 				
 				<div class="fb-like" id="recommend" data-href="http://tedxguc.com" data-send="true" data-width="700" data-show-faces="true" data-action="recommend"></div>
 				
@@ -110,7 +119,7 @@
 						
 						<br/><br/>
 						
-						Designed by <a target="_blank" href="http://www.ranaelgohary.com">Rana Elgohary</a> and developed by <a href="mailto:amr.m.draz@gmail.com">Amr Draz</a>
+						Designed by <a target="_blank" href="http://ranaelgohary.com">Rana Elgohary</a>, developed by <a href="mailto:amr.m.draz@gmail.com">Amr Draz</a> and illustrations by <a target="_blank" href="http://www.behance.net/K-A-S-S-A-B">Omar Kassab</a>
 						</p>
 						
 						<div class="footer-bottom-right">
