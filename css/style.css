@@ -590,6 +590,18 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 		text-transform: uppercase;
 	}
 	
+	#hr {
+		margin-top: 60px;
+	}
+	
+	#mm {
+		margin-top: -40px;
+	}
+	
+	#pr {
+		margin-top: 0px;
+	}
+	
 	
 	
 	.members {

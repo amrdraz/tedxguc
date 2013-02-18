@@ -2,37 +2,11 @@
 $this->pageTitle=Yii::app()->name . ' - Team';
 ?>
 <section class="team main-container">			
-	<h3>Fundraising <br/> &amp; Logistics</h3>
+	<h3 id="fr">Fundraising <br/> &amp; Logistics</h3>
 
 	<!--4 Images-->
 
 	<div class="members firstMemberList">
-
-		<div class="names1">
-			<h5 class="firstName">Ahmed El Riedy</h5>
-			<h5 class="secondName">Amira El-Shawarby</h5>
-			<h5 class="thirdName">Ahmed Dawood</h5>
-		</div>
-
-		<div class="names2">
-			<h5 class="fourthName">Ammar Monir</h5>
-		</div>
-
-		<img class="firstImage" src="img/team/fr/fr1.png" />	
-
-		<div class="titles1">
-			<h4 class="firstTitle">Member</h4>
-			<h4 class="secondTitle">Member</h4>
-			<h4 class="thirdTitle">Head</h4>
-		</div>
-
-		<div class="titles2">
-			<h4 class="fourthTitle">Member</h4>
-		</div>
-
-	</div>
-
-	<div class="members">
 
 		<div class="names1">
 			<h5 class="firstName">Caroline Shoushanian</h5>
@@ -41,10 +15,10 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 		</div>
 
 		<div class="names2">
-			<h5 class="fourthName">Rania Ashkar</h5>
+			<h5 class="fourthName">Ammar Monir</h5>
 		</div>
 
-		<img class="firstImage" src="img/team/fr/fr2.png" />	
+		<img class="firstImage" src="img/team/fr/fr1.png" />	
 
 		<div class="titles1">
 			<h4 class="firstTitle">Member</h4>
@@ -64,7 +38,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 
 		<div class="names1">
 			<h5 class="firstName">Mai Alaa</h5>
-			<h5 class="secondName">Yasser Zant</h5>
+			<h5 class="secondName">Amira El-Shawarby</h5>
 			<h5 class="thirdName">Mohamed Morsy</h5>
 		</div>
 
@@ -72,11 +46,11 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 			<h5 class="fourthName">Mariam Mohamed</h5>
 		</div>
 
-		<img class="firstImage" src="img/team/fr/fr3.png" />	
+		<img class="firstImage" src="img/team/fr/fr2.png" />	
 
 		<div class="titles1">
 			<h4 class="firstTitle">Member</h4>
-			<h4 class="secondTitle">Vice Head</h4>
+			<h4 class="secondTitle">Member</h4>
 			<h4 class="thirdTitle">Member</h4>
 		</div>
 
@@ -91,25 +65,25 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 	<div class="members">
 
 		<div class="names1">
-			<h5 class="firstName">&nbsp;</h5>
+			<h5 class="firstName">Sherif Hamed</h5>
 			<h5 class="secondName">&nbsp;</h5>
-			<h5 class="thirdName">Marina Wagdy</h5>
+			<h5 class="thirdName">&nbsp;</h5>
 		</div>
 
 		<div class="names2">
-			<h5 class="fourthName">Sherif Hamed</h5>
+			<h5 class="fourthName">&nbsp;</h5>s
 		</div>
 
-		<img class="firstImage" src="img/team/fr/fr4.png" />	
+		<img class="firstImage" src="img/team/fr/fr3.png" />	
 
 		<div class="titles1">
-			<h4 class="firstTitle">&nbsp;</h4>
+			<h4 class="firstTitle">Member</h4>
 			<h4 class="secondTitle">&nbsp;</h4>
-			<h4 class="thirdTitle">Member</h4>
+			<h4 class="thirdTitle">&nbsp;</h4>
 		</div>
 
 		<div class="titles2">
-			<h4 class="fourthTitle">Member</h4>
+			<h4 class="fourthTitle">&nbsp;</h4>
 		</div>
 
 	</div>			
@@ -118,7 +92,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 
 
 
-	<h3>Human <br/> Resources</h3>
+	<h3 id="hr">Human <br/> Resources</h3>
 
 
 	<!--4 Images-->
@@ -207,7 +181,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 
 
 
-	<h3>Multimedia</h3>
+	<h3 id="mm">Multimedia</h3>
 
 
 	<!--4 Images-->
@@ -268,7 +242,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 
 
 
-	<h3>Public Relations <br/> & Marketing</h3>
+	<h3 id="pr">Public Relations <br/> & Marketing</h3>
 
 
 	<!--4 Images-->
