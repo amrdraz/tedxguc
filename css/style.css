@@ -64,6 +64,82 @@ p {
 	font-weight: 300;
 }
 
+/*Awards*/
+
+
+
+.awardsLeft {
+	position: absolute;
+	top: 200px;
+	right: 0px;
+	top: 18%;
+	z-index: 20;
+	overflow: none;
+	width: 80px;
+}
+
+
+	.awardsLeft img {
+		margin-bottom: 20px;
+		width: 65px;
+		
+		opacity: 1;
+		
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+	}
+	
+.awardsRight {
+	position: absolute;
+	right: 0px;
+	top: 8%;
+	overflow: none;
+	width: 85px;
+	margin-top: 60px;
+	z-index: 550;
+}
+
+
+	.awardsRight img {
+		width: 85px;
+		
+		opacity: 0.9;
+		
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+		z-index: 100;
+	}
+
+#cssa {
+	position: relative;
+	z-index: 550;
+	width: 140px;
+}
+
+#cssda {
+	position: absolute;
+	top: 0;
+	left: 120px;
+	z-index: 550;
+}
+
+#csswinner {
+	position: absolute;
+	left: 0;
+	top: 42%;
+	z-index: 550;
+}
+
+.awardsLeft img:hover, .awardsRight img:hover, .awards:hover {
+	
+opacity: 0.8;
+	
+}
+
 /*-----------------------------------sidebar in about and event page ------------------------------------------*/
 .main-container sidebar {
 	width: 300px;
@@ -113,6 +189,21 @@ p {
 }
 
 /*---------------------------------site main navigation ----------------------------------*/
+
+@-webkit-keyframes pulse {
+0% {
+top: -2px;
+}
+50% {
+top: 1px;
+}
+100% {
+top: -1px;
+}
+}
+
+
+
 
 header {
 	position:absolute;
@@ -284,9 +375,15 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 			float: right;
 		}
 		
-			.instructionLine .img1 {
+			.instructionLine .img1, #dynamicArrow {
 				width: 70px;
 				
+			}
+			
+			#dynamicArrow {
+				position: absolute;
+				left: 385px;
+				-webkit-animation: pulse 1s infinite ease-in-out;
 			}
 			
 			.instructionLine .img2 {
@@ -294,6 +391,8 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 				margin-right: 18px;
 				
 			}
+			
+			
 		
 			
 			
@@ -324,6 +423,7 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	text-transform: uppercase;
 	font-weight: 300;
 }
+
 .neg-parallelogram {
 	position:absolute;
 	left:65%;
@@ -359,8 +459,9 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	top: 50%;
 	left:50%;
 	width: 960px;
-	margin-top: -260px;
+	margin-top: -230px;
 	margin-left: -480px;
+	z-index: 10;
 	
 }
 /*Header 2*/
@@ -487,6 +588,18 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 		font-size: 50px;
 		line-height: 50px;
 		text-transform: uppercase;
+	}
+	
+	#hr {
+		margin-top: 60px;
+	}
+	
+	#mm {
+		margin-top: -40px;
+	}
+	
+	#pr {
+		margin-top: 0px;
 	}
 	
 	
@@ -784,7 +897,7 @@ footer .socialMedia {
 .top {
 	position:absolute;
 	right:45px;
-	top:25px;
+	top:20px;
 	width:50px;
 	height:10px;
 	background: rgba(2, 2, 2,0.7);
@@ -797,6 +910,7 @@ footer .socialMedia {
 	text-align:center;
 	font-size:14px;
 	behavior:url(../js/PIE.htc);
+	z-index: 100;
 }
 
 .top:before {

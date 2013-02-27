@@ -1,10 +1,16 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
 <div id="container" class="homepage" >
+
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/background.jpg" id="background" alt="">
 	<section id="intro" class="slide" >
+	
+	<div class="awardsRight">
+		<a target="_blank" href="http://www.awwwards.com/best-websites/tedxguc-1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/awwwards.png" /></a>
+	</div>
+	
 		<header>
-
+		
 			<div class="socialMedia">
 				<a target="_blank" href="http://www.youtube.com/user/TEDxGUC"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/subscribeOnYoutube.png" /></a>
 				<a target="_blank" href="http://www.facebook.com/TEDxGUC"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mainElements/fb.png" /></a>
@@ -12,8 +18,8 @@
 			</div>
 			
 			<nav>
-				<?php 
-				$mainmenu = array(
+					<?php 
+					$mainmenu = array(
 					array('label'=>'Home', 'url'=>array('/site/index')),
 					array('label'=>'About', 'url'=>array('/site/about')),
 					array('label'=>'Team', 'url'=>array('/site/team')),
@@ -26,12 +32,13 @@
 					'items'=>$mainmenu,
 					));
 					?>
-				</nav>
+			</nav>
 
-				<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
+			<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial">
+			</div>
 
-			</header>
-
+		</header>
+			
 			<div class="neg-parallelogram">
 				&nbsp;
 			</div>
@@ -45,7 +52,7 @@
 				
 				<div class="instructions centredShape">
 				
-					<div class="instructionLine"><p>Navigate vertically using your keyboard arrows</p><img class="img1" src="img/mainElements/keyboardArrows.png" /></div>
+					<div class="instructionLine"><p>Navigate vertically using your keyboard arrows</p><img class="img1" src="img/mainElements/staticKeyboardArrows.png" /><img id="dynamicArrow" src="img/mainElements/dynamicKeyboardArrow.png" /></div>
 					<div class="instructionLine"><p>Or just slowly scroll using your mouse wheel</p><img class="img2" src="img/mainElements/mouse.png" /></div>
 					
 				</div>
@@ -62,8 +69,22 @@
 		<section id="conclusion" class="slide">
 				
 				<a id="scrollTop" class="top" href="#" title="Back to top"></a>
+				
+				<div id="cssa" class="awards">
+					<a target="_blank" href="http://www.cssawards.net/tedxguc/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/cssa.png" /></a>
+				</div>
+				
+				<div id="cssda" class="awards">
+					<a target="_blank" href="http://www.cssdesignawards.com"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/cssda.png" /></a>
+				</div>
+				
+				<div id="csswinner" class="awards">
+					<a target="_blank" href="http://www.csswinner.com/details/tedxguc/4282/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/awards/csswinner.png" /></a>
+				</div>
 
 				<img class="illustratedLogo centredShape" src="<?php echo Yii::app()->request->baseUrl; ?>/img/homepage/illustratedLogo.png" />
+				
+				
 			
 			
 				<form class="header2 centredShape">
@@ -76,6 +97,8 @@
 					</a>
 
 				</form>
+				
+				
 				
 				<div class="fb-like" id="recommend" data-href="http://tedxguc.com" data-send="true" data-width="700" data-show-faces="true" data-action="recommend"></div>
 				
@@ -96,7 +119,7 @@
 						
 						<br/><br/>
 						
-						Designed by <a target="_blank" href="http://www.ranaelgohary.com">Rana Elgohary</a> and developed by <a href="mailto:amr.m.draz@gmail.com">Amr Draz</a>
+						Designed by <a target="_blank" href="http://ranaelgohary.com">Rana Elgohary</a> developed by <a href="mailto:amr.m.draz@gmail.com">Amr Draz</a> and illustrations by <a target="_blank" href="http://www.behance.net/K-A-S-S-A-B">Omar Kassab</a>
 						</p>
 						
 						<div class="footer-bottom-right">
