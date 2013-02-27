@@ -63,7 +63,7 @@ return array(
 		),
 		// uncomment the following to use a MySQL database
 		*/
-		//* //deployment copy
+		/* //deployment copy
 		'db'=>array(
 			'connectionString' => 'mysql:host=50.63.233.6;dbname=tedxguc',
 			'emulatePrepare' => true,
@@ -72,7 +72,7 @@ return array(
 			'charset' => 'utf8',
 		),
 		//*/
-		/* //dev copy
+		///* //dev copy
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=tedxguc',
 			'emulatePrepare' => true,

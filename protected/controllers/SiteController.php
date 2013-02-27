@@ -2,8 +2,6 @@
 
 class SiteController extends Controller
 {
-	public $page = '';
-	public $fbImage = 'fb-image.jpg';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -41,6 +39,26 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('team');
+	}
+
+	/**
+	 * This is the speaker application action which directs to the speaker application page
+	 */
+	public function actionSpeaker()
+	{
+		$model = new Speaker;
+
+		if(isset($_POST['Speaker']))
+		{
+			$model->attributes=$_POST['Speaker'];
+			$model->save();
+				// $this->redirect(array('view','id'=>$model->id));
+
+		}
+
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('speaker', array('model'=>$model));
 	}
 	/**
 	 * This is the event action which directs to the event page

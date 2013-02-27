@@ -870,3 +870,156 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/tedxguc/about/t
 ---
+2013/02/27 22:39:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in D:\xampp\htdocs\yii\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\base\CModule.php(104): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\web\CFormModel.php(40): ModelCode->init()
+#6 D:\xampp\htdocs\yii\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('')
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tedxguc/gii/model
+HTTP_REFERER=http://localhost/tedxguc/gii/default/index
+---
+2013/02/27 23:05:37 [error] [exception.CException] exception 'CException' with message 'Property "SpeakerController.page" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\views\layouts\column2.php(2): CComponent->__get('page')
+#1 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(89): CController->render('create', Array)
+#5 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SpeakerController->actionCreate()
+#6 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#15 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/create')
+#16 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tedxguc/speaker/create
+HTTP_REFERER=http://localhost/tedxguc/login
+---
+2013/02/27 23:05:55 [error] [exception.CException] exception 'CException' with message 'Property "SpeakerController.page" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\views\layouts\column2.php(2): CComponent->__get('page')
+#1 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(89): CController->render('create', Array)
+#5 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SpeakerController->actionCreate()
+#6 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#15 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/create')
+#16 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tedxguc/speaker/create
+HTTP_REFERER=http://localhost/tedxguc/login
+---
+2013/02/27 23:06:01 [error] [exception.CException] exception 'CException' with message 'Property "SpeakerController.page" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\views\layouts\column2.php(2): CComponent->__get('page')
+#1 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(89): CController->render('create', Array)
+#5 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SpeakerController->actionCreate()
+#6 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#15 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/create')
+#16 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tedxguc/speaker/create
+HTTP_REFERER=http://localhost/tedxguc/login
+---
+2013/02/27 23:08:13 [error] [exception.CException] exception 'CException' with message 'Property "SpeakerController.fbImage" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\views\layouts\main.php(24): CComponent->__get('fbImage')
+#1 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="contai...')
+#5 D:\xampp\htdocs\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="contai...')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(207): COutputProcessor->run()
+#7 D:\xampp\htdocs\yii\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 D:\xampp\htdocs\tedxguc\protected\views\layouts\column1.php(108): CBaseController->endContent()
+#9 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#11 D:\xampp\htdocs\yii\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(91): CController->render('create', Array)
+#13 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SpeakerController->actionCreate()
+#14 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#17 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#21 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#23 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/create')
+#24 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/tedxguc/speaker/create
+HTTP_REFERER=http://localhost/tedxguc/login
+---
+2013/02/27 23:14:34 [error] [php] Undefined index: file_types (D:\xampp\htdocs\tedxguc\protected\views\speaker\_form.php:60)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): SpeakerController->renderFile()
+#1 D:\xampp\htdocs\tedxguc\protected\views\speaker\create.php(18): SpeakerController->renderPartial()
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(96): SpeakerController->renderInternal()
+#4 D:\xampp\htdocs\yii\web\CController.php(870): SpeakerController->renderFile()
+#5 D:\xampp\htdocs\yii\web\CController.php(783): SpeakerController->renderPartial()
+#6 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(89): SpeakerController->render()
+#7 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SpeakerController->actionCreate()
+#8 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#10 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#13 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#16 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#17 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#18 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/create
+in D:\xampp\htdocs\tedxguc\protected\views\speaker\_form.php (60)
+in D:\xampp\htdocs\tedxguc\protected\views\speaker\create.php (18)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (89)
