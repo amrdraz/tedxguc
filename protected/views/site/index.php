@@ -33,11 +33,19 @@
 					));
 					?>
 			</nav>
+			
+			<a href="speakers/application.php">
+				<div id="speakerApplication">
+				</div>
+			</a>
+			
 
 			<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial">
 			</div>
 
 		</header>
+		
+		
 			
 			<div class="neg-parallelogram">
 				&nbsp;
