@@ -19,7 +19,9 @@
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 	
-	<!-- This part is where error apear when submitting 
+	<br>
+	
+	<!-- This part is where error appear when submitting 
 	They will apear inside something like this
 	<div id="speaker-form_es_" class="errorSummary"><p>Please fix the following input errors:</p>
 	<ul>
@@ -30,13 +32,13 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<!-- basically prints out a label for the filed replace it with waht ever you want -->
+		<!-- basically prints out a label for the field replace it with what ever you want -->
 		<?php echo $form->labelEx($model,'name'); ?>
 
-		<!-- This is the actual input filed the arry in the end can be considered the attribut of the tag -->
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>60, 'calss'=>'input')); ?>
+		<!-- This is the actual input field the array in the end can be considered the attribute of the tag -->
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>60, 'class'=>'input')); ?>
 
-		<!-- shows the error for that filed remove it wif you want -->
+		<!-- shows the error for that filed remove it if you want -->
 		<?php echo $form->error($model,'name'); ?>
 	</div>
 
