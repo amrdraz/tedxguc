@@ -28,7 +28,7 @@ class SpeakerController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('application'),
+				'actions'=>array('application', 'complete'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -52,6 +52,17 @@ class SpeakerController extends Controller
 	public function actionView($id)
 	{
 		$this->render('view',array(
+			'model'=>$this->loadModel($id),
+		));
+	}
+
+	/**
+	 * Creates a new model.
+	 * If creation is successful, the browser will be redirected to the 'view' page.
+	 */
+	public function actionComplete($id)
+	{	
+		$this->render('complete',array(
 			'model'=>$this->loadModel($id),
 		));
 	}
@@ -86,7 +97,7 @@ class SpeakerController extends Controller
 
 				if ($model->save()) {
 	                // $this->refresh();
-	                $this->redirect(array('view','id'=>$model->id));
+	                $this->redirect(array('complete','id'=>$model->id));
 	            }
 			} else {
 				$model->validate();
@@ -129,7 +140,7 @@ class SpeakerController extends Controller
 
 				if ($model->save()) {
 	                // $this->refresh();
-	                $this->redirect(array('complete','modal'=>$model));
+	                $this->redirect(array('view','id'=>$model->id));
 	            }
 			} else {
 				$model->validate();
