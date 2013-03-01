@@ -28,16 +28,16 @@ class SpeakerController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('application'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('index','view','create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('TED'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -60,28 +60,82 @@ class SpeakerController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
+	public function actionApplication()
+	{		
+		$this->layout = 'column1';
+		$model=new Speaker;
+
+		// Uncomment the following line if AJAX validation is needed
+		//$this->performAjaxValidation($model);
+
+		if(isset($_POST['Speaker']))
+		{
+			$model->attributes=$_POST['Speaker'];
+
+			$the_file = CUploadedFile::getInstance($model, 'cv');
+
+			if($the_file && isset($model->name)) {
+
+				$name = $model->name.'_cv.'. $the_file->extensionName;
+
+                $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
+
+                $model->cv = $name;
+
+                $model->save();
+
+				if ($model->save()) {
+	                // $this->refresh();
+	                $this->redirect(array('view','id'=>$model->id));
+	            }
+			} else {
+				$model->validate();
+			}
+               
+                
+		}
+
+		$this->render('application',array(
+			'model'=>$model,
+		));
+	}
+
+	/**
+	 * Creates a new model.
+	 * If creation is successful, the browser will be redirected to the 'view' page.
+	 */
 	public function actionCreate()
 	{		
 		$model=new Speaker;
 
 		// Uncomment the following line if AJAX validation is needed
-		$this->performAjaxValidation($model);
+		//$this->performAjaxValidation($model);
 
 		if(isset($_POST['Speaker']))
 		{
 			$model->attributes=$_POST['Speaker'];
-			if ($model->validate()) {
-                $the_file = CUploadedFile::getInstance($model, 'cv');
-               
-                $tmpResume = $model->name . "_" . $model->phone . 'cv';
 
-                $the_file->saveAs($tmpResume);
-                $model->uploaded_resume = $the_file;
+			$the_file = CUploadedFile::getInstance($model, 'cv');
+
+			if($the_file && isset($model->name)) {
+
+				$name = $model->name.'_cv.'. $the_file->extensionName;
+
+                $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
+
+                $model->cv = $name;
 
                 $model->save();
 
-                $this->refresh();
-            }
+				if ($model->save()) {
+	                // $this->refresh();
+	                $this->redirect(array('complete','modal'=>$model));
+	            }
+			} else {
+				$model->validate();
+			}
+               
+                
 		}
 
 		$this->render('create',array(

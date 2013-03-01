@@ -1023,3 +1023,48 @@ REQUEST_URI=/tedxguc/speaker/create
 in D:\xampp\htdocs\tedxguc\protected\views\speaker\_form.php (60)
 in D:\xampp\htdocs\tedxguc\protected\views\speaker\create.php (18)
 in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (89)
+2013/02/28 10:15:38 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:17:04 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:24:22 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:24:53 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:25:17 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:28:10 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:28:55 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:30:32 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:32:22 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/02/28 10:32:55 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (72)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/01 17:32:29 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (73)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/01 17:33:50 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (73)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/01 17:34:05 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (73)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/01 17:38:52 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (73)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/01 17:42:09 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (73)
+in D:\xampp\htdocs\tedxguc\index.php (13)

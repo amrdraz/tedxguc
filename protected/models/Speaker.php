@@ -87,7 +87,7 @@ class Speaker extends CActiveRecord
 			'phone' => 'Phone',
 			'email' => 'Email',
 			'cv' => 'C.V.',
-			 'file_types' => 'doc,docx,odt,txt,pdf',
+			'file_types' => 'doc,docx,odt,txt,pdf',
 			'fb_link' => 'Facebook',
 			'tw_link' => 'Twitter',
 			'ln_link' => 'Other',

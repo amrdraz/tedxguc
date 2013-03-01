@@ -18,12 +18,25 @@
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
+	
+	<!-- This part is where error apear when submitting 
+	They will apear inside something like this
+	<div id="speaker-form_es_" class="errorSummary"><p>Please fix the following input errors:</p>
+	<ul>
+		<li>The file "Amr Mohamed Youssef Draz_cvdocx" cannot be uploaded. Only files with these extensions are allowed: doc, docx, odt, txt, pdf.</li>
+	</ul>
+	</div>
+	-->
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
+		<!-- basically prints out a label for the filed replace it with waht ever you want -->
 		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>60)); ?>
+
+		<!-- This is the actual input filed the arry in the end can be considered the attribut of the tag -->
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>60, 'calss'=>'input')); ?>
+
+		<!-- shows the error for that filed remove it wif you want -->
 		<?php echo $form->error($model,'name'); ?>
 	</div>
 
@@ -54,11 +67,11 @@
 	<div class="row">
 		<?php
 	        $Labels = $model->attributeLabels();
-	        echo
-	        $form->labelEx($model, 'cv') .
-	        $form->fileField($model, 'cv') .
-	        " <small>Only accepts: <b>" . $Labels['file_types'] . "</b></small>" .
-	        $form->error($model, 'cv');
+	        echo $form->labelEx($model, 'cv') ;
+	        echo $form->fileField($model, 'cv') ;
+	        // this is where you'll find the file types wrrapped inside a small tag
+	        echo " <small>Only accepts: <b>" . $Labels['file_types'] . "</b></small>";
+	        echo $form->error($model, 'cv');
         ?>
 	</div>
 
@@ -105,7 +118,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Submit' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
