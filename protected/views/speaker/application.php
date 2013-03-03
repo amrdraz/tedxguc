@@ -182,6 +182,8 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 			<input size="60" maxlength="120" name="Speaker[video_url]" id="Speaker_video_url" type="text" />				
 			<?php echo $form->error($model,'video_url'); ?>	
 		</div>
+		
+		<p class="hint terms">I have read and agree to the <a href="#guidelines"/>guidelines</a></p>
 
 		<div class="row buttons submit">
 			<input type="submit" name="yt0" value="Submit" />
@@ -197,7 +199,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 		</div>
 		
 		<div class="speakerFormText guidelines">
-			<div class="speakerFormTextContainer">
+			<div class="speakerFormTextContainer" id="guidelines">
 				<h3>Guidelines</h3>
 				<div class="left">
 					&nbsp;

@@ -1046,6 +1046,11 @@ footer .socialMedia {
 	margin-bottom: 10px;
 }
 
+.speakerForm .terms {
+	text-align: right;
+	margin-right: 90px;
+}
+
 .speakerForm #personalInformation {
 	width: 160px;
 }
@@ -1090,6 +1095,7 @@ footer .socialMedia {
 
 .speakerForm .submit {
 	float: right;
+	margin-top: -29px;
 }
 
 .guidelines {
