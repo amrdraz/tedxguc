@@ -400,10 +400,10 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	margin-right: -17px;
 	margin-top: -6px;
 	background-image:url('../img/mainElements/applyAsSpeakerHover.png');
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 #speakerApplication:hover {
@@ -946,3 +946,162 @@ footer .socialMedia {
 .top:hover:before {
 	border-bottom-color:#eee;
 }
+
+/*Speaker Form*/
+
+.speakerFormText {
+	background: #000000;
+	overflow: hidden;
+	padding-bottom: 170px;
+}
+
+.speakerFormTextContainer {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+
+.speakerFormText h3 {
+	font-size: 30px;
+	font-weight: 100;
+	color: #FFF;
+	margin-bottom: 35px;
+}
+
+.speakerFormText .left {
+	float: left;
+	width: 145px;
+}
+
+.speakerFormText .right {
+	float: left;
+	width: 450px;
+}
+
+.speakerFormText h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #FFF;
+	font-weight: 200;
+}
+
+.speakerFormText h5 {
+	font-size: 16px;
+	color: #B3B3B3;
+	font-weight: 200;
+}
+
+.speakerFormText p {
+	color: #FFF;
+	font-size: 16px;
+}
+
+.speakerFormTriangle {
+	width: 0;
+	height: 0;
+	border-right:600px solid transparent;
+	border-bottom: 80px solid #FFF;
+	margin: -110px auto 0 auto;
+}
+
+.speakerForm {
+	width: 510px;
+	margin: 0 auto;
+	padding: 0 45px 100px 45px;
+	background: #FFF;
+	border-left: solid 20px #000;
+	border-right: solid 20px #000;
+	
+	position: relative;
+	z-index: 10;
+}
+
+.speakerForm hr {
+	border-bottom: solid #EAEAEA 1px;
+	padding-top: 28px;
+}
+
+.speakerForm h3 {
+	width: 220px;
+	background: #FFF;
+	text-align: center;
+	margin: -12px auto 0 auto;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.speakerForm h4 {
+	background: #FFF;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 200;
+	margin-top: -12px;
+}
+
+.speakerForm .note {
+	text-align: center;
+	font-size: 14px;
+	margin-top: -16px;
+	margin-bottom: 10px;
+}
+
+.speakerForm #personalInformation {
+	width: 160px;
+}
+
+.speakerForm #previousExperiences {
+	width: 230px;
+}
+
+.speakerForm .row {
+	overflow: hidden;
+	margin: 15px 0;
+}
+
+.speakerForm input, .speakerForm textarea {
+	float: right;
+	width: 350px;
+	
+	
+	background: #f5f5f5;
+	color: #AFAFAF;
+	font-size:16px;
+	font-weight:300;
+	font-family: Lato;
+	border:none;
+	padding: 5px;
+	
+}
+
+.speakerForm .cv input {
+	background: #FFF;
+}
+
+.guidelines {
+	margin-top: -40px;
+	position: relative;
+	z-index: 0;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
