@@ -47,7 +47,7 @@ class Speaker extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, age, occupation, phone, email, cv, prev_events, fav_talks, video_url', 'required'),
+			array('name, age, occupation, phone, email, cv, fav_talks, video_url', 'required'),
 			array('age', 'numerical', 'integerOnly'=>true),
 			array('name, occupation', 'length', 'max'=>60),
 			array('phone', 'length', 'max'=>15),

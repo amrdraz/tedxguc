@@ -1106,3 +1106,9 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/tedxguc/speaker/complete/10
 ---
+2013/03/04 00:31:02 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (85)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/04 00:31:02 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (85)
+in D:\xampp\htdocs\tedxguc\index.php (13)
