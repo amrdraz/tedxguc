@@ -1051,8 +1051,10 @@ footer .socialMedia {
 }
 
 .speakerForm #previousExperiences {
-	width: 170px;
+	width: 160px;
 }
+
+
 
 .speakerForm .row {
 	overflow: hidden;
@@ -1070,8 +1072,7 @@ footer .socialMedia {
 	font-weight:300;
 	font-family: Lato;
 	border:none;
-	padding: 5px;
-	
+	padding: 5px;	
 }
 
 .speakerForm  input[type=file] {
@@ -1081,6 +1082,14 @@ footer .socialMedia {
 .speakerForm ol {
 	list-style-type: decimal;
 	background: #FFF;
+}
+
+.speakerForm .hint {
+	margin-bottom: 10px;
+}
+
+.speakerForm .submit {
+	float: right;
 }
 
 .guidelines {
