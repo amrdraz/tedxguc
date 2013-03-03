@@ -1068,3 +1068,41 @@ in D:\xampp\htdocs\tedxguc\index.php (13)
 2013/03/01 17:42:09 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
 in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (73)
 in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/03 20:07:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yii\web\CController.php:337
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('complete')
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/complet...')
+#10 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tedxguc/speaker/complete
+---
+2013/03/03 20:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php:231
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(67): SpeakerController->loadModel('10')
+#1 [internal function]: SpeakerController->actionComplete('10')
+#2 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#3 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('complete')
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/complet...')
+#14 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tedxguc/speaker/complete/10
+---

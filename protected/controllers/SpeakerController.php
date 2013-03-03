@@ -62,6 +62,7 @@ class SpeakerController extends Controller
 	 */
 	public function actionComplete($id)
 	{	
+		$this->layout = 'column1';
 		$this->render('complete',array(
 			'model'=>$this->loadModel($id),
 		));
