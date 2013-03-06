@@ -21,8 +21,8 @@
 	<meta property="og:title" content="TEDxGUC">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="TEDxGUC is an independently organized TED event hosted in The German University in Cairo, We are a platform for sharing ideas worth spreading">
-	<meta property="og:image" content="http://www.tedxguc.com/img/<?php // echo ($this->fbImage==null)?'fb-image.jpg': $this->fbImage; ?>">
-	<link rel="image_src" href="http://www.tedxguc.com/img/<?php // echo ($this->fbImage==null)?'fb-image.jpg': $this->fbImage; ?>" />
+	<meta property="og:image" content="http://www.tedxguc.com/img/<?php  echo ($this->fbImage==null)?'fb-image.jpg': $this->fbImage; ?>">
+	<link rel="image_src" href="http://www.tedxguc.com/img/<?php  echo ($this->fbImage==null)?'fb-image.jpg': $this->fbImage; ?>" />
 
 	<meta name="title" content="TEDxGUC">
 	<!-- Google will often use this as its description of your page/site. Make it good. -->

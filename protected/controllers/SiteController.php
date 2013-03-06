@@ -2,6 +2,9 @@
 
 class SiteController extends Controller
 {
+
+	public $page;
+	public $fbImage;
 	/**
 	 * Declares class-based actions.
 	 */
