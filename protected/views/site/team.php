@@ -15,7 +15,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 		</div>
 
 		<div class="names2">
-			<h5 class="fourthName">Ammar Monir</h5>
+			<h5 class="fourthName">Rania Ashkar</h5>
 		</div>
 
 		<img class="firstImage" src="img/team/fr/fr1.png" />	

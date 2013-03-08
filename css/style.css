@@ -399,7 +399,7 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	float: right;
 	margin-right: -17px;
 	margin-top: -6px;
-	background-image:url('../img/mainElements/applyAsSpeakerHover.png');
+	background-image:url('../img/mainElements/applyAsSpeaker.png');
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -407,7 +407,7 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 }
 
 #speakerApplication:hover {
-	background-image:url('../img/mainElements/applyAsSpeaker.png');
+	background-image:url('../img/mainElements/applyAsSpeakerHover.png');
 }		
 			
 			
