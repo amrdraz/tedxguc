@@ -17,7 +17,8 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 				Do you have an idea that can change someone’s life? <br>
 				Are you waiting for a platform to encourage uncovering your thoughts? 
 				<br><br>
-				 Well, then it’s just about time that you start preparing, for NOW is your time to shine! TEDxGUC is currently searching for inspiring Synergizers that want to spread something about the theme. Synergizers see the whole as greater than the sum of its parts. They seek for unity and connection. They share and accept. They believe in the impossible and they can change the world! <br> If you are a Synergizer, then do not hesitate to kindly fill in the TEDxGUC Speakers’ Application Form, and await our kind reply.</p>
+				 Well, then it’s just about time that you start preparing, for NOW is your time to shine! TEDxGUC is currently searching for inspiring Synergizers that want to spread something about the theme. Synergizers see the whole as greater than the sum of its parts. They seek for unity and connection. They share and accept. They believe in the impossible and they can change the world! <br> If you are a Synergizer, then do not hesitate to kindly fill in the TEDxGUC Speakers’ Application Form, and await our kind reply.<br><br>
+				 Synergy is the concept that the whole is greater than the sum of Its parts; sometimes visualised as 1+1=3. In turn, Synergizers are the individuals who have used synergy in order to develop their ideas which they wish to spread. Each speaker will explain how they synergized their resources and their ideas in order to reach their final idea which they wish to spread.</p>
 				 <br><br>
 				 <h4>Application Process</h4>
 				 <br>
