@@ -804,9 +804,50 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 /*==============================SPONSORS===============================================*/
 
 	
+	.sponsors {
+		overflow: hidden;
+	}
+	
+	.sponsors .sponsorContainer {
+		border: none;
+		width: 620px;
+		overflow: hidden;
+		margin-bottom: 60px;
+	}
+	
+	.sponsors h3 {
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	
+	.sponsors .imageContainer {
+		height: 200px;
+		margin-right: 10px;
+		overflow: hidden;
+		
+		float: left;
+	}
+	
+	.sponsors .last {
+		margin-right: 0;
+	}
 	
 	
+	.sponsors img {
 	
+	width: 190px;
+	
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+	
+	.sponsors img:hover {
+		margin-top: -200px;
+	}
 /*==============================CONTACT==============================================*/	
 	
 a.red, .red a {
