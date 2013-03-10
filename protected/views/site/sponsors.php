@@ -9,7 +9,7 @@ $this->page = 'sponsers';
 		<h3>Sponsors</h3>
 		
 		<div class="imageContainer">
-		<a href="http://www.facebook.com/AlMaqarr"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sponsors/yourComfortZone.jpg" /></a>
+		<a target="_blank" href="http://www.facebook.com/AlMaqarr"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/sponsors/yourComfortZone.jpg" /></a>
 		</div>
 	</div>
 	
@@ -17,11 +17,11 @@ $this->page = 'sponsers';
 		<h3>Media Sponsors</h3>
 		
 		<div class="imageContainer">
-		<a href="http://www.facebook.com/kelmetnamagazine"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mediaSponsors/kelmetna.jpg" /></a>
+		<a target="_blank" href="http://www.facebook.com/kelmetnamagazine"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mediaSponsors/kelmetna.jpg" /></a>
 		</div>
 		
 		<div class="imageContainer">
-		<a href="http://www.facebook.com/TeenStuffMagazine"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mediaSponsors/teenstuff.jpg" /></a>
+		<a target="_blank" href="http://www.facebook.com/TeenStuffMagazine"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mediaSponsors/teenstuff.jpg" /></a>
 		</div>
 	</div>
 
