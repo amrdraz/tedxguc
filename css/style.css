@@ -408,7 +408,22 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 
 #speakerApplication:hover {
 	background-image:url('../img/mainElements/applyAsSpeakerHover.png');
-}		
+}	
+
+#deadline {
+	color: #fff;
+	background: #000;
+	width: 177px;
+	position: absolute;
+	right: 0;
+	top: 62px;
+	margin-right: -2px;
+	text-align: center;
+	font-weight: 200;
+	height: 20px;
+	padding: 5px 0 7px 0;
+	font-size: 17px;
+}	
 			
 			
 /*Parallelogram*/
