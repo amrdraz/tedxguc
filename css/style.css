@@ -1122,7 +1122,7 @@ footer .socialMedia {
 	margin: 15px 0;
 }
 
-.speakerForm input:not([type=submit]), .speakerForm textarea {
+.speakerForm input:not([type=submit]):not([type=radio]), .speakerForm textarea {
 	float: right;
 	width: 350px;
 	

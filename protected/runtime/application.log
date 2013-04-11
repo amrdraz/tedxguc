@@ -1112,3 +1112,106 @@ in D:\xampp\htdocs\tedxguc\index.php (13)
 2013/03/04 00:31:02 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
 in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (85)
 in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/03/20 11:06:40 [error] [exception.CException] exception 'CException' with message 'SubscribeController cannot find the requested view "subscribe/newsletter.php".' in D:\xampp\htdocs\yii\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('subscribe/newsl...', NULL, true)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SubscribeController.php(49): CController->render('subscribe/newsl...')
+#2 [internal function]: SubscribeController->actionSend('amr.m.draz@gmai...')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SubscribeController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SubscribeController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('send')
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('subscribe/send')
+#10 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tedxguc/subscribe/send
+---
+2013/03/20 11:07:07 [error] [exception.CException] exception 'CException' with message 'SubscribeController cannot find the requested view "newsletter.php".' in D:\xampp\htdocs\yii\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('newsletter.php', NULL, true)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SubscribeController.php(50): CController->render('newsletter.php')
+#2 [internal function]: SubscribeController->actionSend('amr.m.draz@gmai...')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SubscribeController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SubscribeController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('send')
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('subscribe/send')
+#10 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tedxguc/subscribe/send
+---
+2013/03/20 11:09:07 [error] [exception.CException] exception 'CException' with message 'SubscribeController cannot find the requested view "/subscribe/newsletter.php".' in D:\xampp\htdocs\yii\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('/subscribe/news...', NULL, true)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SubscribeController.php(50): CController->render('/subscribe/news...')
+#2 [internal function]: SubscribeController->actionSend('amr.m.draz@gmai...')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SubscribeController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SubscribeController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('send')
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('subscribe/send')
+#10 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tedxguc/subscribe/send
+---
+2013/03/20 11:09:47 [error] [exception.CException] exception 'CException' with message 'SubscribeController and its behaviors do not have a method or closure named "renderPatial".' in D:\xampp\htdocs\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\controllers\SubscribeController.php(50): CComponent->__call('renderPatial', Array)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SubscribeController.php(50): SubscribeController->renderPatial('newsletter')
+#2 [internal function]: SubscribeController->actionSend('amr.m.draz@gmai...')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SubscribeController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SubscribeController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('send')
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('subscribe/send')
+#10 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tedxguc/subscribe/send
+---
+2013/04/12 00:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "application".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('application')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('application')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('attendee/applic...')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/attendee/application
+---
+2013/04/12 00:11:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tedxguc.at' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `at`.
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/04/12 01:38:30 [error] [exception.CException] exception 'CException' with message 'AttendeeController cannot find the requested view "complete".' in D:\xampp\htdocs\yii\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('complete', Array, true)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php(91): CController->render('complete', Array)
+#2 [internal function]: AttendeeController->actionComplete('1')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AttendeeController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AttendeeController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('complete')
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('attendee/comple...')
+#15 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tedxguc/attendee/complete/1
+HTTP_REFERER=http://localhost/tedxguc/attendee/application
+---

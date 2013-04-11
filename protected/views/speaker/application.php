@@ -178,6 +178,8 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 					<li>7. Do you believe you can change people’s lives with your talk? 
 					<br>Explain briefly.<br><br></li>
 				</ol>
+				For more info follow the <a href="http://www.youtube.com/watch?v=Xo9qU3WzETk">video walk-through</a> prepared by our media head.
+				<br><br>
 			</p>
 			<label for="Speaker_video_url" class="required">Video Url <span class="required">*</span></label>		
 			<?php echo $form->textField($model,'video_url',array('size'=>60,'maxlength'=>120)); ?>

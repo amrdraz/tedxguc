@@ -42,4 +42,23 @@ class SubscribeController extends Controller
 		Yii::app()->end();
 	}
 
+	public function actionSend($email="amr.m.draz@gmail.com"){
+
+		$us = Yii::app()->params['noReply'];
+		$subject = 'Deadline Extension';
+
+		$body = $this->renderPartial('newsletter', array(), true);
+
+		// To send HTML mail, the Content-type header must be set
+		$headers  = 'MIME-Version: 1.0' . "\r\n";
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+		
+		// Additional headers
+		$headers .= 'To: '.$email. "\r\n";
+		$headers .= 'From: TEDxGUC <'.$us.'>' . "\r\n";
+		mail($email,$subject,$body,$headers);
+
+		echo "Send Mail to ".$email."<br><br> Content: <br>".$body;
+	}
+
 }

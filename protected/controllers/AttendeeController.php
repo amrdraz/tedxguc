@@ -1,6 +1,6 @@
 <?php
 
-class SpeakerController extends Controller
+class AttendeeController extends Controller
 {
 	
 	public $fbImage;
@@ -30,14 +30,17 @@ class SpeakerController extends Controller
 	public function accessRules()
 	{
 		return array(
-			
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('application', 'complete'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('index','view', 'create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','index','view','create','update'),
-				'users'=>array('TED'),
+				'actions'=>array('admin','delete'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -60,6 +63,29 @@ class SpeakerController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
+	public function actionCreate()
+	{
+		$model=new Attendee;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['Attendee']))
+		{
+			$model->attributes=$_POST['Attendee'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->id));
+		}
+
+		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+
+	/**
+	 * Creates a new model.
+	 * If creation is successful, the browser will be redirected to the 'view' page.
+	 */
 	public function actionComplete($id)
 	{	
 		$this->layout = 'column1';
@@ -75,36 +101,15 @@ class SpeakerController extends Controller
 	public function actionApplication()
 	{		
 		$this->layout = 'column1';
-		$model=new Speaker;
+		$model=new Attendee;
 
-		// Uncomment the following line if AJAX validation is needed
-		//$this->performAjaxValidation($model);
-
-		if(isset($_POST['Speaker']))
+		if(isset($_POST['Attendee']))
 		{
-			$model->attributes=$_POST['Speaker'];
+			$model->attributes=$_POST['Attendee'];
 
-			$the_file = CUploadedFile::getInstance($model, 'cv');
-
-			if($the_file && isset($model->name)) {
-
-				$name = $model->name.'_cv.'. $the_file->extensionName;
-
-                $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
-
-                $model->cv = $name;
-
-                $model->save();
-
-				if ($model->save()) {
-	                // $this->refresh();
-	                $this->redirect(array('complete','id'=>$model->id));
-	            }
-			} else {
-				$model->validate();
+			if($model->save()) {
+	            $this->redirect(array('complete','id'=>$model->id));
 			}
-               
-                
 		}
 
 		$this->render('application',array(
@@ -112,48 +117,6 @@ class SpeakerController extends Controller
 		));
 	}
 
-	/**
-	 * Creates a new model.
-	 * If creation is successful, the browser will be redirected to the 'view' page.
-	 */
-	public function actionCreate()
-	{		
-		$model=new Speaker;
-
-		// Uncomment the following line if AJAX validation is needed
-		//$this->performAjaxValidation($model);
-
-		if(isset($_POST['Speaker']))
-		{
-			$model->attributes=$_POST['Speaker'];
-
-			$the_file = CUploadedFile::getInstance($model, 'cv');
-
-			if($the_file && isset($model->name)) {
-
-				$name = $model->name.'_cv.'. $the_file->extensionName;
-
-                $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
-
-                $model->cv = $name;
-
-                $model->save();
-
-				if ($model->save()) {
-	                // $this->refresh();
-	                $this->redirect(array('view','id'=>$model->id));
-	            }
-			} else {
-				$model->validate();
-			}
-               
-                
-		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
-	}
 
 	/**
 	 * Updates a particular model.
@@ -167,9 +130,9 @@ class SpeakerController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Speaker']))
+		if(isset($_POST['Attendee']))
 		{
-			$model->attributes=$_POST['Speaker'];
+			$model->attributes=$_POST['Attendee'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -198,7 +161,7 @@ class SpeakerController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Speaker');
+		$dataProvider=new CActiveDataProvider('Attendee');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -209,10 +172,10 @@ class SpeakerController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Speaker('search');
+		$model=new Attendee('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Speaker']))
-			$model->attributes=$_GET['Speaker'];
+		if(isset($_GET['Attendee']))
+			$model->attributes=$_GET['Attendee'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -226,7 +189,7 @@ class SpeakerController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Speaker::model()->findByPk($id);
+		$model=Attendee::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -238,11 +201,10 @@ class SpeakerController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='speaker-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='attendee-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 	}
-
 }

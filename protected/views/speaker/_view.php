@@ -30,7 +30,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('cv')); ?>:</b>
-	<?php echo CHtml::encode($data->cv); ?>
+	<a href="<?php echo Yii::app()->request->baseUrl.'/docs/cv/'.$data->cv; ?>" ><?php echo CHtml::encode($data->cv); ?></a>
 	<br />
 
 	<?php /*
@@ -58,10 +58,11 @@
 	<?php echo CHtml::encode($data->fav_talks); ?>
 	<br />
 
+	*/ ?>
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('video_url')); ?>:</b>
 	<?php echo CHtml::encode($data->video_url); ?>
 	<br />
 
-	*/ ?>
 
 </div>

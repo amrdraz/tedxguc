@@ -108,5 +108,6 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'pr@tedxguc.com',
+		'noReply'=>'no-reply@tedxguc.com',
 	),
 );
