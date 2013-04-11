@@ -423,6 +423,23 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	height: 20px;
 	padding: 5px 0 7px 0;
 	font-size: 17px;
+	text-decoration: line-through;
+	
+}
+
+#deadline2 {
+	color: #fff;
+	background: #000;
+	width: 177px;
+	position: absolute;
+	right: 0;
+	top: 85px;
+	margin-right: -2px;
+	text-align: center;
+	font-weight: 200;
+	height: 20px;
+	padding: 5px 0 7px 0;
+	font-size: 17px;
 }	
 			
 			

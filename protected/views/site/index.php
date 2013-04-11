@@ -35,9 +35,10 @@
 			</nav>
 			
 <!-- 
-			<?php echo CHtml::link('<div id="speakerApplication"></div>', array('speaker/application'), array('id'=>'')) ?>
+			<?php echo CHtml::link('<div id="speakerApplication"></div>', array('attendee/application'), array('id'=>'')) ?>
+
+			<h3 id="deadline2">Deadline: <span>20/4/2013</span></h3>
 			
-			<h3 id="deadline">Deadline: 18/3/2013</h3>
 -->
 
 			<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial">
