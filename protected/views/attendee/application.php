@@ -18,11 +18,15 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 					<br><br>
 					To all non-GUCians who want to witness this happening!
 					<br><br>
-					TEDxGUC is pleasantly inviting you to attend its first event ever; SYNERGIZERS. Now YOU have the chance to meet and connect with a community of people from a wide range of fields who, with us, aim to provide an inspirational coverage of Ideas Worth Spreading.
+					TEDxGUC is pleasantly inviting you to attend its first event ever; SYNERGIZERS. 
 					<br><br>
-					Join us on Friday the 26th of April in the GUC examination halls. Fill in the below application, and find us in the platform area to ask about your invitation.
+					Now YOU have the chance to meet and connect with a community of people from a wide range of fields who, with us, aim to provide an inspirational coverage of Ideas Worth Spreading.
 					<br><br>
-					Please note that filling this application does not guarantee that you will find an available invitation.<br><br>
+					Join us on <span>Friday the 26th</span> of April in the <span>GUC</span> examination halls. 
+					<br><br>
+					Fill in the application below, and find us at the platform area to ask about your invitation.
+					<br><br>
+					Please note that filling this application does not guarantee that you find an available invitation.<br><br>
 			</div>
 		</div>
 	</div>
@@ -72,7 +76,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'birth_year'); ?>
-		<span class="hint">eg. 1991</span>
+		<span class="hint">e.g. 1991</span>
 		<?php echo $form->textField($model,'birth_year',array('size'=>4,'maxlength'=>4)); ?>
 		<?php echo $form->error($model,'birth_year'); ?>
 	</div>
@@ -84,7 +88,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'gucian'); ?><br>
+		<?php echo $form->labelEx($model,'gucian',array('class'=>'spaceBelowLabel')); ?><br>
 		<?php echo $form->radioButtonList($model,'gucian',array('GUCian', 'Other'),array('separator'=>'<br>')); ?>
 		<?php echo $form->textField($model,'gucian_other',array('size'=>30,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'gucian_other'); ?>
@@ -109,7 +113,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'education_level'); ?><br>
+		<?php echo $form->labelEx($model,'education_level',array('class'=>'spaceBelowLabel')); ?><br>
 		<?php echo $form->radioButtonList($model,'education_level',$model->educationLevelOptions,array('separator'=>'<br>')); ?>
 		<?php echo $form->error($model,'education_level'); ?>
 	</div>
@@ -127,19 +131,19 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'how_many'); ?><br>
+		<?php echo $form->labelEx($model,'how_many',array('class'=>'spaceBelowLabel')); ?><br>
 		<?php echo $form->radioButtonList($model,'how_many',$model->howManyOptions,array('separator'=>'<br>')); ?>
 		<?php echo $form->error($model,'how_many'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'how_much'); ?><br>
+		<?php echo $form->labelEx($model,'how_much',array('class'=>'spaceBelowLabel')); ?><br>
 		<?php echo $form->radioButtonList($model,'how_much',$model->howMuchOptions,array('separator'=>'<br>')); ?>
 		<?php echo $form->error($model,'how_much'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'how_did'); ?><br>
+		<?php echo $form->labelEx($model,'how_did',array('class'=>'spaceBelowLabel')); ?><br>
 		<?php echo $form->radioButtonList($model,'how_did',$model->howDidOptions,array('separator'=>'<br>')); ?>
 		<?php echo $form->textField($model,'how_other',array('size'=>30,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'how_other'); ?>
@@ -179,7 +183,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 	<br>
 
 	<div class="row buttons submit">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Submit' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

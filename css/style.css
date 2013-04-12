@@ -399,15 +399,15 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	float: right;
 	margin-right: -17px;
 	margin-top: -6px;
-	background-image:url('../img/mainElements/applyAsSpeaker.png');
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	background-image:url('../img/mainElements/applyAsAttendee.png');
+	/*-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;*/
 }
 
 #speakerApplication:hover {
-	background-image:url('../img/mainElements/applyAsSpeakerHover.png');
+	background-image:url('../img/mainElements/applyAsAttendeeHover.png');
 }	
 
 #deadline {
@@ -430,11 +430,12 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 #deadline2 {
 	color: #fff;
 	background: #000;
-	width: 177px;
+	width: 176px;
 	position: absolute;
 	right: 0;
 	top: 85px;
-	margin-right: -2px;
+	margin-right: -4px;
+	margin-top: -22px;
 	text-align: center;
 	font-weight: 200;
 	height: 20px;
@@ -1031,7 +1032,6 @@ footer .socialMedia {
 .speakerFormTextContainer {
 	width: 600px;
 	margin: 0 auto;
-	padding-top: 65px;
 }
 
 .speakerFormText h3 {
@@ -1043,12 +1043,12 @@ footer .socialMedia {
 
 .speakerFormText .left {
 	float: left;
-	width: 145px;
+	width: 143px;
 }
 
 .speakerFormText .right {
 	float: left;
-	width: 450px;
+	width: 452px;
 }
 
 .speakerFormText h4 {
@@ -1069,12 +1069,16 @@ footer .socialMedia {
 	font-size: 16px;
 }
 
+.speakerFormText span {
+	text-transform: none;
+}
+
 .speakerFormTriangle {
 	width: 0;
 	height: 0;
 	border-right:600px solid transparent;
 	border-bottom: 80px solid #f5f5f5;
-	margin: -110px auto 0 auto;
+	margin: -150px auto 0 auto;
 }
 
 .speakerForm {
@@ -1104,6 +1108,12 @@ footer .socialMedia {
 	font-weight: 300;
 }
 
+.speakerForm .spaceBelowLabel {
+	line-height: 25px;
+}
+
+
+
 .speakerForm h4 {
 	background: #FFF;
 	text-transform: uppercase;
@@ -1115,6 +1125,10 @@ footer .socialMedia {
 .speakerForm span {
 	color: #000;
 	text-transform: none;
+}
+
+.speakerForm span.required {
+	color: #FF2B06;
 }
 
 .speakerForm .note {
@@ -1146,7 +1160,7 @@ footer .socialMedia {
 
 .speakerForm input:not([type=submit]):not([type=radio]), .speakerForm textarea {
 	float: right;
-	width: 350px;
+	width: 510px;
 	
 	
 	background: #fafafa;
@@ -1156,6 +1170,12 @@ footer .socialMedia {
 	font-family: Lato;
 	border:none;
 	padding: 5px;	
+	margin-top: 10px;
+}
+
+.speakerForm textarea radiobuttonlist {
+	margin-top: 10px;
+	border: solid;
 }
 
 .speakerForm  input[type=file] {
@@ -1183,13 +1203,11 @@ footer .socialMedia {
 	padding-top: 40px;
 }
 
-
-
-
-
-
-
-
+.applicationComplete #submissionAccepted {
+	
+	text-align: center;
+	
+}
 
 
 

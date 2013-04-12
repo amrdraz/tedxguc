@@ -1,7 +1,10 @@
 
 
-<section class="application main-container">	
+<section class="application applicationComplete main-container">	
 
-<h1>Submission Accepted <?php echo $model->name; ?></h1>
+<h1 id="submissionAccepted">Submission Accepted, <?php echo $model->name; ?>!
+<br> Thank you for applying =)
+<br> Don't forget to pass by at the platform area to ask about your invitation
+</h1>
 
 </section>
