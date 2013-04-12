@@ -1023,7 +1023,7 @@ footer .socialMedia {
 /*Speaker Form*/
 
 .speakerFormText {
-	background: #000000;
+	/*background: #000000;*/
 	overflow: hidden;
 	padding-bottom: 170px;
 }
@@ -1037,7 +1037,7 @@ footer .socialMedia {
 .speakerFormText h3 {
 	font-size: 30px;
 	font-weight: 100;
-	color: #FFF;
+	color: #000;
 	margin-bottom: 35px;
 }
 
@@ -1054,7 +1054,7 @@ footer .socialMedia {
 .speakerFormText h4 {
 	text-transform: uppercase;
 	font-size: 16px;
-	color: #FFF;
+	color: #000;
 	font-weight: 300;
 }
 
@@ -1065,7 +1065,7 @@ footer .socialMedia {
 }
 
 .speakerFormText p {
-	color: #FFF;
+	color: #000;
 	font-size: 16px;
 }
 
@@ -1073,17 +1073,17 @@ footer .socialMedia {
 	width: 0;
 	height: 0;
 	border-right:600px solid transparent;
-	border-bottom: 80px solid #FFF;
+	border-bottom: 80px solid #f5f5f5;
 	margin: -110px auto 0 auto;
 }
 
 .speakerForm {
 	width: 510px;
 	margin: 0 auto;
-	padding: 0 45px 100px 45px;
-	background: #FFF;
-	border-left: solid 20px #000;
-	border-right: solid 20px #000;
+	padding: 0 45px 20px 45px;
+	background: #f5f5f5;
+	/*border-left: solid 20px #000;
+	border-right: solid 20px #000;*/
 	
 	position: relative;
 	z-index: 10;
@@ -1095,8 +1095,8 @@ footer .socialMedia {
 }
 
 .speakerForm h3 {
-	width: 220px;
-	background: #FFF;
+	width: 230px;
+	background: #f5f5f5;
 	text-align: center;
 	margin: -12px auto 0 auto;
 	text-transform: uppercase;
@@ -1110,6 +1110,11 @@ footer .socialMedia {
 	font-size: 18px;
 	font-weight: 300;
 	margin-top: -12px;
+}
+
+.speakerForm span {
+	color: #000;
+	text-transform: none;
 }
 
 .speakerForm .note {
@@ -1144,7 +1149,7 @@ footer .socialMedia {
 	width: 350px;
 	
 	
-	background: #f5f5f5;
+	background: #fafafa;
 	color: #AFAFAF;
 	font-size:16px;
 	font-weight:300;

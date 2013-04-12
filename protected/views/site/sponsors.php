@@ -29,7 +29,7 @@ $this->page = 'sponsers';
 		</div>
 		
 		<div class="imageContainer">
-		<a target="_blank" href="https://m.facebook.com/pages/Mili-Power-Egypt/172610439551640?id=172610439551640&refsrc=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMili-Power-Egypt%2F172610439551640&_rdr"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mediaSponsors/mili.jpg" /></a>
+		<a target="_blank" href="https://www.facebook.com/pages/Mili-Power-Egypt/172610439551640"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/mediaSponsors/mili.jpg" /></a>
 		</div>
 		
 	</div>

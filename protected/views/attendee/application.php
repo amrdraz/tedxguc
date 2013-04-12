@@ -14,9 +14,9 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 			</div>
 			<div class="right">
 				<p>
-					To all GUC students, alumni, teacher assistants, and professors,
+					To all GUC students, alumni, teacher assistants, and professors!
 					<br><br>
-					To all non-GUCians who want to witness this happening,
+					To all non-GUCians who want to witness this happening!
 					<br><br>
 					TEDxGUC is pleasantly inviting you to attend its first event ever; SYNERGIZERS. Now YOU have the chance to meet and connect with a community of people from a wide range of fields who, with us, aim to provide an inspirational coverage of Ideas Worth Spreading.
 					<br><br>
@@ -72,7 +72,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'birth_year'); ?>
-		<sapn class="hint">eg. 1991</span>
+		<span class="hint">eg. 1991</span>
 		<?php echo $form->textField($model,'birth_year',array('size'=>4,'maxlength'=>4)); ?>
 		<?php echo $form->error($model,'birth_year'); ?>
 	</div>
@@ -189,7 +189,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 	
 		</div>
 		
-		<div class="speakerFormText guidelines">
+		<!--<div class="speakerFormText guidelines">
 			<div class="speakerFormTextContainer" id="guidelines">
 				<h3>&nbsp;</h3>
 				<div class="left">
@@ -199,6 +199,6 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 					&nbsp;
 				</div>
 			</div>
-		</div>
+		</div>-->
 		
 </section>
