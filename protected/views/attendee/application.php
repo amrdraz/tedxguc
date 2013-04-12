@@ -176,6 +176,8 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 		<?php echo $form->error($model,'waiting_list'); ?>
 	</div>
 
+	<br>
+
 	<div class="row buttons submit">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
