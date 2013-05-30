@@ -217,7 +217,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 	<div class="members">
 	
 			<div class="names1">
-				<h5 class="firstName">&nbsp;</h5>
+				<h5 class="firstName">Ghada Fikri</h5>
 				<h5 class="secondName">Ali Moussa</h5>
 				<h5 class="thirdName">Rana Elgohary</h5>
 			</div>
@@ -229,7 +229,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 			<img class="firstImage" src="img/team/mm/mm2.png" />	
 	
 			<div class="titles1">
-				<h4 class="firstTitle">&nbsp;</h4>
+				<h4 class="firstTitle">Member</h4>
 				<h4 class="secondTitle">Member</h4>
 				<h4 class="thirdTitle">Web Designer</h4>
 			</div>
@@ -239,6 +239,62 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 			</div>
 	
 		</div>
+		
+	<!--4 Images-->
+	
+		<div class="members">
+		
+				<div class="names1">
+					<h5 class="firstName">Al Hassan Elwan</h5>
+					<h5 class="secondName">Nourhan Ayman</h5>
+					<h5 class="thirdName">Omar Kassab</h5>
+				</div>
+		
+				<div class="names2">
+					<h5 class="fourthName">Mohamed Adel</h5>
+				</div>
+		
+				<img class="firstImage" src="img/team/mm/mm3.png" />	
+		
+				<div class="titles1">
+					<h4 class="firstTitle">Member</h4>
+					<h4 class="secondTitle">Member</h4>
+					<h4 class="thirdTitle">Member</h4>
+				</div>
+		
+				<div class="titles2">
+					<h4 class="fourthTitle">Member</h4>
+				</div>
+		
+			</div>
+			
+	<!--4 Images-->
+	
+		<div class="members">
+		
+				<div class="names1">
+					<h5 class="firstName">&nbsp;</h5>
+					<h5 class="secondName">&nbsp;</h5>
+					<h5 class="thirdName">&nbsp;</h5>
+				</div>
+		
+				<div class="names2">
+					<h5 class="fourthName">Sanaa Ahmed</h5>
+				</div>
+		
+				<img class="firstImage" src="img/team/mm/mm4.png" />	
+		
+				<div class="titles1">
+					<h4 class="firstTitle">&nbsp;</h4>
+					<h4 class="secondTitle">&nbsp;</h4>
+					<h4 class="thirdTitle">&nbsp;</h4>
+				</div>
+		
+				<div class="titles2">
+					<h4 class="fourthTitle">Member</h4>
+				</div>
+		
+			</div>
 
 
 
@@ -328,6 +384,35 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 		</div>
 
 	</div>
+	
+	
+		<!--4 Images-->
+	
+		<div class="members">
+	
+			<div class="names1">
+				<h5 class="firstName">&nbsp;</h5>
+				<h5 class="secondName">&nbsp;</h5>
+				<h5 class="thirdName">&nbsp;</h5>
+			</div>
+	
+			<div class="names2">
+				<h5 class="fourthName">Yomna El Gendy</h5>
+			</div>
+	
+			<img class="firstImage" src="img/team/pr/pr4.png" />	
+	
+			<div class="titles1">
+				<h4 class="firstTitle">&nbsp;</h4>
+				<h4 class="secondTitle">&nbsp;</h4>
+				<h4 class="thirdTitle">&nbsp;</h4>
+			</div>
+	
+			<div class="titles2">
+				<h4 class="fourthTitle">Member</h4>
+			</div>
+	
+		</div>
 
 
 	<img id="ashry" src="img/team/ashry_1.png" />
