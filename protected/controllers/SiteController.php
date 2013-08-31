@@ -66,9 +66,9 @@ class SiteController extends Controller
 	/**
 	 * This is the event action which directs to the event page
 	 */
-	public function actionEvents($url='')
+	public function actionEvents($url='', $layout='column2')
 	{
-		$this->layout ='column2';
+		$this->layout = $layout;
 		if($url==''){
 			$dataProvider=new CActiveDataProvider('Event',array(
 				'pagination'=>array( 'pageSize'=>3, ),
@@ -94,6 +94,25 @@ class SiteController extends Controller
 		}
 		
 	}
+
+	/**
+	 * This is the event action which directs to the speakers page
+	 */
+	public function actionSpeakers()
+	{
+		$this->layout ='column1';
+		$this->render('speakers');
+	}
+
+	/**
+	 * This is the event action which directs to the speakers page
+	 */
+	public function actionTalks()
+	{
+		$this->layout ='column1';
+		$this->render('talks');
+	}
+
 	/**
 	 * This is the event action which directs to the event page
 	 */

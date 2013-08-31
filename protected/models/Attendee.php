@@ -57,7 +57,7 @@ class Attendee extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, middle_name, last_name, birth_year, home_address, email, phone, education_level, how_many, how_much, how_did, how_other, about_theme, speaker_choice, excpect_talks, intresting_talk', 'required'),
+			array('first_name, middle_name, last_name, birth_year, home_address, email, phone, education_level, how_many, how_much, how_did, about_theme, speaker_choice, excpect_talks, intresting_talk', 'required'),
 			array('event_id, gucian, bus_number, education_level, how_many, how_much, how_did, excpect_talks, waiting_list', 'numerical', 'integerOnly'=>true),
 			array('first_name, middle_name, last_name, job_title, how_other', 'length', 'max'=>30),
 			array('birth_year', 'length', 'max'=>4),
@@ -102,7 +102,7 @@ class Attendee extends CActiveRecord
 			'email' => 'Email',
 			'phone' => 'Mobile Phone',
 			'education_level' => 'Education Level',
-			'job_title' => 'If you’re a graduate, please write down your job title.',
+			'job_title' => 'If you are a graduate, please write down your job title.',
 			'tedx_info' => 'If you have attended a TEDx event, where was it? And what was your impression about it?',
 			'how_many' => 'How many TEDx talks have you watched?',
 			'how_much' => 'How much do you know about TED?',
@@ -115,6 +115,13 @@ class Attendee extends CActiveRecord
 			'waiting_list' => 'If there are no more available invitations, would you like your name to be put on the waiting list for the event day?',
 		);
 	}
+/*
+	public function getAttributeLabel($value)
+	{
+		$ar = $this->attributeLabels();
+		return $ar[$value];
+	}
+*/
 
 	/**
 	* generates the list used in the How did you know about the envent question
@@ -125,6 +132,11 @@ class Attendee extends CActiveRecord
 		return array('On Campus', 'Our facebook page', 'Our twitter account', 'Through another person', 'Through another TEDx organization', 'Other');
 	}
 
+	public function getHowDid()
+	{
+		return $this->howDidOptions[$this->how_did];
+	}
+
 	/**
 	* generates the list used in the How much do you know about TED question
 	* used in aplication and create
@@ -133,6 +145,11 @@ class Attendee extends CActiveRecord
 	{
 		return array('Nothing', 'Not much knowledge', 'Relatively sufficiant knowledge', 'Almost everything');
 	}
+	public function getHowMuch()
+	{
+		return $this->howMuchOptions[$this->how_much];
+	}
+
 
 	/**
 	* generates the list used in the How many TEDx talks have you watched question
@@ -141,6 +158,10 @@ class Attendee extends CActiveRecord
 	public function getHowManyOptions()
 	{
 		return array('None', '1-10', '11-30', '31-50', '51+');
+	}
+	public function getHowMany()
+	{
+		return $this->howManyOptions[$this->how_many];
 	}
 
 	/**
@@ -151,6 +172,11 @@ class Attendee extends CActiveRecord
 	{
 		return array('School', 'Highschool', 'University', 'Graduate');
 	}
+	public function getEducationLevel()
+	{
+		return $this->educationLevelOptions[$this->education_level];
+	}
+
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
@@ -196,5 +222,15 @@ class Attendee extends CActiveRecord
 	public function getName()
 	{
 		return $this->first_name." ".$this->middle_name." ".$this->last_name;
+	}
+
+	public function isGucan()
+	{
+		return $this->gucian?'No':'Yes';
+	}
+
+	public function isWating()
+	{
+		return $this->waiting_list?'No':'Yes';
 	}
 }

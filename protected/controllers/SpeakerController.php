@@ -220,6 +220,50 @@ class SpeakerController extends Controller
 	}
 
 	/**
+	 * this action returns a csv file of all the spakers data, if an event id is specified it will do so for only the specified event
+	 * @status incomplete it doesn't work with event yet just returns all speakers
+	 * @param integer the ID of the event id 
+	 */
+	public function actionCSV($id=0)
+	{
+		//$model=Event::model()->findByPk($id);
+		$speakers = Speaker::model()->findAll();
+
+		//if(!$model) throw new CHttpException(500,"The server can't find this event id.");
+
+		Yii::import('ext.ECSVExport');
+
+		$data = array();
+		foreach ($speakers as $key => $speaker) {
+			$row = array(
+				'Name'=>$speaker->name,
+				'Age'=>$speaker->age,
+				'Occupation'=>$speaker->occupation,
+				'Phone'=>$speaker->phone,
+				'Email'=>$speaker->email,
+				'CV link'=>'www.tedxguc.com/docs/cv/'.$data->cv,				
+				'facebook'=>$speaker->fb_link,
+				'twitter'=>$speaker->tw_link,
+				'Other'=>$speaker->ln_link,
+				'Previous Talks'=>$speaker->prev_talk_url,
+				'Previous Events'=>$speaker->prev_events,
+				'Favorit Talks'=>$speaker->fav_talks,
+				'video url'=>$speaker->video_url,
+			);
+			$data[] = $row;
+		}
+		$csv = new ECSVExport($data);
+		
+		$filename = 'Speaker.csv';
+		$content = $csv->toCSV();
+		//echo $content;                   
+		Yii::app()->getRequest()->sendFile($filename, $content, "text/csv", false);
+		exit();
+		//*/
+	}
+
+
+	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer the ID of the model to be loaded

@@ -10,6 +10,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'List Attendee', 'url'=>array('index')),
 	array('label'=>'Create Attendee', 'url'=>array('create')),
+	array('label'=>'Download csv', 'url'=>array('csv')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -51,13 +52,15 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'middle_name',
 		'last_name',
 		'birth_year',
+		'gucian',
+		'phone',
+		'email',
+		'waiting_list',
 		/*
 		'home_address',
-		'gucian',
+		
 		'gucian_other',
 		'bus_number',
-		'email',
-		'phone',
 		'education_level',
 		'job_title',
 		'tedx_info',
@@ -69,7 +72,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'speaker_choice',
 		'excpect_talks',
 		'intresting_talk',
-		'waiting_list',
 		*/
 		array(
 			'class'=>'CButtonColumn',

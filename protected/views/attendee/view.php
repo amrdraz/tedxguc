@@ -28,7 +28,7 @@ $this->menu=array(
 		'last_name',
 		'birth_year',
 		'home_address',
-		'gucian',
+		array('label'=>'GUCian','value'=>$model->isGucan()),
 		'gucian_other',
 		'bus_number',
 		'email',

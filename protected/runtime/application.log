@@ -1215,3 +1215,143 @@ Stack trace:
 REQUEST_URI=/tedxguc/attendee/complete/1
 HTTP_REFERER=http://localhost/tedxguc/attendee/application
 ---
+2013/04/15 08:39:08 [error] [exception.CException] exception 'CException' with message 'Property "Attendee.guician" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('guician')
+#1 D:\xampp\htdocs\tedxguc\protected\views\attendee\complete.php(8): CActiveRecord->__get('guician')
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('complete', Array, true)
+#6 D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php(94): CController->render('complete', Array)
+#7 [internal function]: AttendeeController->actionComplete('1')
+#8 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AttendeeController), Array)
+#9 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AttendeeController), Object(ReflectionMethod), Array)
+#10 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('complete')
+#19 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('attendee/comple...')
+#20 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tedxguc/attendee/complete/1
+---
+2013/04/15 08:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php:194
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php(93): AttendeeController->loadModel('2')
+#1 [internal function]: AttendeeController->actionComplete('2')
+#2 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AttendeeController), Array)
+#3 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AttendeeController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('complete')
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('attendee/comple...')
+#14 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tedxguc/attendee/complete/2
+---
+2013/04/17 23:12:09 [error] [php] Illegal offset type (D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php:202)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): AttendeeController->runAction()
+#3 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): AttendeeController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(266): AttendeeController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(283): AttendeeController->run()
+#10 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/attendee/csv
+in D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php (202)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/04/17 23:14:52 [error] [exception.CException] exception 'CException' with message 'Property "Attendee.attributeLabels" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('attributeLabels')
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php(202): CActiveRecord->__get('attributeLabels')
+#2 [internal function]: AttendeeController->actionCSV(0)
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AttendeeController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AttendeeController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('csv')
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('attendee/csv')
+#15 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tedxguc/attendee/csv
+---
+2013/04/17 23:15:25 [error] [exception.CException] exception 'CException' with message 'Property "Attendee.how_mucj" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('how_mucj')
+#1 D:\xampp\htdocs\tedxguc\protected\models\Attendee.php(144): CActiveRecord->__get('how_mucj')
+#2 D:\xampp\htdocs\yii\base\CComponent.php(112): Attendee->getHowMuch()
+#3 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('howMuch')
+#4 D:\xampp\htdocs\tedxguc\protected\controllers\AttendeeController.php(215): CActiveRecord->__get('howMuch')
+#5 [internal function]: AttendeeController->actionCSV(0)
+#6 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AttendeeController), Array)
+#7 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AttendeeController), Object(ReflectionMethod), Array)
+#8 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('csv')
+#17 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('attendee/csv')
+#18 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/tedxguc/attendee/csv
+---
+2013/08/31 11:42:56 [error] [exception.CException] exception 'CException' with message 'Property "Speaker.description" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('description')
+#1 D:\xampp\htdocs\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('description')
+#2 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1371): CHtml::resolveValue(Object(Speaker), 'description')
+#3 D:\xampp\htdocs\yii\web\widgets\CActiveForm.php(703): CHtml::activeTextArea(Object(Speaker), 'description', Array)
+#4 D:\xampp\htdocs\tedxguc\protected\views\site\form\speaker.php(26): CActiveForm->textArea(Object(Speaker), 'description', Array)
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\tedxguc\protected\views\site\speaker.php(7): CController->renderPartial('form/speaker', Array)
+#9 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#11 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('speaker', Array, true)
+#13 D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php(64): CController->render('speaker', Array)
+#14 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SiteController->actionSpeaker()
+#15 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('speaker')
+#19 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/speaker')
+#20 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tedxguc/speaker
+---

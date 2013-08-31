@@ -16,6 +16,8 @@
 				array('label'=>'About', 'url'=>array('/site/about')),
 				array('label'=>'Team', 'url'=>array('/site/team')),
 				array('label'=>'Events', 'url'=>array('site/events')),
+				array('label'=>'Speakers', 'url'=>array('site/speakers')),
+				array('label'=>'Talks', 'url'=>array('site/talks')),
 				array('label'=>'Sponsors', 'url'=>array('site/sponsors')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)

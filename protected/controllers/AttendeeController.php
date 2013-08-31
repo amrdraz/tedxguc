@@ -31,11 +31,11 @@ class AttendeeController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('application', 'complete'),
+				'actions'=>array(),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','view', 'create','update'),
+				'actions'=>array('application', 'complete','index','view', 'create','update', 'csv'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -180,6 +180,59 @@ class AttendeeController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
+	}
+
+	/**
+	 * this action returns a csv file of all the spakers data, if an event id is specified it will do so for only the specified event
+	 * @status incomplete it doesn't work with event yet just returns all speakers
+	 * @param integer the ID of the event id 
+	 */
+	public function actionCSV($id=0)
+	{
+		//$model=Event::model()->findByPk($id);
+		$attendees = Attendee::model()->findAll('gucian=1');
+
+		//if(!$model) throw new CHttpException(500,"The server can't find this event id.");
+
+		Yii::import('ext.ECSVExport');
+
+		$data = array();
+		foreach ($attendees as $key => $attendee) {
+			$row = array(
+				$attendee->getAttributeLabel('first_name')=>$attendee->first_name,
+				$attendee->getAttributeLabel('middle_name')=>$attendee->middle_name,
+				$attendee->getAttributeLabel('last_name')=>$attendee->last_name,
+				$attendee->getAttributeLabel('birth_year')=>$attendee->birth_year,
+				$attendee->getAttributeLabel('home_address')=>$attendee->home_address,
+				'Is Gucian'=>$attendee->isGucan(),
+				$attendee->getAttributeLabel('gucian_other')=>$attendee->gucian_other,
+				'Bus Number'=>$attendee->bus_number,
+				'Email'=>$attendee->email,
+				$attendee->getAttributeLabel('phone')=>('P'.$attendee->phone),
+				'Education Level'=>$attendee->educationLevel,				
+				'Job Title'=>$attendee->job_title,
+				'Info about TED'=>$attendee->tedx_info,
+				$attendee->getAttributeLabel('how_many')=>$attendee->howMany,
+				$attendee->getAttributeLabel('how_much')=>$attendee->howMuch,
+				$attendee->getAttributeLabel('how_did')=>$attendee->howDid,
+				$attendee->getAttributeLabel('how_other')=>$attendee->how_other,
+				$attendee->getAttributeLabel('about_theme')=>$attendee->about_theme,
+				$attendee->getAttributeLabel('speaker_choice')=>$attendee->speaker_choice,
+				'Excpect_talks'=>$attendee->excpect_talks,
+				$attendee->getAttributeLabel('intresting_talk')=>$attendee->intresting_talk,
+				'Waiting List'=>$attendee->isWating(),
+
+			);
+			$data[] = $row;
+		}
+		$csv = new ECSVExport($data);
+		
+		$filename = 'Attendees.csv';
+		$content = $csv->toCSV();
+		//echo $content;                   
+		Yii::app()->getRequest()->sendFile($filename, $content, "text/csv", false);
+		exit();
+		//*/
 	}
 
 	/**

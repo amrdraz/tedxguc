@@ -23,6 +23,8 @@
 					array('label'=>'Home', 'url'=>array('/site/index')),
 					array('label'=>'About', 'url'=>array('/site/about')),
 					array('label'=>'Team', 'url'=>array('/site/team')),
+					array('label'=>'Speakers', 'url'=>array('site/speakers')),
+					array('label'=>'Talks', 'url'=>array('site/talks')),
 					array('label'=>'Events', 'url'=>array('site/events')),
 					array('label'=>'Sponsors', 'url'=>array('site/sponsors')),
 					array('label'=>'Contact', 'url'=>array('/site/contact')),
@@ -30,15 +32,15 @@
 					);
 				$this->widget('zii.widgets.CMenu',array(
 					'items'=>$mainmenu,
-					));
-					?>
+				));
+				?>
 			</nav>
 			
- 
+ <!-- 
 			<?php echo CHtml::link('<div id="speakerApplication"></div>', array('attendee/application'), array('id'=>'')) ?>
 
 			<h3 id="deadline2">Deadline: <span>20/4/2013</span></h3>
-			
+ -->
 
 
 			<div class="fb-like" data-href="http://tedxguc.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial">

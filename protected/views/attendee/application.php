@@ -1,5 +1,5 @@
 <?php
-$this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
+$this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 ?>
 <section class="application main-container">			
 	
@@ -146,6 +146,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 		<?php echo $form->labelEx($model,'how_did',array('class'=>'spaceBelowLabel')); ?><br>
 		<?php echo $form->radioButtonList($model,'how_did',$model->howDidOptions,array('separator'=>'<br>')); ?>
 		<?php echo $form->textField($model,'how_other',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'how_did'); ?>
 		<?php echo $form->error($model,'how_other'); ?>
 	</div>
 

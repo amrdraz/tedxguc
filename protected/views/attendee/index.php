@@ -9,6 +9,8 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Create Attendee', 'url'=>array('create')),
 	array('label'=>'Manage Attendee', 'url'=>array('admin')),
+	array('label'=>'Download csv', 'url'=>array('csv')),
+
 );
 ?>
 
