@@ -1,4 +1,6 @@
-
+<?php
+$this->pageTitle=Yii::app()->name . ' - Submission Complete';
+?>
 
 <section class="application applicationComplete main-container">	
 
