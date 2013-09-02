@@ -18,6 +18,7 @@
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p>Only Name is required in the Admin View</p>
 	
 	<br>
 	
@@ -40,6 +41,29 @@
 
 		<!-- shows the error for that filed remove it if you want -->
 		<?php echo $form->error($model,'name'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'summary'); ?>
+		<?php echo $form->textArea($model,'summary',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'summary'); ?>
+	</div>
+
+	<div class="row">
+		<?php
+	        $Labels = $model->attributeLabels();
+	        echo $form->labelEx($model, 'img') ;
+	        echo $form->fileField($model, 'img_file') ;
+	        // this is where you'll find the file types wrrapped inside a small tag
+	        echo " <small>Only accepts: <b>" . $Labels['image_types'] . "</b></small>";
+	        echo $form->error($model, 'img_file');
+        ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'event_id'); ?>
+		<?php echo $form->dropDownList($model,'event_id',$model->eventsOptions, array('id'=>'eventSelect','class'=>'select2', 'empty'=>'--Does not Belong ot an Event--')); ?>
+		<?php echo $form->error($model,'event_id'); ?>
 	</div>
 
 	<div class="row">
@@ -70,10 +94,11 @@
 		<?php
 	        $Labels = $model->attributeLabels();
 	        echo $form->labelEx($model, 'cv') ;
-	        echo $form->fileField($model, 'cv') ;
+	        echo $model->cv;
+	        echo $form->fileField($model, 'cv_file') ;
 	        // this is where you'll find the file types wrrapped inside a small tag
 	        echo " <small>Only accepts: <b>" . $Labels['file_types'] . "</b></small>";
-	        echo $form->error($model, 'cv');
+	        echo $form->error($model, 'cv_file');
         ?>
 	</div>
 
@@ -118,6 +143,7 @@
 		<?php echo $form->textField($model,'video_url',array('size'=>60,'maxlength'=>120)); ?>
 		<?php echo $form->error($model,'video_url'); ?>
 	</div>
+		
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Submit' : 'Save'); ?>

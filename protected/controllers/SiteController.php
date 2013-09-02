@@ -101,7 +101,10 @@ class SiteController extends Controller
 	public function actionSpeakers()
 	{
 		$this->layout ='column1';
-		$this->render('speakers');
+
+		$speakers = Speaker::findAllByEvent();
+
+		$this->render('speakers', array('speakers'=>$speakers));
 	}
 
 	/**

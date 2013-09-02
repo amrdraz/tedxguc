@@ -1355,3 +1355,1030 @@ Stack trace:
 #22 {main}
 REQUEST_URI=/tedxguc/speaker
 ---
+2013/09/01 12:59:56 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "isGuest".' in D:\xampp\htdocs\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(54): CComponent->__call('isGuest', Array)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(54): CWebApplication->isGuest()
+#2 [internal function]: SpeakerController->actionView('1')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('view')
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/view')
+#15 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tedxguc/speaker/1
+HTTP_REFERER=http://localhost/tedxguc/speaker/index
+---
+2013/09/01 13:00:02 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "isGuest".' in D:\xampp\htdocs\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(54): CComponent->__call('isGuest', Array)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(54): CWebApplication->isGuest()
+#2 [internal function]: SpeakerController->actionView('1')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('view')
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/view')
+#15 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tedxguc/speaker/1
+---
+2013/09/01 13:00:29 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isGuest".' in D:\xampp\htdocs\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(54): CComponent->__call('isGuest', Array)
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(54): CWebUser->isGuest()
+#2 [internal function]: SpeakerController->actionView('1')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('view')
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/view')
+#15 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tedxguc/speaker/1
+---
+2013/09/01 13:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 13:41:03 [error] [exception.CException] exception 'CException' with message 'Property "Speaker.summery" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('summery')
+#1 D:\xampp\htdocs\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('summery')
+#2 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1371): CHtml::resolveValue(Object(Speaker), 'summery')
+#3 D:\xampp\htdocs\yii\web\widgets\CActiveForm.php(703): CHtml::activeTextArea(Object(Speaker), 'summery', Array)
+#4 D:\xampp\htdocs\tedxguc\protected\views\speaker\_form.php(124): CActiveForm->textArea(Object(Speaker), 'summery', Array)
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\tedxguc\protected\views\speaker\update.php(21): CController->renderPartial('_form', Array)
+#9 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#11 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('update', Array, true)
+#13 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(223): CController->render('update', Array)
+#14 [internal function]: SpeakerController->actionUpdate('1')
+#15 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#16 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#17 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#20 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#24 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('update')
+#26 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/update')
+#27 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#28 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/tedxguc/speaker/update/1
+HTTP_REFERER=http://localhost/tedxguc/speaker/1
+---
+2013/09/01 13:43:00 [error] [php] Undefined index: imagTypes (D:\xampp\htdocs\tedxguc\protected\views\speaker\_form.php:134)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): SpeakerController->renderFile()
+#1 D:\xampp\htdocs\tedxguc\protected\views\speaker\update.php(21): SpeakerController->renderPartial()
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(96): SpeakerController->renderInternal()
+#4 D:\xampp\htdocs\yii\web\CController.php(870): SpeakerController->renderFile()
+#5 D:\xampp\htdocs\yii\web\CController.php(783): SpeakerController->renderPartial()
+#6 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(223): SpeakerController->render()
+#7 unknown(0): SpeakerController->actionUpdate()
+#8 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#9 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#10 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#11 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#12 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#14 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#15 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#16 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#18 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#19 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#20 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/update/1
+in D:\xampp\htdocs\tedxguc\protected\views\speaker\_form.php (134)
+in D:\xampp\htdocs\tedxguc\protected\views\speaker\update.php (21)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (223)
+2013/09/01 13:44:15 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:15 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:15 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:15 [warning] [application] Failed to set unsafe attribute "img" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:15 [error] [exception.CException] exception 'CException' with message 'Property "Speaker.validate" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('validate')
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(193): CActiveRecord->__get('validate')
+#2 [internal function]: SpeakerController->actionUpdate('1')
+#3 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#4 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#5 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('update')
+#14 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/update')
+#15 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tedxguc/speaker/update/1
+HTTP_REFERER=http://localhost/tedxguc/speaker/update/1
+---
+2013/09/01 13:44:32 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:32 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:32 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:44:32 [warning] [application] Failed to set unsafe attribute "img" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:47:28 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:47:28 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:47:28 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:47:28 [warning] [application] Failed to set unsafe attribute "img" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 13:52:17 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:52:17 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:52:17 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 13:52:17 [warning] [application] Failed to set unsafe attribute "img" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:03:28 [warning] [application] Failed to set unsafe attribute "cv" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:03:28 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:03:28 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:03:28 [warning] [application] Failed to set unsafe attribute "img" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:06:49 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:06:49 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:06:49 [warning] [application] Failed to set unsafe attribute "img" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:12:37 [error] [exception.CException] exception 'CException' with message 'Property "CFileValidator.0" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\yii\validators\CValidator.php(190): CComponent->__set('0', 'allowEmpty')
+#1 D:\xampp\htdocs\yii\base\CModel.php(285): CValidator::createValidator('file', Object(Speaker), 'cv_file', Array)
+#2 D:\xampp\htdocs\yii\base\CModel.php(259): CModel->createValidators()
+#3 D:\xampp\htdocs\yii\base\CModel.php(544): CModel->getValidators()
+#4 D:\xampp\htdocs\yii\base\CModel.php(466): CModel->getSafeAttributeNames()
+#5 D:\xampp\htdocs\yii\base\CComponent.php(153): CModel->setAttributes(Array)
+#6 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(160): CComponent->__set('attributes', Array)
+#7 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(191): CActiveRecord->__set('attributes', Array)
+#8 [internal function]: SpeakerController->actionUpdate('1')
+#9 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#10 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#11 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('update')
+#20 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/update')
+#21 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tedxguc/speaker/update/1
+HTTP_REFERER=http://localhost/tedxguc/speaker/update/1
+---
+2013/09/01 14:13:37 [error] [exception.CException] exception 'CException' with message 'Property "CFileValidator.0" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\yii\validators\CValidator.php(190): CComponent->__set('0', 'allowEmpty')
+#1 D:\xampp\htdocs\yii\base\CModel.php(285): CValidator::createValidator('file', Object(Speaker), 'cv_file', Array)
+#2 D:\xampp\htdocs\yii\base\CModel.php(259): CModel->createValidators()
+#3 D:\xampp\htdocs\yii\base\CModel.php(544): CModel->getValidators()
+#4 D:\xampp\htdocs\yii\base\CModel.php(466): CModel->getSafeAttributeNames()
+#5 D:\xampp\htdocs\yii\base\CComponent.php(153): CModel->setAttributes(Array)
+#6 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(160): CComponent->__set('attributes', Array)
+#7 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(191): CActiveRecord->__set('attributes', Array)
+#8 [internal function]: SpeakerController->actionUpdate('1')
+#9 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#10 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#11 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('update')
+#20 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/update')
+#21 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tedxguc/speaker/update/1
+HTTP_REFERER=http://localhost/tedxguc/speaker/update/1
+---
+2013/09/01 14:14:15 [warning] [application] Failed to set unsafe attribute "cvfile" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:14:15 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:14:15 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:14:15 [warning] [application] Failed to set unsafe attribute "imgfile" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 14:15:05 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:15:05 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:15:05 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:15:05 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (191)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 14:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "publicspeaker/view".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('publicspeaker/v...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/publicspeaker/1
+---
+2013/09/01 14:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "publicspeaker/jquery.min.map".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('publicspeaker/j...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/publicspeaker/jquery.min.map
+---
+2013/09/01 14:15:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yii\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('publicview')
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/publicv...')
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tedxguc/speaker/publicview/1
+---
+2013/09/01 14:16:09 [error] [exception.CException] exception 'CException' with message 'Property "Speaker.summery" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('summery')
+#1 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1809): CActiveRecord->__get('summery')
+#2 D:\xampp\htdocs\yii\zii\widgets\CDetailView.php(212): CHtml::value(Object(Speaker), 'summery')
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(174): CDetailView->run()
+#4 D:\xampp\htdocs\tedxguc\protected\views\speaker\publicview.php(14): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('publicview', Array, true)
+#9 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(67): CController->render('publicview', Array)
+#10 [internal function]: SpeakerController->actionPublicview('1')
+#11 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#12 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#13 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#20 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('publicview')
+#22 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/publicv...')
+#23 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#24 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/tedxguc/speaker/publicview/1
+---
+2013/09/01 14:30:35 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:30:35 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:30:35 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:30:35 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:41:14 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:41:14 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:41:14 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:41:14 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:41:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 14:43:41 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:43:41 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:43:41 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:43:41 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:43:41 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (D:\xampp\htdocs\yii\web\CUploadedFile.php:197)
+Stack trace:
+#0 unknown(0): SpeakerController->actionUpdate()
+#1 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#5 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#7 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#8 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#10 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#11 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#12 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#13 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/update/18
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (207)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:44:29 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:44:29 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:44:29 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:44:29 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:44:29 [error] [php] Undefined variable: img_file (D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php:207)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#3 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#10 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/update/18
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (207)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:45:11 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:45:11 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:45:11 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:45:11 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (195)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 14:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "events/view".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('events/view')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/events/1
+---
+2013/09/01 14:57:41 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (196)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:57:41 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (196)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:57:41 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (196)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:57:41 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (196)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:57:41 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (196)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 14:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:00:19 [error] [php] Undefined variable: speakers (D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): SiteController->renderFile()
+#1 D:\xampp\htdocs\yii\web\CController.php(783): SiteController->renderPartial()
+#2 D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php(104): SiteController->render()
+#3 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SiteController->actionSpeakers()
+#4 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php (9)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (104)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 15:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.min.map".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('jquery.min.map')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/jquery.min.map
+---
+2013/09/01 15:03:09 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (D:\xampp\htdocs\yii\web\helpers\CHtml.php:85)
+Stack trace:
+#0 D:\xampp\htdocs\yii\utils\CFormatter.php(114): CFormatter->formatText()
+#1 D:\xampp\htdocs\yii\zii\widgets\CDetailView.php(216): CFormatter->format()
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(174): CDetailView->run()
+#3 D:\xampp\htdocs\tedxguc\protected\views\speaker\view.php(43): SpeakerController->widget()
+#4 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(96): SpeakerController->renderInternal()
+#6 D:\xampp\htdocs\yii\web\CController.php(870): SpeakerController->renderFile()
+#7 D:\xampp\htdocs\yii\web\CController.php(783): SpeakerController->renderPartial()
+#8 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(60): SpeakerController->render()
+#9 unknown(0): SpeakerController->actionView()
+#10 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#11 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#12 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#13 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#14 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#16 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#17 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#18 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#20 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#21 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#22 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/18
+in D:\xampp\htdocs\tedxguc\protected\views\speaker\view.php (43)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (60)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 15:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/events/synergizers.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/events/syne...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/events/synergizers.jpg
+HTTP_REFERER=http://localhost/tedxguc/events
+---
+2013/09/01 15:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/events/synergizers.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/events/syne...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/events/synergizers.jpg
+HTTP_REFERER=http://localhost/tedxguc/events
+---
+2013/09/01 15:07:26 [error] [php] Object of class Event could not be converted to string (D:\xampp\htdocs\tedxguc\protected\models\Speaker.php:147)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#2 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#4 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\models\Speaker.php (147)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (105)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 15:14:00 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\tedxguc\protected\models\Speaker.php:146)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#2 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#4 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\models\Speaker.php (146)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (105)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 15:15:45 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\tedxguc\protected\models\Speaker.php:147)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#2 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#4 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\models\Speaker.php (147)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (105)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 15:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 15:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 16:04:56 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:04:56 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:04:56 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:04:56 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:04:56 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:04:56 [error] [exception.CException] exception 'CException' with message 'Property "Speaker.favorit_talks" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(160): CComponent->__set('favorit_talks', 'auto filled')
+#1 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(147): CActiveRecord->__set('favorit_talks', 'auto filled')
+#2 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SpeakerController->actionCreate()
+#3 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#10 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#12 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/create')
+#13 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tedxguc/speaker/create
+HTTP_REFERER=http://localhost/tedxguc/speaker/create
+---
+2013/09/01 16:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 16:05:42 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:05:42 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:05:42 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:05:42 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:05:42 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:05:42 [error] [php] Undefined variable: cv (D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php:159)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#1 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/create
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (159)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 16:06:33 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:33 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:33 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:33 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:33 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:33 [error] [php] Undefined variable: the_file (D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php:169)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#1 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/create
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (169)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 16:06:54 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:54 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:54 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:54 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:54 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/01 16:07:36 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:07:36 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:07:36 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:07:36 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:07:36 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/01 16:07:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+---
+2013/09/02 09:14:47 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 09:14:47 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 09:14:47 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 09:14:47 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 09:14:47 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:11 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:11 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:11 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:11 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:11 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:11 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:14:12 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (D:\xampp\htdocs\yii\web\helpers\CHtml.php:85)
+Stack trace:
+#0 D:\xampp\htdocs\yii\utils\CFormatter.php(114): CFormatter->formatText()
+#1 D:\xampp\htdocs\yii\zii\widgets\CDetailView.php(216): CFormatter->format()
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(174): CDetailView->run()
+#3 D:\xampp\htdocs\tedxguc\protected\views\speaker\view.php(43): SpeakerController->widget()
+#4 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(96): SpeakerController->renderInternal()
+#6 D:\xampp\htdocs\yii\web\CController.php(870): SpeakerController->renderFile()
+#7 D:\xampp\htdocs\yii\web\CController.php(783): SpeakerController->renderPartial()
+#8 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(60): SpeakerController->render()
+#9 unknown(0): SpeakerController->actionView()
+#10 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#11 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#12 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#13 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): SpeakerController->runAction()
+#14 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#16 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): SpeakerController->filterAccessControl()
+#17 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#18 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\web\CController.php(266): SpeakerController->runActionWithFilters()
+#20 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SpeakerController->run()
+#21 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#22 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speaker/40
+in D:\xampp\htdocs\tedxguc\protected\views\speaker\view.php (43)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (60)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery.min.map".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('jquery.min.map')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('jquery.min.map')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/jquery....')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/jquery.min.map
+HTTP_REFERER=http://localhost/tedxguc/speaker/40
+---
+2013/09/02 10:27:53 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (200)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:27:53 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (200)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:27:53 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (200)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:27:53 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (200)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:27:53 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (200)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:27:53 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (200)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
+in D:\xampp\htdocs\tedxguc\index.php (13)

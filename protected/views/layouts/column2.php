@@ -1,5 +1,6 @@
 <?php $this->beginContent('//layouts/column1'); ?>
 <div class="<?php echo ($this->page==null)?'':$this->page;?> main-container">
+	<?php if (!empty($this->menu)) { ?>
 	<sidebar>
 		<?php
 			if(Yii::app()->user->isGuest) {
@@ -30,5 +31,6 @@
 	<section class="content">
 		<?php echo $content; ?>
 	</secton><!-- content -->
+	<?php } else echo $content; ?>
 </div>
 <?php $this->endContent(); ?>

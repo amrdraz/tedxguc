@@ -21,6 +21,8 @@
  */
 class Speaker extends CActiveRecord
 {
+	public $cv_file;
+	public $img_file;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -47,13 +49,14 @@ class Speaker extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, age, occupation, phone, email, cv, fav_talks, video_url', 'required'),
+			array('name, age, occupation, phone, email, cv, fav_talks, video_url', 'required','on'=>'application'),
 			array('age', 'numerical', 'integerOnly'=>true),
 			array('name, occupation', 'length', 'max'=>60),
 			array('phone', 'length', 'max'=>15),
 			array('email', 'length', 'max'=>70),
 			array('cv, fb_link, tw_link, ln_link, prev_talk_url, video_url', 'length', 'max'=>120),
-			array('cv', 'file', 'types' => 'doc,docx,odt,txt,pdf'),
+			array('cv_file', 'file', 'types' => 'doc,docx,odt,txt,pdf', 'allowEmpty'=>true),
+			array('img_file', 'file', 'types' => 'jpg,jpeg,png,gif', 'allowEmpty'=>true),
             array('email', 'email'),
             //array('verifyCode', 'captcha', 'allowEmpty' => !CCaptcha::checkRequirements()),
             
@@ -71,6 +74,8 @@ class Speaker extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'event'=>array(self::BELONGS_TO, 'event', 'event_id'),
+			'talk'=>array(self::BELONGS_TO, 'talk', 'talk_id'),
 		);
 	}
 
@@ -88,6 +93,7 @@ class Speaker extends CActiveRecord
 			'email' => 'Email',
 			'cv' => 'C.V.',
 			'file_types' => 'doc,docx,odt,txt,pdf',
+			'image_types' => 'jpeg, jpg, png, gif',
 			'fb_link' => 'Facebook',
 			'tw_link' => 'Twitter',
 			'ln_link' => 'Other',
@@ -95,6 +101,8 @@ class Speaker extends CActiveRecord
 			'prev_events' => 'Events Attended',
 			'fav_talks' => 'Favorit Talks',
 			'video_url' => 'Video Url',
+			'img'=>'Image',
+			'event'=>'Event'
 		);
 	}
 
@@ -126,5 +134,36 @@ class Speaker extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+
+	public function getEventsOptions()
+	{
+		return CHtml::listData(Event::model()->findAll(), 'id', 'title');
+	}
+
+	public static function findAllByEvent($url='')
+	{
+		if(!empty($url)) {
+			$event_id = Event::model()->find('url="'.$url.'"')->id;
+			return Speaker::model()->findAll('event_id = '.$event_id);
+		} else {
+			return Speaker::model()->findAll('event_id > 0 and event_id is not null');
+		}
+	}
+
+	//from http://stackoverflow.com/questions/4258557/limit-text-length-in-php-and-provide-read-more-link with modification
+	public function getShortSummary() {
+		// strip tags to avoid breaking any html
+		$string = strip_tags($this->summary);
+
+		if (strlen($string) > 200) {
+
+		    // truncate string
+		    $stringCut = substr($string, 0, 500);
+
+		    // make sure it ends in a word so assassinate doesn't become ass...
+		    $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'...'; 
+		}
+		return $string;
 	}
 }

@@ -32,11 +32,11 @@ class SpeakerController extends Controller
 		return array(
 			
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('application', 'complete'),
+				'actions'=>array('application', 'complete','view'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','index','view','create','update'),
+				'actions'=>array('admin','delete','index','create','update','publicview'),
 				'users'=>array('TED'),
 			),
 			array('deny',  // deny all users
@@ -51,7 +51,22 @@ class SpeakerController extends Controller
 	 */
 	public function actionView($id)
 	{
+		if(Yii::app()->user->isGuest) {
+			$this->actionPublicview($id);
+			Yii::app()->end();
+		}
 		$this->render('view',array(
+			'model'=>$this->loadModel($id),
+		));
+	}
+
+	/**
+	 * Displays a particular model.
+	 * @param integer $id the ID of the model to be displayed
+	 */
+	public function actionPublicview($id)
+	{
+		$this->render('publicview',array(
 			'model'=>$this->loadModel($id),
 		));
 	}
@@ -84,7 +99,7 @@ class SpeakerController extends Controller
 		{
 			$model->attributes=$_POST['Speaker'];
 
-			$the_file = CUploadedFile::getInstance($model, 'cv');
+			$the_file = CUploadedFile::getInstance($model, 'cv_file');
 
 			if($the_file && isset($model->name)) {
 
@@ -126,26 +141,36 @@ class SpeakerController extends Controller
 		if(isset($_POST['Speaker']))
 		{
 			$model->attributes=$_POST['Speaker'];
+			$model->summary = $_POST['Speaker']['summary'];
+			$model->event_id = $_POST['Speaker']['event_id'];
+			$model->video_url = isset($_POST['Speaker']['video_url'])?$_POST['Speaker']['video_url']:'auto filled';
+			$model->fav_talks = isset($_POST['Speaker']['fav_talks'])?$_POST['Speaker']['fav_talks']:'auto filled';
+			$cv = isset($_POST['Speaker']['cv'])?$_POST['Speaker']['cv']:'auto filled';
+			$model->email = isset($_POST['Speaker']['email'])?$_POST['Speaker']['email']:'notamail@mail.com';
+			$model->phone = isset($_POST['Speaker']['phone'])?$_POST['Speaker']['phone']:'00000000000';
+			$model->occupation = isset($_POST['Speaker']['occupation'])?$_POST['Speaker']['occupation']:'auto filled';
+			$model->age = isset($_POST['Speaker']['age'])?$_POST['Speaker']['age']:'00';
 
-			$the_file = CUploadedFile::getInstance($model, 'cv');
-
-			if($the_file && isset($model->name)) {
-
-				$name = $model->name.'_cv.'. $the_file->extensionName;
-
-                $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
-
-                $model->cv = $name;
-
-                $model->save();
-
-				if ($model->save()) {
-	                // $this->refresh();
-	                $this->redirect(array('view','id'=>$model->id));
-	            }
-			} else {
-				$model->validate();
+			$model->cv_file = CUploadedFile::getInstance($model, 'cvfile');
+			if ($model->cv_file) {
+				$cv = $model->name.'_cv.'.$model->the_file->extensionName;
+				$model->cv_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$cv);
 			}
+			$model->cv = $cv;
+				
+			$model->img_file = CUploadedFile::getInstance($model, 'img_file');
+			if ($model->img_file) {
+				$img = $model->name.'.'.$model->img_file->extensionName;
+				$model->img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers').'/'.$img);
+				$model->img = $img;
+			}
+			
+
+			if ($model->save()) {
+                // $this->refresh();
+                $this->redirect(array('view','id'=>$model->id));
+            }
+			
                
                 
 		}
@@ -169,9 +194,30 @@ class SpeakerController extends Controller
 
 		if(isset($_POST['Speaker']))
 		{
+			$img = $model->img;
+			$cv = $model->cv;
+
 			$model->attributes=$_POST['Speaker'];
+			$model->summary = $_POST['Speaker']['summary'];
+			$model->event_id = $_POST['Speaker']['event_id'];
+
+			$model->cv_file = CUploadedFile::getInstance($model, 'cvfile');
+			if ($model->cv_file) {
+				$cv = $model->name.'_cv.'.$model->the_file->extensionName;
+				$model->cv_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$cv);
+			}
+			$model->cv = $cv;
+				
+			$model->img_file = CUploadedFile::getInstance($model, 'img_file');
+			if ($model->img_file) {
+				$img = $model->name.'.'.$model->img_file->extensionName;
+				$model->img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers').'/'.$img);
+			}
+			$model->img = $img;
+        	
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->id));	
+            
 		}
 
 		$this->render('update',array(

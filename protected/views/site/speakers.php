@@ -5,7 +5,17 @@ $this->page = 'talks';
 
 <section class="main-container speakers">
 
-
+	<?php 
+		foreach ($speakers as $speaker) {
+			echo CHtml::link('<article class="speakerColumn">'.
+				CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/'.$speaker->img).
+				'<h3>'.$speaker->name.'</h3>'.
+				'<br/><br/>'.
+				'<p>'.$speaker->shortSummary.'</p>'.
+				'</article>', array('speaker/view','id'=>$speaker->id));
+		}
+	?>
+<!-- 
 	<a href="#">
 		<article class="speakerColumn">
 	
@@ -15,9 +25,8 @@ $this->page = 'talks';
 			<br/><br/>
 			<p> In 1998 Mahanna was competing in the world cup in Dubai, on his 1st lift he equalized the world record, on the 2nd Mathana broke the world record. Then broke it again. And then for the 3rd time in one night he broke the ... </p>
 	
-		</article>
-	</a>
-	
+		</article> -->
+	<!-- 
 	<a href="#">
 		<article class="speakerColumn">
 	
@@ -27,9 +36,8 @@ $this->page = 'talks';
 			<br/><br/>
 			<p>Loay graduated from the German University in Cairo where he decided to major in electronics engineering. The 25 year old has always been interested in quantum and modern physics along with unusual …</p>
 	
-		</article>
 	</a>
-
+ --><!-- 
 	<a href="#">
 		<article class="speakerColumn">
 	
@@ -41,7 +49,7 @@ $this->page = 'talks';
 	
 		</article>
 	</a>
-	
+	 -->
 	<a href="#">
 		<article class="speakerColumn last">
 	
