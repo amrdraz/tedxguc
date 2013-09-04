@@ -190,7 +190,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 
 		<div class="names1">
 			<h5 class="firstName">Ahmed Selweq</h5>
-			<h5 class="secondName">Mostafa El Beheiry</h5>
+			<h5 class="secondName">Amr Kandil</h5>
 			<h5 class="thirdName">Yacoub Yassin</h5>
 		</div>
 
@@ -202,8 +202,8 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 
 		<div class="titles1">
 			<h4 class="firstTitle">Member</h4>
-			<h4 class="secondTitle">Head</h4>
-			<h4 class="thirdTitle">Vice Head</h4>
+			<h4 class="secondTitle">Member</h4>
+			<h4 class="thirdTitle">Head</h4>
 		</div>
 
 		<div class="titles2">
@@ -275,7 +275,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 				<div class="names1">
 					<h5 class="firstName">&nbsp;</h5>
 					<h5 class="secondName">&nbsp;</h5>
-					<h5 class="thirdName">&nbsp;</h5>
+					<h5 class="thirdName">Hiba Hazim</h5>
 				</div>
 		
 				<div class="names2">
@@ -287,7 +287,7 @@ $this->pageTitle=Yii::app()->name . ' - Team';
 				<div class="titles1">
 					<h4 class="firstTitle">&nbsp;</h4>
 					<h4 class="secondTitle">&nbsp;</h4>
-					<h4 class="thirdTitle">&nbsp;</h4>
+					<h4 class="thirdTitle">Member</h4>
 				</div>
 		
 				<div class="titles2">
