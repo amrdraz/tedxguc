@@ -30,9 +30,12 @@ class SpeakerController extends Controller
 	public function accessRules()
 	{
 		return array(
-			
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('application', 'complete','view'),
+				'actions'=>array('view'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('application', 'complete','publicview'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -66,6 +69,7 @@ class SpeakerController extends Controller
 	 */
 	public function actionPublicview($id)
 	{
+		$this->layout = 'column1';
 		$this->render('publicview',array(
 			'model'=>$this->loadModel($id),
 		));

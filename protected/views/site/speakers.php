@@ -1,6 +1,6 @@
 <?php
 $this->pageTitle=Yii::app()->name . ' - Speakers';
-$this->page = 'talks';
+$this->page = 'speakers';
 ?>
 
 <section class="main-container speakers">
@@ -11,7 +11,7 @@ $this->page = 'talks';
 				CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/'.$speaker->img).
 				'<h3>'.$speaker->name.'</h3>'.
 				'<br/><br/>'.
-				'<p>'.$speaker->shortSummary.'</p>'.
+				'<p>'.$speaker->getShortSummary(200).'</p>'.
 				'</article>', array('speaker/view','id'=>$speaker->id));
 		}
 	?>

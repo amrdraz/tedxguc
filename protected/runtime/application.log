@@ -2382,3 +2382,14 @@ in D:\xampp\htdocs\tedxguc\index.php (13)
 2013/09/02 10:34:01 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
 in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (143)
 in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/04 21:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pulicview".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('pulicview')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('pulicview')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/pulicvi...')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/pulicview/18
+HTTP_REFERER=http://localhost/tedxguc/speaker/18
+---

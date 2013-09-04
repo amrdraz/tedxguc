@@ -152,14 +152,14 @@ class Speaker extends CActiveRecord
 	}
 
 	//from http://stackoverflow.com/questions/4258557/limit-text-length-in-php-and-provide-read-more-link with modification
-	public function getShortSummary() {
+	public function getShortSummary($size=200) {
 		// strip tags to avoid breaking any html
 		$string = strip_tags($this->summary);
 
-		if (strlen($string) > 200) {
+		if (strlen($string) > $size) {
 
 		    // truncate string
-		    $stringCut = substr($string, 0, 500);
+		    $stringCut = substr($string, 0, $size);
 
 		    // make sure it ends in a word so assassinate doesn't become ass...
 		    $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'...'; 
