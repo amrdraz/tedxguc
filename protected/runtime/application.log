@@ -2393,3 +2393,39 @@ Stack trace:
 REQUEST_URI=/tedxguc/speaker/pulicview/18
 HTTP_REFERER=http://localhost/tedxguc/speaker/18
 ---
+2013/09/05 22:47:52 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:47:52 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:47:52 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:47:52 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:47:52 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:47:52 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
+in D:\xampp\htdocs\tedxguc\index.php (13)

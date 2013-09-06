@@ -1,4 +1,5 @@
 <?php
+$this->page = 'event';
 
 $this->menu=array(
 	array('label'=>'Create Event', 'url'=>array('create')),

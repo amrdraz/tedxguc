@@ -9,5 +9,6 @@ $this->page = 'talks';
 <iframe id="ytplayer" type="text/html" width="960" height="640"
   src="//www.youtube.com/embed/ZWggEgQ6FrI"
   frameborder="0"/>
+</iframe>
 
 </section>

@@ -49,7 +49,7 @@ $this->page = 'speakers';
 	
 		</article>
 	</a>
-	 -->
+	 --><!-- 
 	<a href="#">
 		<article class="speakerColumn last">
 	
@@ -61,5 +61,5 @@ $this->page = 'speakers';
 	
 		</article>	
 	</a>
-
+ -->
 </section>

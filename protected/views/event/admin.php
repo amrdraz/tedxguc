@@ -1,4 +1,6 @@
 <?php
+$this->page = 'admin';
+
 $this->breadcrumbs=array(
 	'Events'=>array('index'),
 	'Manage',

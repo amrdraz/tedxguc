@@ -1,3 +1,4 @@
+<?php if ($data->thumb!=="no") { ?>
 <article >
 	<?php echo CHtml::link('<img src="img/events/'.$data->thumb.'" alt="'.$data->title.' thumb">', array('site/events','url'=>$data->url)); ?>
 	<section>
@@ -7,3 +8,4 @@
 		</p>
 	</section>
 </article>
+<?php } ?>

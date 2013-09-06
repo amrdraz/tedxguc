@@ -147,13 +147,13 @@ class SpeakerController extends Controller
 			$model->attributes=$_POST['Speaker'];
 			$model->summary = $_POST['Speaker']['summary'];
 			$model->event_id = $_POST['Speaker']['event_id'];
-			$model->video_url = isset($_POST['Speaker']['video_url'])?$_POST['Speaker']['video_url']:'auto filled';
-			$model->fav_talks = isset($_POST['Speaker']['fav_talks'])?$_POST['Speaker']['fav_talks']:'auto filled';
-			$cv = isset($_POST['Speaker']['cv'])?$_POST['Speaker']['cv']:'auto filled';
-			$model->email = isset($_POST['Speaker']['email'])?$_POST['Speaker']['email']:'notamail@mail.com';
-			$model->phone = isset($_POST['Speaker']['phone'])?$_POST['Speaker']['phone']:'00000000000';
-			$model->occupation = isset($_POST['Speaker']['occupation'])?$_POST['Speaker']['occupation']:'auto filled';
-			$model->age = isset($_POST['Speaker']['age'])?$_POST['Speaker']['age']:'00';
+			$model->video_url = !empty($model->video_url)?$model->video_url:'auto filled';
+			$model->fav_talks = !empty($model->fav_talks)?$model->fav_talks:'auto filled';
+			$cv = !empty($_POST['Speaker']['cv'])?$_POST['Speaker']['cv']:'auto filled';
+			$model->email = !empty($model->email)?$model->email:'notamail@mail.com';
+			$model->phone = !empty($model->phone)?$model->phone:'00000000000';
+			$model->occupation = !empty($model->occupation)?$model->occupation:'auto filled';
+			$model->age = !empty($model->age)?$model->age:'00';
 
 			$model->cv_file = CUploadedFile::getInstance($model, 'cvfile');
 			if ($model->cv_file) {

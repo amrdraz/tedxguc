@@ -1,4 +1,6 @@
 <?php
+$this->page = 'event';
+
 $this->breadcrumbs=array(
 	'Events'=>array('index'),
 	'Create',
