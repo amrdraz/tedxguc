@@ -23,11 +23,12 @@ $this->page = 'speakers-detailed';
 			<?php if ($model->talk->speaker_summary) { ?>
 				<p><?php echo $model->talk->speaker_summary ?></p>
 			<?php } ?>
-			<a href="<?php echo $this->createUrl('site/talks'); ?>"><div id="watchTalkButton">
-			
-				<h3 id="watchTalkHeading">WATCH TALK</h3>
-				<?php  echo CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/watchTalkArrow.png') ?>
-			</div></a>
+			<a href="<?php echo $this->createUrl('site/talks'); ?>">
+				<div id="watchTalkButton">
+					<h3 id="watchTalkHeading">WATCH TALK</h3>
+					<?php  echo CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/watchTalkArrow.png') ?>
+				</div>
+			</a>
 		</div>
 		<?php } ?>
 			

@@ -22,11 +22,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'speaker_id'); ?>
-		<?php echo $form->textField($model,'speaker_id'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'summary'); ?>
 		<?php echo $form->textArea($model,'summary',array('rows'=>6, 'cols'=>50)); ?>
 	</div>

@@ -38,7 +38,7 @@ class Talk extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id,title, summary, event_id', 'required'),
+			array('url_id,title, summary, event_id', 'required'),
 			array('event_id', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>120),
 			// The following rule is used by search().
@@ -55,7 +55,7 @@ class Talk extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'speakers'=>array(self::HAS_MANY, 'speaker', 'talk_id'),
+			'speakers'=>array(self::HAS_MANY, 'Speaker', 'talk_id'),
 		);
 	}
 

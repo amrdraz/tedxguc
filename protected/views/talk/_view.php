@@ -13,10 +13,6 @@
 	<?php echo CHtml::encode($data->title); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('speaker_id')); ?>:</b>
-	<?php echo CHtml::encode($data->speaker_id); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('summary')); ?>:</b>
 	<?php echo CHtml::encode($data->summary); ?>
 	<br />

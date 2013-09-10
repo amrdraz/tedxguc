@@ -76,8 +76,8 @@ class Speaker extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'event'=>array(self::BELONGS_TO, 'event', 'event_id'),
-			'talk'=>array(self::BELONGS_TO, 'talk', 'talk_id'),
+			'event'=>array(self::BELONGS_TO, 'Event', 'event_id'),
+			'talk'=>array(self::BELONGS_TO, 'Talk', 'talk_id'),
 		);
 	}
 
