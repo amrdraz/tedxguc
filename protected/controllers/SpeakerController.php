@@ -165,8 +165,15 @@ class SpeakerController extends Controller
 			$model->img_file = CUploadedFile::getInstance($model, 'img_file');
 			if ($model->img_file) {
 				$img = $model->name.'.'.$model->img_file->extensionName;
-				$model->img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers').'/'.$img);
+				$model->img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers/main').'/'.$img);
 				$model->img = $img;
+			}
+
+			$model->detailed_img_file = CUploadedFile::getInstance($model, 'detailed_img_file');
+			if ($model->detailed_img_file) {
+				$img = $model->name.'.'.$model->detailed_img_file->extensionName;
+				$model->detailed_img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers/detailed').'/'.$img);
+				$model->detailed_img = $img;
 			}
 			
 
@@ -200,6 +207,7 @@ class SpeakerController extends Controller
 		{
 			$img = $model->img;
 			$cv = $model->cv;
+			$detailed_img = $model->detailed_img;
 
 			$model->attributes=$_POST['Speaker'];
 			$model->summary = $_POST['Speaker']['summary'];
@@ -215,10 +223,18 @@ class SpeakerController extends Controller
 			$model->img_file = CUploadedFile::getInstance($model, 'img_file');
 			if ($model->img_file) {
 				$img = $model->name.'.'.$model->img_file->extensionName;
-				$model->img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers').'/'.$img);
+				$model->img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers/main').'/'.$img);
 			}
 			$model->img = $img;
-        	
+
+
+			$model->detailed_img_file = CUploadedFile::getInstance($model, 'detailed_img_file');
+			if ($model->detailed_img_file) {
+				$detailed_img = $model->name.'.'.$model->detailed_img_file->extensionName;
+				$model->detailed_img_file->saveAs(realpath(Yii::app()->basePath.'/../img/speakers/detailed').'/'.$detailed_img);
+			}
+        	$model->detailed_img = $detailed_img;
+
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));	
             

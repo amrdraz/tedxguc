@@ -767,89 +767,193 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	
 /*========================Speakers Styles==============================*/
 
-.speakers {
-
-	margin-bottom: 200px;
-	overflow: hidden;
-}
-
-.main-container .speakerColumn {
+.speakers-main #speakers-column-left,
+.speakers-main #speakers-column-right {
 	
-	width: 230px;
+	width: 480px;
 	float: left;
-	margin-right: 13px;
-	margin-bottom: 40px;
-}
-
-.main-container .last {
-	
-	margin-right: 0;
 	
 }
 
-	.main-container img {
-		
-		width: 100%;
-		
-	}
+.speakers-main #speakers-column-left {
 	
-	.main-container .speakerColumn h3 {
-		
-		text-decoration: none;
-		color: #000;
-		font-weight: 700;
-		font-size: 14px;
-		margin-top: 13px;
-		
-	}
+	padding-top: 50px;
+	
+}
 
-	.main-container .speakerColumn p {
-		
-		font-size: 14px;
-		line-height: 18px;
-		margin-top: -30px;
-		width: 220px;
-		
-	}
-	
-	.speakers a {
-		
-		color: #000;
-		
-	}
-	
-	
-	
-	
-/*========================Speakers Detailed View Styles==============================*/
-	
-	
-	.speakerDetailedView h1 {
-		
-		margin-bottom: 20px;
+	.speakers-main a {
 		text-decoration: none;
+	}
+	
+	.speakers-main a:hover .speakers-text-container {
+		
+		-moz-box-shadow: inset #cccccc -1px -1px 0 0;
+		-webkit-box-shadow: inset #cccccc -1px -1px 0 0;
+		box-shadow: inset #cccccc -1px -1px 0 0;
+		
+	}
+		
+		.speakers-main article {
+			
+			width: 460px;
+			margin: 0 10px -30px 10px;
+			float: left;
+		}
+		
+			.speakers-main article img {
+				
+				width: 140px;
+				float: left;
+			}
+			
+			/* Text Container */
+			
+			.speakers-main article > div {
+				
+				width: 280px;
+				background: #F7F7F5;
+				height: 102px;
+				padding: 20px;
+				float: left;
+				
+				-moz-box-shadow: inset #E5E5E5 -1px -1px 0 0;
+				-webkit-box-shadow: inset #E5E5E5 -1px -1px 0 0;
+				box-shadow: inset #E5E5E5 -1px -1px 0 0;
+				
+			}
+			
+				.speakers-main article > div h3 {
+					
+					color: #000;
+					font-size: 16px;
+					font-weight: 700;
+					margin-top: 8px;
+					
+				}
+				
+				.speakers-main article > div h3 span {
+					
+					color: #FF2B06;
+					font-weight: 700;
+					
+				}
+				
+				.speakers-main article > div p {
+					
+					color: #565656;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 18px;
+					margin-top: 8px;
+					
+				}
+			
+			
+			
+/* ====================== Speakers Detailed View ========================= */
+
+.speakers-detailed > img {
+	
+	margin-left: 140px;
+	width: 140px;
+	float: left;
+	
+}
+
+.speakers-detailed #speakers-text-column {
+	
+	width: 460px;
+	margin-left: 20px;
+	float: left;
+	
+}
+
+	.speakers-detailed #speakers-text-column h1 {
+		
 		color: #000;
+		font-size: 22px;
 		font-weight: 700;
+		margin-top: -4px;
+		
+	}
+	
+		.speakers-detailed #speakers-text-column h1 span {
+			
+			color: #FF2B06;
+			
+		}
+	
+	.speakers-detailed #speakers-text-column > p {
+		
+		color: #333333;
 		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		
+	}		
+			
+			
+	
+	.speakers-detailed #speakers-text-column #watchTalk {
+		
+		margin-top: 24px;
 		
 	}
 	
-	.speakerDetailedView img {
+	.speakers-detailed #speakers-text-column #watchTalk p {
 		
-		margin-bottom: 10px;
-		width: 230px;
-		float: left;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 18px;
+		
+	}	
+	
+	.speakers-detailed #speakers-text-column #watchTalk a {
+		
+		text-decoration: none;
 		
 	}
 	
-	.speakerDetailedView > p {
+	.speakers-detailed #speakers-text-column #watchTalk a:hover #watchTalkHeading {
 		
-		float: left;
-		width: 440px;
-		margin-left: 20px;
+		color: #FF2B06;
 		
 	}
 	
+	.speakers-detailed #speakers-text-column #watchTalkButton {
+		
+		width: 260px;
+		height: 30px;
+		border: solid #CCCCCC 1px;
+		margin-top: 10px;
+		
+	}	
+	
+		.speakers-detailed #speakers-text-column #watchTalkButton h3 {
+			
+			color: #999999;
+			background: #F7F7F5;
+			
+			font-size: 15px;
+			font-weight: 700;
+			text-align: center;
+			
+			border-right: solid #CCCCCC 1px;
+			
+			width: 230px;
+			padding: 6px 0 6px 0;
+			margin: 0;
+			
+			float: left;
+			
+		}
+		
+		.speakers-detailed #speakers-text-column #watchTalkButton img {
+			
+			float: left;
+			margin: 10px 0 0 12px;
+			
+		}
 /*========================Talks Styles==============================*/
 	
 	
@@ -1365,7 +1469,23 @@ footer .socialMedia {
 
 
 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
 
 
 

@@ -23,8 +23,9 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		'title',
-		'speaker_id',
+		'url_id',
 		'summary',
+		'speaker_summary',
 		'event_id',
 	),
 )); ?>

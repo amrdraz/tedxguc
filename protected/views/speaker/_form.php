@@ -61,6 +61,17 @@
 	</div>
 
 	<div class="row">
+		<?php
+	        $Labels = $model->attributeLabels();
+	        echo $form->labelEx($model, 'detailed_img') ;
+	        echo $form->fileField($model, 'detailed_img_file') ;
+	        // this is where you'll find the file types wrrapped inside a small tag
+	        echo " <small>Only accepts: <b>" . $Labels['image_types'] . "</b></small>";
+	        echo $form->error($model, 'detailed_img_file');
+        ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'event_id'); ?>
 		<?php echo $form->dropDownList($model,'event_id',$model->eventsOptions, array('id'=>'eventSelect','class'=>'select2', 'empty'=>'--Does not Belong ot an Event--')); ?>
 		<?php echo $form->error($model,'event_id'); ?>

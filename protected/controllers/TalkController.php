@@ -73,8 +73,23 @@ class TalkController extends Controller
 		if(isset($_POST['Talk']))
 		{
 			$model->attributes=$_POST['Talk'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			$model->speaker_summary = $_POST['Talk']['speaker_summary'];
+			$count = count($_POST['Talk']['speakers']);
+			if($count>0) {
+				$model->event_id = Speaker::model()->findByPk($_POST['Talk']['speakers'][0])->event_id;
+				
+				if($model->save()) {
+					foreach ($_POST['Talk']['speakers'] as $key => $id) {
+						$speaker = Speaker::model()->findByPk($id);
+						$speaker->talk_id = $model->id;
+						$speaker->save();
+					}
+
+					$this->redirect(array('view','id'=>$model->id));
+				}
+					
+			}
+				
 		}
 
 		$this->render('create',array(
@@ -97,8 +112,27 @@ class TalkController extends Controller
 		if(isset($_POST['Talk']))
 		{
 			$model->attributes=$_POST['Talk'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			$model->speaker_summary = $_POST['Talk']['speaker_summary'];
+			$count = count($_POST['Talk']['speakers']);
+			if($count>0) {
+				if (count($model->speakers)) {
+					foreach ($model->speakers as $speaker) {
+						$speaker->talk_id = null;
+					}
+				}
+				$model->event_id = Speaker::model()->findByPk($_POST['Talk']['speakers'][0])->event_id;
+				
+				if($model->save()) {
+					foreach ($_POST['Talk']['speakers'] as $key => $id) {
+						$speaker = Speaker::model()->findByPk($id);
+						$speaker->talk_id = $model->id;
+						$speaker->save();
+					}
+
+					$this->redirect(array('view','id'=>$model->id));
+				}
+					
+			}
 		}
 
 		$this->render('update',array(

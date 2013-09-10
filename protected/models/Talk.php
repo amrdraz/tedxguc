@@ -38,8 +38,8 @@ class Talk extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, speaker_id, summary, event_id', 'required'),
-			array('speaker_id, event_id', 'numerical', 'integerOnly'=>true),
+			array('id,title, summary, event_id', 'required'),
+			array('event_id', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>120),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -55,6 +55,7 @@ class Talk extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'speakers'=>array(self::HAS_MANY, 'speaker', 'talk_id'),
 		);
 	}
 
@@ -65,8 +66,10 @@ class Talk extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'url_id'=>'Video URL ID',
 			'title' => 'Title',
-			'speaker_id' => 'Speaker',
+			'speaker_summary' => 'Speaker Summary',
+			'speakers'=>'Speakers',
 			'summary' => 'Summary',
 			'event_id' => 'Event',
 		);
@@ -92,5 +95,16 @@ class Talk extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+
+
+	public function getSpeakersOptions()
+	{
+		return CHtml::listData(Speaker::findAllByEvent(array('require_talk'=>true)), 'id', 'name');
+	}
+
+	public function getSpeaker()
+	{
+		return $this->speakers[0];
 	}
 }

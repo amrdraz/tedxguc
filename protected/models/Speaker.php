@@ -23,6 +23,7 @@ class Speaker extends CActiveRecord
 {
 	public $cv_file;
 	public $img_file;
+	public $detailed_img_file;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -57,6 +58,7 @@ class Speaker extends CActiveRecord
 			array('cv, fb_link, tw_link, ln_link, prev_talk_url, video_url', 'length', 'max'=>120),
 			array('cv_file', 'file', 'types' => 'doc,docx,odt,txt,pdf', 'allowEmpty'=>true),
 			array('img_file', 'file', 'types' => 'jpg,jpeg,png,gif', 'allowEmpty'=>true),
+            array('detailed_img_file', 'file', 'types' => 'jpg,jpeg,png,gif', 'allowEmpty'=>true),
             array('email', 'email'),
             //array('verifyCode', 'captcha', 'allowEmpty' => !CCaptcha::checkRequirements()),
             
@@ -102,6 +104,7 @@ class Speaker extends CActiveRecord
 			'fav_talks' => 'Favorit Talks',
 			'video_url' => 'Video Url',
 			'img'=>'Image',
+			'detailed_img'=>'Detailed Image',
 			'event'=>'Event'
 		);
 	}
@@ -141,13 +144,16 @@ class Speaker extends CActiveRecord
 		return CHtml::listData(Event::model()->findAll(), 'id', 'title');
 	}
 
-	public static function findAllByEvent($url='')
-	{
-		if(!empty($url)) {
-			$event_id = Event::model()->find('url="'.$url.'"')->id;
-			return Speaker::model()->findAll('event_id = '.$event_id);
+	public static function findAllByEvent($options=array())
+	{	
+		if (empty($options['has_talk'])) $options['has_talk'] = false;
+		if (empty($options['requier_talk'])) $options['requier_talk'] = false;
+		
+		if(!empty($options['url'])) {
+			$event_id = Event::model()->find('url="'.$options['url'].'"')->id;
+			return Speaker::model()->findAll('event_id = '.$event_id.($options['requier_talk']?' and talk_id is '.($options['has_talk']?'not':'').' null':''));
 		} else {
-			return Speaker::model()->findAll('event_id > 0 and event_id is not null');
+			return Speaker::model()->findAll('event_id > 0 and event_id is not null'.($options['requier_talk']?' and talk_id is '.($options['has_talk']?'not':'').' null':''));
 		}
 	}
 

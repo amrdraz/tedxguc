@@ -9,7 +9,8 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'List Speaker', 'url'=>array('index')),
-	array('label'=>'Public view', 'url'=>array('pulicview','id'=>$model->id)),
+	array('label'=>'Public view', 'url'=>array('publicview','id'=>$model->id)),
+	array('label'=>'Create Talk', 'url'=>array('talk/create')),
 	array('label'=>'Create Speaker', 'url'=>array('create')),
 	array('label'=>'Update Speaker', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Delete Speaker', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
@@ -19,7 +20,9 @@ $this->menu=array(
 
 <h1>View Speaker #<?php echo $model->id; ?></h1>
 
-<?php  echo CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/'.$model->img) ?>
+	<?php  echo CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/detailed/'.$model->detailed_img) ?>
+
+	<?php  echo CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/main/'.$model->img) ?>
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(

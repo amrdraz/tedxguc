@@ -2429,3 +2429,1381 @@ in D:\xampp\htdocs\tedxguc\index.php (13)
 2013/09/05 22:53:19 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
 in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (147)
 in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 08:49:36 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php:19)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): SiteController->renderFile()
+#1 D:\xampp\htdocs\yii\web\CController.php(783): SiteController->renderPartial()
+#2 D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php(107): SiteController->render()
+#3 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SiteController->actionSpeakers()
+#4 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php (19)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (107)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 08:53:33 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php:19)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): SiteController->renderFile()
+#1 D:\xampp\htdocs\yii\web\CController.php(783): SiteController->renderPartial()
+#2 D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php(107): SiteController->render()
+#3 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SiteController->actionSpeakers()
+#4 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php (19)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (107)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 08:53:43 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php:19)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): SiteController->renderFile()
+#1 D:\xampp\htdocs\yii\web\CController.php(783): SiteController->renderPartial()
+#2 D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php(107): SiteController->render()
+#3 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SiteController->actionSpeakers()
+#4 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/speakers
+in D:\xampp\htdocs\tedxguc\protected\views\site\speakers.php (19)
+in D:\xampp\htdocs\tedxguc\protected\controllers\SiteController.php (107)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 08:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 12:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/events/synergizers.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/events/syne...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/events/synergizers.jpg
+HTTP_REFERER=http://localhost/tedxguc/events
+---
+2013/09/09 13:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/abdullahsuliman.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/abdullahsuliman.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/kareemhelmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/kareemhelmee.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/sherifhamed.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/sherifhamed.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/mostafaamgad.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/mostafaamgad.png
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 13:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 20:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 20:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 20:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 20:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 20:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 20:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/ma...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speakers
+---
+2013/09/09 23:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('img')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('img')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/img/spe...')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/img/speakers/watchTalkArrow.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/41
+---
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:29:15 [error] [exception.CException] exception 'CException' with message 'Property "Speaker.detailed_img_file" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('detailed_img_fi...')
+#1 D:\xampp\htdocs\yii\validators\CFileValidator.php(166): CActiveRecord->__get('detailed_img_fi...')
+#2 D:\xampp\htdocs\yii\validators\CValidator.php(214): CFileValidator->validateAttribute(Object(Speaker), 'detailed_img_fi...')
+#3 D:\xampp\htdocs\yii\base\CModel.php(158): CValidator->validate(Object(Speaker), NULL)
+#4 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#5 D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php(238): CActiveRecord->save()
+#6 [internal function]: SpeakerController->actionUpdate('41')
+#7 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SpeakerController), Array)
+#8 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SpeakerController), Object(ReflectionMethod), Array)
+#9 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('update')
+#18 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/update')
+#19 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/tedxguc/speaker/update/41
+HTTP_REFERER=http://localhost/tedxguc/speaker/update/41
+---
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:44 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/Mo...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/41
+---
+2013/09/09 23:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/Mo...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/41
+---
+2013/09/09 23:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/41
+---
+2013/09/09 23:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Hemdan.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Hemdan.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/41
+---
+2013/09/09 23:33:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/18
+---
+2013/09/09 23:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/18
+---
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:25 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/18
+---
+2013/09/09 23:33:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Loai Hesham abo el Rous .jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Loai%20Hesham%20abo%20el%20Rous%20.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/18
+---
+2013/09/09 23:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/40
+---
+2013/09/09 23:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/40
+---
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:44 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/09 23:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/40
+---
+2013/09/09 23:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Metwally Mathana.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Metwally%20Mathana.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/40
+---
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:23 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/38
+---
+2013/09/10 19:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/38
+---
+2013/09/10 19:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/38
+---
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:09 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/38
+---
+2013/09/10 19:28:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/38
+---
+2013/09/10 19:28:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.jpg".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.jpg
+HTTP_REFERER=http://localhost/tedxguc/speaker/38
+---
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:29:21 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/38
+---
+2013/09/10 19:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Kareem Ahmad Helmee.png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Kareem%20Ahmad%20Helmee.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/38
+---
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:04 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 19:35:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Amgad Thabet .png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Amgad%20Thabet%20.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/17
+---
+2013/09/10 19:35:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Amgad Thabet .png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Amgad%20Thabet%20.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/17
+---
+2013/09/10 19:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Amgad Thabet .png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Amgad%20Thabet%20.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/17
+---
+2013/09/10 19:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/detailed/Mostafa Amgad Thabet .png".' in D:\xampp\htdocs\yii\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('img/speakers/de...')
+#1 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/detailed/Mostafa%20Amgad%20Thabet%20.png
+HTTP_REFERER=http://localhost/tedxguc/speaker/publicview/17
+---
+2013/09/10 19:42:54 [error] [exception.CException] exception 'CException' with message 'Property "Talk.speaker_id" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('speaker_id')
+#1 D:\xampp\htdocs\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('speaker_id')
+#2 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Talk), 'speaker_id')
+#3 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Talk), 'speaker_id', Array)
+#4 D:\xampp\htdocs\yii\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Talk), 'speaker_id', Array)
+#5 D:\xampp\htdocs\tedxguc\protected\views\talk\_form.php(26): CActiveForm->textField(Object(Talk), 'speaker_id')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#7 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\tedxguc\protected\views\talk\create.php(18): CController->renderPartial('_form', Array)
+#10 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php(82): CController->render('create', Array)
+#15 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): TalkController->actionCreate()
+#16 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#23 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#25 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('talk/create')
+#26 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#27 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/tedxguc/talk/create
+---
+2013/09/10 19:46:29 [error] [php] Use of undefined constant ture - assumed 'ture' (D:\xampp\htdocs\tedxguc\protected\views\talk\_form.php:32)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(870): TalkController->renderFile()
+#1 D:\xampp\htdocs\tedxguc\protected\views\talk\create.php(18): TalkController->renderPartial()
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(96): TalkController->renderInternal()
+#4 D:\xampp\htdocs\yii\web\CController.php(870): TalkController->renderFile()
+#5 D:\xampp\htdocs\yii\web\CController.php(783): TalkController->renderPartial()
+#6 D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php(82): TalkController->render()
+#7 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): TalkController->actionCreate()
+#8 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): TalkController->runAction()
+#10 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): TalkController->filterAccessControl()
+#13 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\web\CController.php(266): TalkController->runActionWithFilters()
+#16 D:\xampp\htdocs\yii\web\CWebApplication.php(283): TalkController->run()
+#17 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#18 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/talk/create
+in D:\xampp\htdocs\tedxguc\protected\views\talk\_form.php (32)
+in D:\xampp\htdocs\tedxguc\protected\views\talk\create.php (18)
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (82)
+2013/09/10 19:51:37 [error] [exception.CException] exception 'CException' with message 'Property "Talk.speakers" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('speakers')
+#1 D:\xampp\htdocs\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('speakers')
+#2 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1515): CHtml::resolveValue(Object(Talk), 'speakers')
+#3 D:\xampp\htdocs\yii\web\widgets\CActiveForm.php(764): CHtml::activeDropDownList(Object(Talk), 'speakers', Array, Array)
+#4 D:\xampp\htdocs\tedxguc\protected\views\talk\_form.php(36): CActiveForm->dropDownList(Object(Talk), 'speakers', Array, Array)
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\tedxguc\protected\views\talk\create.php(18): CController->renderPartial('_form', Array)
+#9 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#11 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('create', Array, true)
+#13 D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php(82): CController->render('create', Array)
+#14 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): TalkController->actionCreate()
+#15 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#18 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#22 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#24 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('talk/create')
+#25 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#26 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/tedxguc/talk/create
+---
+2013/09/10 20:02:41 [error] [php] Undefined index: requier_talk (D:\xampp\htdocs\tedxguc\protected\models\Speaker.php:153)
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): Talk->__get()
+#1 D:\xampp\htdocs\tedxguc\protected\views\talk\_form.php(36): Talk->__get()
+#2 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(96): TalkController->renderInternal()
+#4 D:\xampp\htdocs\yii\web\CController.php(870): TalkController->renderFile()
+#5 D:\xampp\htdocs\tedxguc\protected\views\talk\create.php(18): TalkController->renderPartial()
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(127): require()
+#7 D:\xampp\htdocs\yii\web\CBaseController.php(96): TalkController->renderInternal()
+#8 D:\xampp\htdocs\yii\web\CController.php(870): TalkController->renderFile()
+#9 D:\xampp\htdocs\yii\web\CController.php(783): TalkController->renderPartial()
+#10 D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php(82): TalkController->render()
+#11 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): TalkController->actionCreate()
+#12 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#13 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): TalkController->runAction()
+#14 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#16 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): TalkController->filterAccessControl()
+#17 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#18 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\web\CController.php(266): TalkController->runActionWithFilters()
+#20 D:\xampp\htdocs\yii\web\CWebApplication.php(283): TalkController->run()
+#21 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#22 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/talk/create
+in D:\xampp\htdocs\tedxguc\protected\models\Speaker.php (153)
+in D:\xampp\htdocs\tedxguc\protected\models\Talk.php (101)
+in D:\xampp\htdocs\tedxguc\protected\views\talk\_form.php (36)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:10:26 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:07 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "summary" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "detailed_img_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "event_id" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "cv_file" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "prev_events" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:11:56 [warning] [application] Failed to set unsafe attribute "fav_talks" of "Speaker".
+in D:\xampp\htdocs\tedxguc\protected\controllers\SpeakerController.php (212)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:13:43 [warning] [application] Failed to set unsafe attribute "id" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (75)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:13:43 [warning] [application] Failed to set unsafe attribute "speakers" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (75)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:13:43 [error] [exception.CException] exception 'CException' with message 'Property "Talk.speaker_id" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('speaker_id')
+#1 D:\xampp\htdocs\yii\validators\CRequiredValidator.php(52): CActiveRecord->__get('speaker_id')
+#2 D:\xampp\htdocs\yii\validators\CValidator.php(214): CRequiredValidator->validateAttribute(Object(Talk), 'speaker_id')
+#3 D:\xampp\htdocs\yii\base\CModel.php(158): CValidator->validate(Object(Talk), NULL)
+#4 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#5 D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php(76): CActiveRecord->save()
+#6 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(50): TalkController->actionCreate()
+#7 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#14 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('create')
+#16 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('talk/create')
+#17 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/talk/create
+HTTP_REFERER=http://localhost/tedxguc/talk/create
+---
+2013/09/10 20:26:34 [warning] [application] Failed to set unsafe attribute "speaker_summary" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (75)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:26:34 [warning] [application] Failed to set unsafe attribute "speakers" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (75)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:26:34 [error] [php] Undefined variable: model_id (D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php:84)
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): TalkController->runAction()
+#1 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): TalkController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\web\CController.php(266): TalkController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\web\CWebApplication.php(283): TalkController->run()
+#8 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\tedxguc\index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/talk/create
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (84)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:26:58 [warning] [application] Failed to set unsafe attribute "speaker_summary" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (75)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:26:58 [warning] [application] Failed to set unsafe attribute "speakers" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (75)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "UCCdHo5pMlY".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('UCCdHo5pMlY')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('UCCdHo5pMlY')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('talk/UCCdHo5pMl...')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/talk/UCCdHo5pMlY
+HTTP_REFERER=http://localhost/tedxguc/talk/create
+---
+2013/09/10 20:30:57 [error] [exception.CException] exception 'CException' with message 'Property "Talk.speaker_id" is not defined.' in D:\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\yii\db\ar\CActiveRecord.php(144): CComponent->__get('speaker_id')
+#1 D:\xampp\htdocs\yii\web\helpers\CHtml.php(1809): CActiveRecord->__get('speaker_id')
+#2 D:\xampp\htdocs\yii\zii\widgets\CDetailView.php(212): CHtml::value(Object(Talk), 'speaker_id')
+#3 D:\xampp\htdocs\yii\web\CBaseController.php(174): CDetailView->run()
+#4 D:\xampp\htdocs\tedxguc\protected\views\talk\view.php(30): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 D:\xampp\htdocs\yii\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\yii\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php(59): CController->render('view', Array)
+#10 [internal function]: TalkController->actionView('2')
+#11 D:\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TalkController), Array)
+#12 D:\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TalkController), Object(ReflectionMethod), Array)
+#13 D:\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 D:\xampp\htdocs\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\xampp\htdocs\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\xampp\htdocs\yii\web\CController.php(292): CFilterChain->run()
+#20 D:\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('view')
+#22 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('talk/view')
+#23 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#24 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/tedxguc/talk/2
+---
+2013/09/10 20:39:34 [warning] [application] Failed to set unsafe attribute "url_id" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (114)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:39:34 [warning] [application] Failed to set unsafe attribute "speaker_summary" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (114)
+in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/10 20:39:34 [warning] [application] Failed to set unsafe attribute "speakers" of "Talk".
+in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (114)
+in D:\xampp\htdocs\tedxguc\index.php (13)
