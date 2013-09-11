@@ -874,12 +874,14 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 		font-size: 22px;
 		font-weight: 700;
 		margin-top: -4px;
+		margin-bottom: 16px;
 		
 	}
 	
 		.speakers-detailed #speakers-text-column h1 span {
 			
 			color: #FF2B06;
+			font-weight: 700;
 			
 		}
 	
