@@ -3807,3 +3807,14 @@ in D:\xampp\htdocs\tedxguc\index.php (13)
 2013/09/10 20:39:34 [warning] [application] Failed to set unsafe attribute "speakers" of "Talk".
 in D:\xampp\htdocs\tedxguc\protected\controllers\TalkController.php (114)
 in D:\xampp\htdocs\tedxguc\index.php (13)
+2013/09/12 00:11:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "talk".' in D:\xampp\htdocs\yii\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\yii\web\CController.php(271): CController->missingAction('talk')
+#1 D:\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('talk')
+#2 D:\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('speaker/talk')
+#3 D:\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\tedxguc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/speaker/talk/2
+HTTP_REFERER=http://localhost/tedxguc/speaker/36
+---
