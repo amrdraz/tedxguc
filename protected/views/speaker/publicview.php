@@ -6,7 +6,7 @@ $this->pageTitle=Yii::app()->name . ' - '.$model->name;
 $this->page = 'speakers-detailed';
 
 ?>
-<section class="main-container speakers-detailed">
+<section class="main-container speakers-detailed cf">
 	
 	<?php  echo CHtml::image(Yii::app()->request->baseUrl.'/img/speakers/detailed/'.$model->detailed_img) ?>
 

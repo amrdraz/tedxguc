@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'List Speaker', 'url'=>array('index')),
 	array('label'=>'Public view', 'url'=>array('publicview','id'=>$model->id)),
-	array('label'=>'Create Talk', 'url'=>array('talk/create')),
+	array('label'=>($model->talk)?'Visit Talk':'Add Talk', 'url'=>($model->talk)?array('talk/view','id'=>$model->talk->id):array('talk/create')),
 	array('label'=>'Create Speaker', 'url'=>array('create')),
 	array('label'=>'Update Speaker', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Delete Speaker', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
