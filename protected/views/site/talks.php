@@ -14,9 +14,7 @@ What is happiness? And how did we conclude our definition of it? <br>
 Do we follow our emotional path or our rational one? And which one should we follow? <br>
 Is there a format to logic? And finally, how to define what's rational and what's irrational?</p>
 
-<iframe id="ytplayer" type="text/html" width="960" height="640"
-  src="//www.youtube.com/embed/ZWggEgQ6FrI"
-  frameborder="0"/>
+<iframe width="960" height="720" src="//www.youtube.com/embed/UCCdHo5pMlY?rel=0" frameborder="0" allowfullscreen></iframe>
 </iframe>
 
 </section>
