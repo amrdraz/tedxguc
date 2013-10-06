@@ -400,13 +400,26 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 			}
 			
 			
+#buttonTitle {
+	color: #000;
+	width: 176px;
+	position: absolute;
+	right: 0;
+	top: 28px;
+	margin-right: -2px;
+	text-align: center;
+	font-weight: 400;
+	height: 40px;
+	font-size: 16px;
+}
+
 #speakerApplication {
 	height: 62px;
 	width: 206px;
 	float: right;
-	margin-right: -17px;
-	margin-top: -6px;
-	background-image:url('../img/mainElements/applyAsAttendee.png');
+	margin-right: -19px;
+	margin-top: 35px;
+	background-image:url('../img/mainElements/downloadButton.png');
 	/*-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-o-transition: all 0.2s;
@@ -414,19 +427,19 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 }
 
 #speakerApplication:hover {
-	background-image:url('../img/mainElements/applyAsAttendeeHover.png');
+	background-image:url('../img/mainElements/downloadButtonHover.png');
 }	
 
 #deadline {
 	color: #fff;
 	background: #000;
-	width: 177px;
+	width: 176px;
 	position: absolute;
 	right: 0;
-	top: 62px;
+	top: 92px;
 	margin-right: -2px;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 300;
 	height: 20px;
 	padding: 5px 0 7px 0;
 	font-size: 17px;
@@ -440,11 +453,11 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	width: 176px;
 	position: absolute;
 	right: 0;
-	top: 85px;
+	top: 125px;
 	margin-right: -4px;
 	margin-top: -22px;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 300;
 	height: 20px;
 	padding: 5px 0 7px 0;
 	font-size: 17px;
