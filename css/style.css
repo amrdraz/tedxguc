@@ -1002,7 +1002,499 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 		line-height: 24px;
 		
 	}
+
+
+/*==============================TEAM VISION INFO==============================================*/	
 	
+	
+	.teams .teamsTitle {
+		
+		text-align: center;
+		
+	}
+	
+		.teams h1 {
+			
+			font-size: 60px;
+			font-weight: 900;
+			
+		}
+		
+		.teams p {
+			
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 23px;
+			margin: 40px 0;
+			
+		}
+		
+	
+	.teams h2 {
+		
+		font-size: 40px;
+		font-weight: 300;
+		
+	}
+	
+	.teams article {
+		
+		margin-top: 140px;
+		overflow: hidden;
+		
+	}
+	
+	.teams article p {
+		
+		width: 400px;
+		
+	}
+	
+	.teams article > img {
+		
+		float: right;
+		position: absolute;
+		
+	}
+	
+	/* Animated Objects */
+	
+	.teams #naga, .teams #samar, .teams #aya, .teams #hassan, .teams #rana, .teams #noura, .teams #hesham, 
+	
+	.teams #logistics2, .teams #logistics3,
+	.teams #fundraising2,
+	.teams #pr1, .teams #pr2,
+	.teams #design1, .teams #design3,
+	.teams #socialMedia1, .teams #socialMedia2, .teams #socialMedia3,
+	.teams #development2,
+	.teams #coaching2
+	
+	{
+		
+		visibility: hidden;
+		
+	}
+	
+	/* Logistics */
+	
+	.teams #logistics {
+		
+		width: 730px;
+		margin-left: 60px;
+		
+	}
+	
+	.teams #logistics h2:nth-child(2) {
+		
+		margin-left: 160px;
+		
+	}
+	
+	.teams #logistics #logisticsPictogram {
+		
+		margin-left: 120px;
+		margin-top: 70px;
+		
+	}
+	
+	.teams #logistics #logisticsPictogram img:nth-child(1) {
+	
+		position: relative;
+		z-index: 1;
+	
+	}
+	
+	.teams #logistics #logisticsPictogram img:nth-child(2) {
+	
+		margin-left: -140px;
+		margin-top: 62px;
+		position: relative;
+		z-index: 0;
+	
+	}
+	
+	.teams #logistics #logisticsPictogram img:nth-child(3) {
+	
+		margin-left: -84px;
+		margin-top: -50px;
+		position: relative;
+		z-index: -1;
+	
+	}
+	
+	.teams #logistics p {
+		
+		margin-left: 166px;
+		margin-top: 24px;
+		
+	}
+	
+	.teams #logistics > img {
+		
+		margin-top: -50px;
+		margin-left: 582px;
+		
+	}
+	
+	
+	
+	/* Fundraising */
+	
+	.teams #fundraising {
+		
+		width: 570px;
+		margin-left: 222px;
+		margin-top: 160px;
+		
+	}
+	
+	.teams #fundraising #fundraisingPictogram {
+		
+		margin-top: 80px;
+		
+	}
+	
+	.teams #fundraising #fundraisingPictogram img:nth-child(1) {
+	
+		position: relative;
+		z-index: 1;
+	
+	}
+	
+	.teams #fundraising #fundraisingPictogram img:nth-child(2) {
+	
+		margin-left: -158px;
+		position: relative;
+		z-index: 0;
+	
+	}
+	
+	.teams #fundraising p {
+		
+		margin-top: 24px;
+		
+	}
+	
+	.teams #fundraising > img {
+		
+		margin-top: 15px;
+		margin-left: 436px;
+		
+	}
+	
+	
+	/* Advertising & Public Relations */
+	
+	.teams #pr {
+		
+		width: 766px;
+		margin-left: 90px;
+		margin-top: 260px;
+		
+	}
+	
+	.teams #pr h2:nth-child(1) {
+		
+		margin-left: 240px;
+		
+	}
+	
+	.teams #pr h2:nth-child(2) {
+		
+		margin-left: 370px;
+		
+	}
+	
+	.teams #pr #prPictogram {
+		
+		margin-top: -50px;
+		
+	}
+	
+	.teams #pr #prPictogram img:nth-child(1) {
+	
+		margin-top: -100px;
+	
+	}
+	
+	.teams #pr #prPictogram img:nth-child(2) {
+	
+		margin-left: 200px;
+		margin-top: 120px;
+	
+	}
+	
+	.teams #pr #prPictogram img:nth-child(3) {
+	
+		margin-left: -84px;
+		margin-top: -50px;
+		position: relative;
+		z-index: -1;
+	
+	}
+	
+	.teams #pr p {
+		
+		margin-top: 56px;
+		margin-left: 377px;
+		
+	}
+	
+	.teams #pr > img {
+		
+		margin-top: 50px;
+		margin-left: 156px;
+		
+	}
+	
+	
+	/* Design */
+	
+	.teams #design {
+		
+		width: 640px;
+		margin-left: 180px;
+		margin-top: 320px;
+		
+	}
+	
+	.teams #design h2:nth-child(2) {
+		
+		margin-left: 76px;
+		
+	}
+	
+	.teams #design #designPictogram {
+		
+		margin-left: 78px;
+		margin-top: 70px;
+		
+	}
+	
+	.teams #design #designPictogram img:nth-child(3) {
+	
+		margin-left: -130px;
+		margin-top: 86px;
+	
+	}
+	
+	.teams #design p {
+		
+		margin-top: 54px;
+		
+	}
+	
+	.teams #design > img {
+		
+		margin-top: -110px;
+		margin-left: 430px;
+		
+	}
+	
+	
+	
+	/* Social & Interactive Media */
+	
+	.teams #socialMedia {
+		
+		width: 800px;
+		margin-left: 64px;
+		margin-top: 260px;
+		
+	}
+	
+	.teams #socialMedia h2:nth-child(1) {
+		
+		margin-left: 300px;
+		
+	}
+	
+	.teams #socialMedia h2:nth-child(2) {
+		
+		margin-left: 375px;
+		
+	}
+	
+	.teams #socialMedia #socialMediaPictogram {
+		
+		margin-top: 10px;
+		
+	}
+	
+	.teams #socialMedia #socialMediaPictogram img:nth-child(2) {
+	
+		margin-left: -70px;
+		margin-top: 133px;
+	
+	}
+	
+	.teams #socialMedia #socialMediaPictogram img:nth-child(3) {
+	
+		margin-left: 10px;
+		margin-top: 206px;
+	
+	}
+	
+	.teams #socialMedia p {
+		
+		margin-top: 24px;
+		margin-left: 67px;
+		
+	}
+	
+	.teams #socialMedia > img {
+		
+		margin-top: 50px;
+		margin-left: 500px;
+		
+	}
+	
+	
+	/* Members' Development */
+	
+	.teams #development {
+		
+		width: 574px;
+		margin-left: 200px;
+		margin-top: 260px;
+		
+	}
+	
+	.teams #development h2:nth-child(1) {
+		
+		margin-left: 120px;
+		
+	}
+	
+	.teams #development h2:nth-child(2) {
+		
+		margin-left: 216px;
+		
+	}
+	
+	.teams #development #developmentPictogram {
+		
+		margin-top: 60px;
+		margin-left: 216px;
+		
+	}
+	
+	.teams #development #developmentPictogram img:nth-child(2) {
+	
+		margin-left: -114px;
+		margin-top: 65px;
+	
+	}
+	
+	.teams #development #developmentPictogram img:nth-child(3) {
+	
+		margin-left: 10px;
+		margin-top: 206px;
+	
+	}
+	
+	.teams #development p {
+		
+		margin-top: 24px;
+		margin-left: 216px;
+		
+	}
+	
+	.teams #development > img {
+		
+		margin-top: 40px;
+		
+	}
+	
+	
+/* Speakers & Coaching */
+
+.teams #coaching {
+	
+	width: 645px;
+	margin-left: 160px;
+	margin-top: 300px;
+	
+}
+
+.teams #coaching h2:nth-child(2) {
+	
+	margin-left: 70px;
+	
+}
+
+.teams #coaching #coachingPictogram {
+	
+	margin-top: 80px;
+	margin-left: 70px;
+	
+}
+
+.teams #coaching #coachingPictogram img:nth-child(2) {
+
+	margin-left: -124px;
+	margin-top: -26px;
+
+}
+
+.teams #coaching #coachingPictogram img:nth-child(3) {
+
+	margin-left: 10px;
+	margin-top: 206px;
+
+}
+
+.teams #coaching p {
+	
+	margin-top: 24px;
+	margin-left: 70px;
+	
+}
+
+.teams #coaching > img {
+	
+	margin-top: -56px;
+	margin-left: 466px;
+	
+}
+
+
+/*Outro*/
+
+	.teams #outro {
+		
+		margin-top: 250px;
+		padding-bottom: 100px;
+		
+	}
+	
+	.teams #outro h1:nth-child(1){
+		
+		margin-left: 120px;
+		
+	}	
+	
+	.teams #outro h1:nth-child(2){
+		
+		margin-left: 352px;
+		
+	}	
+	
+	.teams #outro p {
+		text-align: center;
+		margin-top: 40px;
+		font-size: 22px;
+		line-height: 28px;
+	}
+	
+	.teams #outro span {
+		text-transform: lowercase;
+	}
+	
+	.teams #outro div {
+		width: 202px;
+		margin: 0 auto;
+	}
 
 /*==============================EVENTS===============================================*/
 
@@ -1061,6 +1553,7 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 .events .items article h3 a:hover{
 	color: #BBBBBB;
 } 
+
 
 /*==============================EVENT===============================================*/
 

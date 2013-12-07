@@ -45,6 +45,16 @@ class SiteController extends Controller
 	}
 
 	/**
+	 * This is the team action which directs to the team page
+	 */
+	public function actionTeams()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('teams');
+	}
+
+	/**
 	 * This is the speaker application action which directs to the speaker application page
 	 */
 	public function actionSpeaker()

@@ -3818,3 +3818,47 @@ Stack trace:
 REQUEST_URI=/tedxguc/speaker/talk/2
 HTTP_REFERER=http://localhost/tedxguc/speaker/36
 ---
+2013/12/07 21:25:05 [error] [php] Undefined variable: cs (/Applications/MAMP/htdocs/tedxguc/protected/views/site/teams.php:7)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/htdocs/yii/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/tedxguc/protected/controllers/SiteController.php(54): SiteController->render()
+#3 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): SiteController->actionTeams()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/htdocs/yii/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/teams
+in /Applications/MAMP/htdocs/tedxguc/protected/views/site/teams.php (7)
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/SiteController.php (54)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2013/12/07 21:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/animation.css".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('css/animation.c...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/css/animation.css
+HTTP_REFERER=http://localhost:8888/tedxguc/teams
+---
+2013/12/07 21:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/animation.css".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('css/animation.c...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/css/animation.css
+HTTP_REFERER=http://localhost:8888/tedxguc/teams
+---
+2013/12/07 21:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/animation.css".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('css/animation.c...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/css/animation.css
+HTTP_REFERER=http://localhost:8888/tedxguc/teams
+---
