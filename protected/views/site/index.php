@@ -42,7 +42,7 @@
 			
 			<!--<?php echo CHtml::link('<div id="speakerApplication"></div>', array('downloads/downloadApplication.php'), array('id'=>'')) ?>-->
 			
-			<a href="./docs/"><div id="speakerApplication"></div></a>
+			<a href="./docs/application.zip"><div id="speakerApplication"></div></a>
 
 			<h3 id="deadline2">Deadline: <span>11/10/2013</span></h3>
  
