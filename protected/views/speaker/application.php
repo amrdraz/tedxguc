@@ -44,156 +44,336 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 	
 	<h3>Speaker Application</h3>
 	
-	<?php $form=$this->beginWidget('CActiveForm', array(
-		'id'=>'speaker-form',
-		'enableClientValidation' => true,
-	    'clientOptions' => array(
-	        'validateOnSubmit' => true,
-	    ),
-	    'htmlOptions'=>array(
-	        'enctype'=>'multipart/form-data',
-	    ),
-	)); ?>
-		
-		<br>
-		
-		<p class="note">Fields with <span class="required">*</span> are required.</p>
-		
-		<!-- This part is where error apear when submitting 
-		They will apear inside something like this
-		<div id="speaker-form_es_" class="errorSummary"><p>Please fix the following input errors:</p>
-		<ul>
-			<li>The file "Amr Mohamed Youssef Draz_cvdocx" cannot be uploaded. Only files with these extensions are allowed: doc, docx, odt, txt, pdf.</li>
-		</ul>
-		</div>
-		-->
-		<?php echo $form->errorSummary($model); ?>
-		
-		<hr/>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
+{window.location='http://www.texguc.com';}"></iframe>
+        <form class="speakerForm" action="https://docs.google.com/forms/d/1dhXB-6IVIBFs_wiPZ3b8ZxEzFfC5QGJvRb-Q7WYxOfU/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+    <div role="list">
+<br>
+<p class="note">Fields with <span class="required">*</span> are required.</p>
+<hr>
+<h4>Personal Info</h4>
+    <div class="row">
+	    <label for="entry_396723908" class="required">Full Name <span class="required">*</span></label>	
+    	<input type="text" name="entry.396723908" value="" class="ss-q-short" id="entry_396723908" dir="auto" aria-label="Full Name  " aria-required="true" required="" title="">
+        <div class="error-message"></div>             
+    </div>
+    <div class="row">
+	    <label for="entry_672674933" class="required">Age<span class="required">*</span></label>	
+    	<input type="number" name="entry.672674933" value="" class="ss-q-short" id="entry_672674933" dir="auto" aria-label="Age  You need to specify a valid age number" step="any" title="You need to specify a valid age number">
+        <div class="error-message">You need to specify a valid age number</div>                        
+    </div>
+    <div class="row">
+	    <label for="entry_1367972489" class="required">Occupation<span class="required">*</span></label>	
+    	<input type="text" name="entry.1367972489" value="" class="ss-q-short" id="entry_1367972489" dir="auto" aria-label="Occupation  " title="">
+        <div class="error-message"></div>
+                    
+    </div>
+    <div class="row">			
+	    <label for="entry_1367972489" class="required">Email<span class="required">*</span></label>	
+    	<input type="text" name="entry.1367972489" value="" class="ss-q-short" id="entry_1367972489" dir="auto" aria-label="Occupation  " title="" placeholder="yourmail@example.com">
+        <div class="error-message"></div>
+    </div>
+       
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1266860784">
+                        <div class="ss-q-title">Mobile Number
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">eg. 01004233302</div>
+                    </label>
+                    <input type="text" name="entry.1266860784" value="" class="ss-q-short" id="entry_1266860784" dir="auto" aria-label="Mobile Number eg. 01004233302 " aria-required="true" required="" title="">
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<h4 id="personalInformation">Personal Info</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1147600165">
+                        <div class="ss-q-title">Facebook profile
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.1147600165" value="" class="ss-q-short" id="entry_1147600165" dir="auto" aria-label="Facebook profile  " title="">
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<!-- basically prints out a label for the filed replace it with waht ever you want -->
-			<label for="Speaker_name" class="required">Name <span class="required">*</span></label>
-			<!-- This is the actual input filed the arry in the end can be considered the attribut of the tag -->
-			<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>60)); ?>
-			<!-- shows the error for that filed remove it wif you want -->
-			<?php echo $form->error($model,'name'); ?>
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1912361028">
+                        <div class="ss-q-title">Address
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.1912361028" value="" class="ss-q-short" id="entry_1912361028" dir="auto" aria-label="Address  " title="">
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_age" class="required">Age <span class="required">*</span></label>			
-			<input name="Speaker[age]" id="Speaker_age" type="text" />			
-			<?php echo $form->error($model,'age'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_66615556">
+                        <div class="ss-q-title">What do you know about TED and the TEDx Program?
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.66615556" rows="8" cols="0" class="ss-q-long" id="entry_66615556" dir="auto" aria-label="What do you know about TED and the TEDx Program?  "></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_occupation" class="required">Occupation <span class="required">*</span></label>
-			<?php echo $form->textField($model,'occupation',array('size'=>60,'maxlength'=>60)); ?>
-			<?php echo $form->error($model,'occupation'); ?>
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1691126969">
+                        <div class="ss-q-title">Have you ever attended a TEDx event?
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">if yes please state the name of the TEDx event</div>
+                    </label>
+                    <textarea name="entry.1691126969" rows="8" cols="0" class="ss-q-long" id="entry_1691126969" dir="auto" aria-label="Have you ever attended a TEDx event? if yes please state the name of the TEDx event "></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_phone" class="required">Phone <span class="required">*</span></label>
-			<?php echo $form->textField($model,'phone',array('size'=>15,'maxlength'=>15)); ?>
-			<?php echo $form->error($model,'phone'); ?>
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_731810327">
+                        <div class="ss-q-title">What is your favorite talk? Why?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.731810327" rows="8" cols="0" class="ss-q-long" id="entry_731810327" dir="auto" aria-label="What is your favorite talk? Why?  " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_email" class="required">Email <span class="required">*</span></label>
-			<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>70)); ?>
-			<?php echo $form->error($model,'email'); ?>
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_91118827">
+                        <div class="ss-q-title">Why do you want to apply as a TEDxGUC 2014 speaker?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.91118827" rows="8" cols="0" class="ss-q-long" id="entry_91118827" dir="auto" aria-label="Why do you want to apply as a TEDxGUC 2014 speaker?  " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_cv" class="required">C.V. <span class="required">*</span></label>
-			<?php echo $form->fileField($model, 'cv') ; ?>
-			<small>Only accepts: <b>doc,docx,odt,txt,pdf</b></small>
-			<?php echo $form->error($model,'cv'); ?>			
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_517286870">
+                        <div class="ss-q-title">Have you given any presentations in other events?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">If yes, please explain your experience.</div>
+                    </label>
+                    <textarea name="entry.517286870" rows="8" cols="0" class="ss-q-long" id="entry_517286870" dir="auto" aria-label="Have you given any presentations in other events? If yes, please explain your experience. " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<hr/>
-		
-		<h4 id="previousExperiences">General Info</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_417808890">
+                        <div class="ss-q-title">In one sentence, what is your idea worth spreading?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.417808890" value="" class="ss-q-short" id="entry_417808890" dir="auto" aria-label="In one sentence, what is your idea worth spreading?  " aria-required="true" required="" title="">
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_fb_link">Facebook</label>
-		<?php echo $form->textField($model,'fb_link',array('size'=>60,'maxlength'=>120)); ?>
-			<?php echo $form->error($model,'fb_link'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1297444504">
+                        <div class="ss-q-title">In a maximum of 100 characters, what is the core idea of your potential talk?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.1297444504" rows="8" cols="0" class="ss-q-long" id="entry_1297444504" dir="auto" aria-label="In a maximum of 100 characters, what is the core idea of your potential talk?  " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<label for="Speaker_tw_link">Twitter</label>
-		<?php echo $form->textField($model,'tw_link',array('size'=>60,'maxlength'=>120)); ?>
-			<?php echo $form->error($model,'tw_link'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_867696151">
+                        <div class="ss-q-title">What are the different types of support that you can give to prove your idea?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">(Stories, theories, examples, scientific proof etc..)</div>
+                    </label>
+                    <textarea name="entry.867696151" rows="8" cols="0" class="ss-q-long" id="entry_867696151" dir="auto" aria-label="What are the different types of support that you can give to prove your idea? (Stories, theories, examples, scientific proof etc..) " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<p class="hint">Something else you might want to tell us about, Blog, Social media etc...</p>
-			<label for="Speaker_ln_link">Other</label>				
-			<?php echo $form->textField($model,'ln_link',array('size'=>60,'maxlength'=>120)); ?>				
-			<?php echo $form->error($model,'ln_link'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_545159985">
+                        <div class="ss-q-title">Why do you find it worth spreading?
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.545159985" rows="8" cols="0" class="ss-q-long" id="entry_545159985" dir="auto" aria-label="Why do you find it worth spreading?  "></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			
-			<p class="hint">
-				 YouTube link of previous experiences (if there were any)
-			</p>
-			<label for="Speaker_prev_talk_url">Link to Previous Talk</label>	
-			<?php echo $form->textField($model,'prev_talk_url',array('size'=>60,'maxlength'=>120)); ?>
-			<?php echo $form->error($model,'prev_talk_url'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_970744371">
+                        <div class="ss-q-title">What is the edge of your idea and why do you think that it is original?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.970744371" rows="8" cols="0" class="ss-q-long" id="entry_970744371" dir="auto" aria-label="What is the edge of your idea and why do you think that it is original?   " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<p class="hint">
-				Have you ever attended/ participated in any TEDx Events before:
-				If yes, state your favorite, and briefly explain why.
-			</p>
-			<label for="Speaker_prev_events">Events Attended</label>
-			<?php echo $form->textArea($model,'prev_events',array('rows'=>6, 'cols'=>50)); ?>
-			<?php echo $form->error($model,'prev_events'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1504432833">
+                        <div class="ss-q-title">What will be the impact of your idea on the audience?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.1504432833" rows="8" cols="0" class="ss-q-long" id="entry_1504432833" dir="auto" aria-label="What will be the impact of your idea on the audience?  " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<p class="hint">
-				List two of your favorite TED talk titles, and state the reason for liking them.
-			</p>
-			<label for="Speaker_fav_talks" class="required">Favourite Talks <span class="required">*</span></label>
-			<?php echo $form->textArea($model,'fav_talks',array('rows'=>6, 'cols'=>50)); ?>
-			<?php echo $form->error($model,'fav_talks'); ?>	
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1039056699">
+                        <div class="ss-q-title">Do you think that you are the best person to present this idea?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">If yes, then why, and if no, then who do you think can better present it?</div>
+                    </label>
+                    <textarea name="entry.1039056699" rows="8" cols="0" class="ss-q-long" id="entry_1039056699" dir="auto" aria-label="Do you think that you are the best person to present this idea?  If yes, then why, and if no, then who do you think can better present it? " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row">
-			<p class="hint">
-				To let us know more about you, please include a video (Vimeo or Youtube link between 4 to 8 minutes maximum) answering the following questions:
-				<ol>
-					<li>1. Title of your talk.</li>
-					<li>2. Brief description of your talk.</li>
-					<li>3. How long do you expect your talk to be?</li>
-					<li>4. Link between your talk and our theme.</li>
-					<li>5. Why do you think your idea is worth spreading?</li>
-					<li>6. Who do you aim to impact/ motivate in your talk?</li>
-					<li>7. Do you believe you can change people’s lives with your talk? 
-					<br>Explain briefly.<br><br></li>
-				</ol>
-				For more info follow the <a href="http://www.youtube.com/watch?v=Xo9qU3WzETk">video walk-through</a> prepared by our media head.
-				<br><br>
-			</p>
-			<label for="Speaker_video_url" class="required">Video Url <span class="required">*</span></label>		
-			<?php echo $form->textField($model,'video_url',array('size'=>60,'maxlength'=>120)); ?>
-			<?php echo $form->error($model,'video_url'); ?>	
-		</div>
-		
-		<p class="hint terms">I have read and agree to the <a href="#guidelines"/>guidelines</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_95395439">
+                        <div class="ss-q-title">TEDxGUC 2014 speakers will have to go through a curation process that might consume some of their time before the event. Do you think that you have enough time for this process?
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <textarea name="entry.95395439" rows="8" cols="0" class="ss-q-long" id="entry_95395439" dir="auto" aria-label="TEDxGUC 2014 speakers will have to go through a curation process that might consume some of their time before the event. Do you think that you have enough time for this process?   " aria-required="true" required=""></textarea>
+                    <div class="error-message"></div>
+                    <div class="required-message">This is a required question</div>
 
-		<div class="row buttons submit">
-			<input type="submit" name="yt0" value="Submit" />
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="row errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item ss-item-required ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_338949263">
+                        <div class="ss-q-title">Please prepare a 2-3 minutes video in which you introduce yourself and present your idea shortly. Later, upload the video on youtube and choose the privacy to be unlisted, knowing that public videos will not be accepted. Please submit your video’s URL in the box below.
+                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                            <span class="ss-required-asterisk">*</span>
+                        </div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="url" name="entry.338949263" value="" class="ss-q-short" id="entry_338949263" dir="auto" aria-label="Please prepare a 2-3 minutes video in which you introduce yourself and present your idea shortly. Later, upload the video on youtube and choose the privacy to be unlisted, knowing that public videos will not be accepted. Please submit your video’s URL in the box below.  Must be a valid URL" aria-required="true" required="" title="Must be a valid URL">
+                    <div class="error-message">Must be a valid URL</div>
+                    <div class="required-message">This is a required question</div>
 
-	
-	<?php $this->endWidget(); ?><!--  end of form -->
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name="draftResponse" value="[,,&quot;8550111786357936782&quot;]
+">
+        <input type="hidden" name="pageHistory" value="0">
+        <input type="hidden" name="fromEmail" value="false">
+
+        <input type="hidden" name="fbzx" value="8550111786357936782">
+
+        <div class="ss-item ss-navigate">
+            <table id="navigation-table">
+                <tbody>
+                    <tr>
+                        <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                            <input type="submit" name="submit" value="Submit" id="ss-submit">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
+<!--  end of form -->
 	
 	
 		
