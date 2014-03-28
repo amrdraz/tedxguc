@@ -52,29 +52,29 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
 <p class="note">Fields with <span class="required">*</span> are required.</p>
 <hr>
 <h4>Personal Info</h4>
-    <div class="row">
+    <div class="ss-form-question">
 	    <label for="entry_396723908" class="required">Full Name <span class="required">*</span></label>	
     	<input type="text" name="entry.396723908" value="" class="ss-q-short" id="entry_396723908" dir="auto" aria-label="Full Name  " aria-required="true" required="" title="">
         <div class="error-message"></div>             
     </div>
-    <div class="row">
+    <div class="ss-form-question">
 	    <label for="entry_672674933" class="required">Age<span class="required">*</span></label>	
     	<input type="number" name="entry.672674933" value="" class="ss-q-short" id="entry_672674933" dir="auto" aria-label="Age  You need to specify a valid age number" step="any" title="You need to specify a valid age number">
         <div class="error-message">You need to specify a valid age number</div>                        
     </div>
-    <div class="row">
+    <div class="ss-form-question">
 	    <label for="entry_1367972489" class="required">Occupation<span class="required">*</span></label>	
     	<input type="text" name="entry.1367972489" value="" class="ss-q-short" id="entry_1367972489" dir="auto" aria-label="Occupation  " title="">
         <div class="error-message"></div>
                     
     </div>
-    <div class="row">			
+    <div class="ss-form-question">			
 	    <label for="entry_1367972489" class="required">Email<span class="required">*</span></label>	
     	<input type="text" name="entry.1367972489" value="" class="ss-q-short" id="entry_1367972489" dir="auto" aria-label="Occupation  " title="" placeholder="yourmail@example.com">
         <div class="error-message"></div>
     </div>
        
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1266860784">
@@ -91,7 +91,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1147600165">
@@ -106,7 +106,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1912361028">
@@ -121,7 +121,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_66615556">
@@ -136,7 +136,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1691126969">
@@ -151,7 +151,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_731810327">
@@ -168,7 +168,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_91118827">
@@ -185,7 +185,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_517286870">
@@ -202,7 +202,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_417808890">
@@ -219,7 +219,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1297444504">
@@ -236,7 +236,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_867696151">
@@ -253,7 +253,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_545159985">
@@ -268,7 +268,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_970744371">
@@ -285,7 +285,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1504432833">
@@ -302,7 +302,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1039056699">
@@ -319,7 +319,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_95395439">
@@ -336,7 +336,7 @@ $this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
                 </div>
             </div>
         </div>
-        <div class="row errorbox-good" role="listitem">
+        <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item ss-item-required ss-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_338949263">

@@ -1854,7 +1854,6 @@ footer .socialMedia {
 }
 
 
-
 .speakerForm h4 {
 	background: #FFF;
 	text-transform: uppercase;
@@ -1868,7 +1867,11 @@ footer .socialMedia {
 	text-transform: none;
 }
 
-.speakerForm span.required {
+.speakerForm .required-message {
+	display: none;
+}
+
+.speakerForm .ss-required-asterisk, .speakerForm .required {
 	color: #FF2B06;
 }
 
@@ -1894,7 +1897,7 @@ footer .socialMedia {
 
 
 
-.speakerForm .row {
+.speakerForm .ss-form-question {
 	overflow: hidden;
 	margin: 15px 0;
 }
