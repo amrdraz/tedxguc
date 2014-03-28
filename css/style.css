@@ -418,8 +418,9 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 	width: 206px;
 	float: right;
 	margin-right: -19px;
-	margin-top: 35px;
-	background-image:url('../img/mainElements/downloadButton.png');
+/*	margin-top: 35px;*/
+    margin-top: 2px;
+	background-image:url('../img/mainElements/applyAsSpeaker.png');
 	/*-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-o-transition: all 0.2s;
@@ -427,7 +428,7 @@ html.ie8 .instructions, html.ie7 .instructions,html.ie6 .instructions {
 }
 
 #speakerApplication:hover {
-	background-image:url('../img/mainElements/downloadButtonHover.png');
+	background-image:url('../img/mainElements/applyAsSpeakerHover.png');
 }	
 
 #deadline {

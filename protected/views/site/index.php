@@ -41,12 +41,11 @@
 			
 			<!--<?php echo CHtml::link('<div id="speakerApplication"></div>', array('downloads/downloadApplication.php'), array('id'=>'')) ?>-->
 			
-			<!--<h3 id="buttonTitle">Board of Executives 
-			Recruitment Application</h3>
+<!--			<h3 id="buttonTitle">Speakers' Application</h3>-->
 			
-			<a href="./docs/application.zip"><div id="speakerApplication"></div></a>
+			<a href="http://tedxguc.com/speaker/application"><div id="speakerApplication"></div></a>
 
-			<h3 id="deadline2">Deadline: <span>11/10/2013</span></h3>-->
+<!--			<h3 id="deadline2">Deadline: <span>11/10/2013</span></h3>-->
  
 
 
