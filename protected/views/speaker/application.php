@@ -1,5 +1,5 @@
 <?php
-$this->pageTitle=Yii::app()->name . ' - Speakers Applcation';
+$this->pageTitle=Yii::app()->name . ' - Speakers Application';
 ?>
 <section class="application main-container">			
 	
