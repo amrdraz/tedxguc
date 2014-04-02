@@ -2,6 +2,6 @@
 
 <section class="application main-container">	
 
-<h1>Submission Accepted <?php echo $model->name; ?></h1>
+<h1>Submission Complete await a confirmation Email</h1>
 
 </section>

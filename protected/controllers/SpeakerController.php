@@ -79,11 +79,11 @@ class SpeakerController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionComplete($id)
+	public function actionComplete()
 	{	
 		$this->layout = 'column1';
 		$this->render('complete',array(
-			'model'=>$this->loadModel($id),
+			// 'model'=>$this->loadModel($id),
 		));
 	}
 
@@ -94,40 +94,40 @@ class SpeakerController extends Controller
 	public function actionApplication()
 	{		
 		$this->layout = 'column1';
-		$model=new Speaker;
+		// $model=new Speaker;
 
-		// Uncomment the following line if AJAX validation is needed
-		//$this->performAjaxValidation($model);
+		// // Uncomment the following line if AJAX validation is needed
+		// //$this->performAjaxValidation($model);
 
-		if(isset($_POST['Speaker']))
-		{
-			$model->attributes=$_POST['Speaker'];
+		// if(isset($_POST['Speaker']))
+		// {
+		// 	$model->attributes=$_POST['Speaker'];
 
-			$the_file = CUploadedFile::getInstance($model, 'cv_file');
+		// 	$the_file = CUploadedFile::getInstance($model, 'cv_file');
 
-			if($the_file && isset($model->name)) {
+		// 	if($the_file && isset($model->name)) {
 
-				$name = $model->name.'_cv.'. $the_file->extensionName;
+		// 		$name = $model->name.'_cv.'. $the_file->extensionName;
 
-                $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
+  //               $the_file->saveAs(realpath(Yii::app()->basePath.'/../docs/cv').'/'.$name);
 
-                $model->cv = $name;
+  //               $model->cv = $name;
 
-                $model->save();
+  //               $model->save();
 
-				if ($model->save()) {
-	                // $this->refresh();
-	                $this->redirect(array('complete','id'=>$model->id));
-	            }
-			} else {
-				$model->validate();
-			}
+		// 		if ($model->save()) {
+	 //                // $this->refresh();
+	 //                $this->redirect(array('complete','id'=>$model->id));
+	 //            }
+		// 	} else {
+		// 		$model->validate();
+		// 	}
                
                 
-		}
+		// }
 
 		$this->render('application',array(
-			'model'=>$model,
+			// 'model'=>$model,
 		));
 	}
 
