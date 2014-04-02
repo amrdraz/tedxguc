@@ -37,7 +37,7 @@ You can apply now!
 	<h3>Speaker Application</h3>
 	
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
-{window.location='http://www.texguc.com';}"></iframe>
+{window.location='http://www.tedxguc.com/';}"></iframe>
         <form class="speakerForm speakerForm-overwrite" action="https://docs.google.com/forms/d/1dhXB-6IVIBFs_wiPZ3b8ZxEzFfC5QGJvRb-Q7WYxOfU/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
     <div role="list">
 <br>
@@ -62,7 +62,7 @@ You can apply now!
     </div>
     <div class="ss-form-question">			
 	    <label for="entry_1367972489" class="">Email<span class="required">*</span></label>	
-    	<input type="text" name="entry.1367972489" value="" class="ss-q-short" id="entry_1367972489" dir="auto" aria-label="Occupation  " title="" placeholder="yourmail@example.com">
+        <input type="email" name="entry.2034110540" value="" class="ss-q-short" id="entry_2034110540" dir="auto" aria-label="Email yourmail@example.com Please input a valid email" aria-required="true" required="" title="Please input a valid email">
         <div class="error-message"></div>
     </div>
        
