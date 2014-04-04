@@ -37,7 +37,7 @@ You can apply now!
 	<h3>Speaker Application</h3>
 	
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
-{window.location='http://www.tedxguc.com/tedxguc/speaker/complete';}"></iframe>
+{window.location='http://www.tedxguc.com/speaker/complete';}"></iframe>
         <form class="speakerForm speakerForm-overwrite" action="https://docs.google.com/forms/d/1dhXB-6IVIBFs_wiPZ3b8ZxEzFfC5QGJvRb-Q7WYxOfU/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
     <div role="list">
 <br>
