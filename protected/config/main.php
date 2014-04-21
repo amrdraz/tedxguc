@@ -49,6 +49,7 @@ return array(
 			'showScriptName'=>false,
 			'rules'=>array(
 				''=>'site/index',
+				'gii'=>'gii',
 				'about/<page:\w+>'=>'site/about',
 				'events/<url:\w+>.html'=>'site/events',
 				'<action:\w+>'=>'site/<action>',
