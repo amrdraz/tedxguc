@@ -45,7 +45,7 @@
 			
 			<a href="http://tedxguc.com/speaker/application"><div id="speakerApplication"></div></a>
 
-<!--			<h3 id="deadline2">Deadline: <span>11/10/2013</span></h3>-->
+			<h3 id="deadline2">Deadline: <span>19/04/2014</span></h3>
  
 
 
