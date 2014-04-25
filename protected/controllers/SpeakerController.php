@@ -55,8 +55,7 @@ class SpeakerController extends Controller
 	public function actionView($id)
 	{
 		if(Yii::app()->user->isGuest) {
-			$this->actionPublicview($id);
-			Yii::app()->end();
+			$this->layout = 'column1';
 		}
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),

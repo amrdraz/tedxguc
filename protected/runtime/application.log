@@ -4063,3 +4063,811 @@ REQUEST_URI=/tedxguc/speaker/complete
 in /Applications/MAMP/htdocs/tedxguc/protected/views/speaker/complete.php (5)
 in /Applications/MAMP/htdocs/tedxguc/protected/controllers/SpeakerController.php (87)
 in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Abdallah Soliman.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Abdallah%20Soliman.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Rana Fetit.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Rana%20Fetit.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Amgad .png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Amgad%20.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Kareem Helmee.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Kareem%20Helmee.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Loay Hamed.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Loay%20Hamed.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Sherif Barakat.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Sherif%20Barakat.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Mostafa Hemdan.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Mostafa%20Hemdan.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Murtadha Al-Tameemi.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Murtadha%20Al-Tameemi.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Salma Ibrahim.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Salma%20Ibrahim.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Marwan ElKattan.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Marwan%20ElKattan.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Metwali Mathana.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Metwali%20Mathana.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Ibrahim Safwat.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Ibrahim%20Safwat.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/speakers/main/Wael Yassin.png".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('img/speakers/ma...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/img/speakers/main/Wael%20Yassin.png
+HTTP_REFERER=http://localhost:8888/tedxguc/speakers
+---
+2014/04/09 16:17:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/tedxguc/protected/controllers/AttendeeController.php:247
+Stack trace:
+#0 /Applications/MAMP/htdocs/tedxguc/protected/controllers/AttendeeController.php(58): AttendeeController->loadModel('1')
+#1 [internal function]: AttendeeController->actionView('1')
+#2 /Applications/MAMP/htdocs/yii/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AttendeeController), Array)
+#3 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AttendeeController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('attendee/view')
+#14 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tedxguc/attendee/1
+---
+2014/04/20 22:47:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('gii')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('gii')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/gii
+---
+2014/04/20 22:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('gii')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('gii')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/site/gii
+---
+2014/04/20 22:47:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('gii')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('gii')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/gii
+---
+2014/04/21 01:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "member".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('member')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('member')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('site/member')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member
+HTTP_REFERER=http://localhost:8888/tedxguc/gii/crud/index
+---
+2014/04/21 01:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "member".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('member')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('member')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('site/member')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member
+---
+2014/04/21 01:33:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tedxguc/member/admin
+HTTP_REFERER=http://localhost:8888/tedxguc/login
+---
+2014/04/21 01:33:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tedxguc/member/admin
+---
+2014/04/21 01:34:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tedxguc/member/admin
+---
+2014/04/21 01:34:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tedxguc/member/admin
+---
+2014/04/21 01:44:46 [error] [php] Undefined index: file_types (/Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php:95)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#1 /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php(18): MemberController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/web/CBaseController.php(95): MemberController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(782): MemberController->renderPartial()
+#6 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(88): MemberController->render()
+#7 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#10 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#17 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php (95)
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php (18)
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (88)
+2014/04/21 01:45:06 [error] [php] Undefined index: file_types (/Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php:95)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#1 /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php(18): MemberController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/web/CBaseController.php(95): MemberController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(782): MemberController->renderPartial()
+#6 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(88): MemberController->render()
+#7 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#10 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#17 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php (95)
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php (18)
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (88)
+2014/04/21 01:45:08 [error] [php] Undefined index: file_types (/Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php:95)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#1 /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php(18): MemberController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/web/CBaseController.php(95): MemberController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(782): MemberController->renderPartial()
+#6 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(88): MemberController->render()
+#7 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#10 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#17 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php (95)
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php (18)
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (88)
+2014/04/21 01:45:19 [error] [php] Undefined index: file_types (/Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php:95)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#1 /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php(18): MemberController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/web/CBaseController.php(95): MemberController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(782): MemberController->renderPartial()
+#6 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(88): MemberController->render()
+#7 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#10 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#17 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php (95)
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php (18)
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (88)
+2014/04/21 01:45:21 [error] [php] Undefined index: file_types (/Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php:95)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#1 /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php(18): MemberController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/web/CBaseController.php(95): MemberController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(869): MemberController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/web/CController.php(782): MemberController->renderPartial()
+#6 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(88): MemberController->render()
+#7 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#10 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#17 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/_form.php (95)
+in /Applications/MAMP/htdocs/tedxguc/protected/views/member/create.php (18)
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (88)
+2014/04/21 01:50:56 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 01:50:56 [error] [exception.CException] exception 'CException' with message 'Property "Member.img_file;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('img_file;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('img_file;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'img_file;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 01:51:56 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 01:51:56 [error] [exception.CException] exception 'CException' with message 'Property "Member.img_file;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('img_file;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('img_file;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'img_file;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 01:57:44 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 01:57:44 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 01:58:08 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 01:58:08 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 01:59:21 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 01:59:21 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 02:00:16 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 02:00:16 [error] [php] move_uploaded_file(/Amr Draz.jpg): failed to open stream: Permission denied (/Applications/MAMP/htdocs/yii/web/CUploadedFile.php:198)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#1 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#3 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#6 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#10 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (78)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 02:03:23 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 02:03:23 [error] [php] move_uploaded_file(/Amr Draz_.jpg): failed to open stream: Permission denied (/Applications/MAMP/htdocs/yii/web/CUploadedFile.php:198)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#1 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): MemberController->runAction()
+#3 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): MemberController->filterAccessControl()
+#6 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii/web/CController.php(265): MemberController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): MemberController->run()
+#10 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/tedxguc/index.php(13): CWebApplication->run()
+REQUEST_URI=/tedxguc/member/create
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (78)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 09:21:35 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 09:21:35 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 09:22:09 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 09:22:09 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 09:22:45 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 09:22:45 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 09:23:35 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 09:23:35 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 09:24:31 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 09:24:31 [error] [exception.CException] exception 'CException' with message 'Property "Member.facebook;" is not defined.' in /Applications/MAMP/htdocs/yii/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(145): CComponent->__get('facebook;')
+#1 /Applications/MAMP/htdocs/yii/validators/CRequiredValidator.php(58): CActiveRecord->__get('facebook;')
+#2 /Applications/MAMP/htdocs/yii/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Member), 'facebook;')
+#3 /Applications/MAMP/htdocs/yii/base/CModel.php(159): CValidator->validate(Object(Member), NULL)
+#4 /Applications/MAMP/htdocs/yii/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php(82): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/web/actions/CInlineAction.php(49): MemberController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/create')
+#17 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tedxguc/member/create
+HTTP_REFERER=http://localhost:8888/tedxguc/member/create
+---
+2014/04/21 09:25:17 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (73)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/04/21 10:17:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:17:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
+2014/04/21 10:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /Applications/MAMP/htdocs/yii/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CController.php(270): CController->missingAction('img')
+#1 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('member/img/main...')
+#3 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
+HTTP_REFERER=http://localhost:8888/tedxguc/member/1
+---
