@@ -2032,6 +2032,9 @@ footer .socialMedia {
 	float: left;
 	
 }
+.floatRight {
+	float: right;
+}
 
     .profile-main .profile-column-left,
     .profileName {

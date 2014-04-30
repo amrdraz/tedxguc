@@ -38,10 +38,10 @@ $this->menu=array(
 
 <?php // The above section will only appear when a person loggs in ?>
 
-	<section class="main-container profile-main">
- <div class="profileIntro">
+	<section class="main-container profile-main cf">
+         <div class="profileIntro">
         
-            <h2 class="floatLeft"> <?php echo $model->name ?> </h2>
+            <h2 class="profile-column-left"> <?php echo $model->name ?> </h2>
 
             <a href="#" class="encourageButton floatRight"><h6>Encourage!</h6></a>
             
