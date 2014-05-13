@@ -31,11 +31,11 @@ class AttendeeController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('application'),
+				'actions'=>array('application','complete'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array( 'complete','index','view', 'create','update', 'csv'),
+				'actions'=>array( 'index','view', 'create','update', 'csv'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -86,12 +86,10 @@ class AttendeeController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionComplete($id)
+	public function actionComplete()
 	{	
 		$this->layout = 'column1';
-		$this->render('complete',array(
-			'model'=>$this->loadModel($id),
-		));
+		$this->render('complete');
 	}
 
 	/**
@@ -101,19 +99,19 @@ class AttendeeController extends Controller
 	public function actionApplication()
 	{		
 		$this->layout = 'column1';
-		$model=new Attendee;
+		// $model=new Attendee;
 
-		if(isset($_POST['Attendee']))
-		{
-			$model->attributes=$_POST['Attendee'];
+		// if(isset($_POST['Attendee']))
+		// {
+		// 	$model->attributes=$_POST['Attendee'];
 
-			if($model->save()) {
-	            $this->redirect(array('complete','id'=>$model->id));
-			}
-		}
+		// 	if($model->save()) {
+	 //            $this->redirect(array('complete','id'=>$model->id));
+		// 	}
+		// }
 
 		$this->render('application',array(
-			'model'=>$model,
+			// 'model'=>$model,
 		));
 	}
 

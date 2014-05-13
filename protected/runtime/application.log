@@ -4871,3 +4871,17 @@ Stack trace:
 REQUEST_URI=/tedxguc/member/img/mainElements/timeCapsule.jpg
 HTTP_REFERER=http://localhost:8888/tedxguc/member/1
 ---
+2014/05/08 18:31:07 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (76)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/05/08 18:32:37 [warning] [application] Failed to set unsafe attribute "img_file" of "Member".
+in /Applications/MAMP/htdocs/tedxguc/protected/controllers/MemberController.php (110)
+in /Applications/MAMP/htdocs/tedxguc/index.php (13)
+2014/05/13 20:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "attendie/application".' in /Applications/MAMP/htdocs/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/web/CWebApplication.php(141): CWebApplication->runController('attendie/applic...')
+#1 /Applications/MAMP/htdocs/yii/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/tedxguc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tedxguc/attendie/application
+---
