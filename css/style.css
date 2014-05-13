@@ -1790,7 +1790,6 @@ footer .socialMedia {
 
 .speakerFormText .right {
 	float: left;
-    margin-left: 143px;
 	width: 452px;
 }
 
@@ -1939,7 +1938,7 @@ footer .socialMedia {
 
 .speakerForm ol {
 	list-style-type: decimal;
-	background: #FFF;
+	background: none;
 }
 
 .speakerForm .hint {
@@ -1963,6 +1962,8 @@ footer .socialMedia {
 	text-align: center;
 	
 }
+
+
 
  .errorSummary
 {
