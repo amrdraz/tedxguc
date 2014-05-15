@@ -40,7 +40,7 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 	<h3>Attendee Application</h3>
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
 {window.location='http://www.tedxguc.com/attendee/complete';}"></iframe>
-        <form class="speakerForm speakerForm-overwrite" action="https://docs.google.com/forms/d/1kSysxzEZxnWEtKV-dDUkOkJnazG-XSqtuRdcqZB1eCY" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+        <form class="speakerForm speakerForm-overwrite" action="https://docs.google.com/forms/d/1kSysxzEZxnWEtKV-dDUkOkJnazG-XSqtuRdcqZB1eCY/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
     <div role="list">
 <br>
 <p class="note">Fields with <span class="required">*</span> are required.</p>
