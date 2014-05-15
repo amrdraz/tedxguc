@@ -5,28 +5,36 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 	
 	<div class="speakerFormText">
 		<div class="speakerFormTextContainer">
-			<h3>TED<sup>x</sup>GUC Speaker’s Journey</h3>
+			<h3>TED<sup>x</sup>GUC Attendee’s Journey</h3>
 			<div class="left">
 				<h4>Our Theme</h4>
-				<h5>Synergizers<br><br></h5>
+				<h5>Identity?<br><br></h5>
 				<h4>Date of Event</h4>
-				<h5>April 26th</h5>
+				<h5>June 27th</h5>
 			</div>
 			<div class="right">
 				<p>
-					To all GUC students, alumni, teacher assistants, and professors!
+					To all GUC students, alumni, teacher assistants and professors!
+                    <br>To all non-GUCians who want to witness this happening!
 					<br><br>
-					To all non-GUCians who want to witness this happening!
+                    They say the third time's a charm.<br>
+                    We are glad to present you with TEDxGUC's third event this year;<br>
+                    <span>TEDxGUC 2014 "Identity?" Conference!</span>
 					<br><br>
-					TEDxGUC is pleasantly inviting you to attend its first event ever; SYNERGIZERS. 
+					Now YOU have the chance to rediscover,<br>reconnect and reveal a huge part of who you are!<br>
+                    The ideas and speakers this year are not to be missed.
+                    <br><br>
+                    We invite you to accompany us.
+                    <br><br>
+                    It's quite simple, apply and wait for our e-mail.<br>
+                    If your application is accepted, you will be kindly asked to pay an amount of <span>LE 100</span> for the registration/package fees.
+                    <br><br>
+                    
+                    Prepare to be flooded with new ideas and perspectives.
+                    <br><br>
+                    Meet and connect with a community of people from a wide range of fields who, with us, aim to provide an inspirational coverage of Ideas Worth Spreading.
 					<br><br>
-					Now YOU have the chance to meet and connect with a community of people from a wide range of fields who, with us, aim to provide an inspirational coverage of Ideas Worth Spreading.
-					<br><br>
-					Join us on <span>Friday the 26th</span> of April in the <span>GUC</span> examination halls. 
-					<br><br>
-					Fill in the application below, and find us at the platform area to ask about your invitation.
-					<br><br>
-					Please note that filling this application does not guarantee that you find an available invitation.<br><br>
+					Apply to join us on <span>Friday the 27th</span> of June at the <span>GUC campus.</span>
 			</div>
 		</div>
 	</div>
@@ -44,7 +52,6 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
     <div role="list">
 <br>
 <p class="note">Fields with <span class="required">*</span> are required.</p>
-<hr>
 
 <ol role="list" class="ss-question-list" style="padding-left: 0">
 <div class="errorbox-good" role="listitem">
@@ -127,7 +134,7 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-section-header"><div class="ss-form-entry">
-<h2 class="ss-section-title">Contact Information</h2>
+<br><h2 class="ss-section-title">Contact Information</h2>
 <div class="ss-section-description ss-no-ignore-whitespace"></div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
@@ -175,7 +182,7 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-section-header"><div class="ss-form-entry">
-<h2 class="ss-section-title">TED / TEDx</h2>
+<br><h2 class="ss-section-title">TED / TEDx</h2>
 <div class="ss-section-description ss-no-ignore-whitespace"></div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
@@ -234,13 +241,13 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 
 <ul class="ss-choices ss-choices-required" role="group" aria-label="How did you know about this TEDxGUC event?  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1796511665" value="Social media" id="group_1796511665_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">Social media</span>
+<span class="ss-choice-label check-box">Social media</span>
 </label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1796511665" value="On the GUC Campus" id="group_1796511665_2" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">On the GUC Campus</span>
+<span class="ss-choice-label check-box">On the GUC Campus</span>
 </label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1796511665" value="Friends" id="group_1796511665_3" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">Friends</span>
+<span class="ss-choice-label check-box">Friends</span>
 </label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1796511665" value="__other_option__" id="group_1796511665_4" role="checkbox" class="ss-q-checkbox ss-q-other-toggle" aria-required="true"></span>
-<span class="ss-choice-label">Other:</span></label>
+<span class="ss-choice-label check-box">Other:</span></label>
 <span class="ss-q-other-container goog-inline-block"><input type="text" name="entry.1796511665.other_option_response" value="" class="ss-q-other" id="entry_1796511665_other_option_response" dir="auto" aria-label="Other"></span>
 </li></ul>
 <div class="error-message"></div>
@@ -281,7 +288,7 @@ $this->pageTitle=Yii::app()->name . ' - Attendee Applcation';
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-section-header"><div class="ss-form-entry">
-<h2 class="ss-section-title">Skill Exchange</h2>
+<br><h2 class="ss-section-title">Skill Exchange</h2><br>
 <div class="ss-section-description ss-no-ignore-whitespace">In this year’s event we want you to learn something and give the same opportunity to someone else by teaching them something new.  So please help us by answering those 2 questions:</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
