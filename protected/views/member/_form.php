@@ -27,6 +27,11 @@
 		<?php echo $form->textField($model,'name',array('size'=>30,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'name'); ?>
 	</div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'email'); ?>
+	</div>
 
 	<div class="row">
 		<?php
@@ -80,6 +85,12 @@
 		<?php echo $form->labelEx($model,'past_experience'); ?>
 		<?php echo $form->textArea($model,'past_experience',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'past_experience'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'favorit_talk'); ?>
+		<?php echo $form->textArea($model,'favorit_talk',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'favorit_talk'); ?>
 	</div>
 
 	<div class="row">

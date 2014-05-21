@@ -17,10 +17,14 @@
  * @property string $website
  * @property integer $points
  * @property string $img
+ * @property string $favorit_talk
+ * @property string $email
  */
 class Member extends CActiveRecord
 {
 	public $img_file;
+
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -37,15 +41,15 @@ class Member extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, role, major, skills, talents, achievments, why, past_experience, facebook', 'required'),
+			array('name, email', 'required'),
 			array('points', 'numerical', 'integerOnly'=>true),
-			array('name', 'length', 'max'=>30),
-			array('role, major', 'length', 'max'=>20),
+			array('name, major, facebook, website, img, email', 'length', 'max'=>120),
+			array('role', 'length', 'max'=>60),
 			array('img_file', 'file', 'types' => 'jpg,jpeg,png,gif', 'allowEmpty'=>true),
-			array('facebook, website, img', 'length', 'max'=>120),
+			array('skills, talents, achievments, why, past_experience, favorit_talk', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, role, major, skills, talents, achievments, why, past_experience, facebook, website, points, img', 'safe', 'on'=>'search'),
+			array('id, name, role, major, skills, talents, achievments, why, past_experience, facebook, website, points, img, favorit_talk, email', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,6 +83,8 @@ class Member extends CActiveRecord
 			'website' => 'Website',
 			'points' => 'Points',
 			'img' => 'Img',
+			'favorit_talk' => 'Favorit Talks',
+			'email' => 'Email',
 			'image_types' => 'jpeg, jpg, png, gif',
 		);
 	}
@@ -114,6 +120,8 @@ class Member extends CActiveRecord
 		$criteria->compare('website',$this->website,true);
 		$criteria->compare('points',$this->points);
 		$criteria->compare('img',$this->img,true);
+		$criteria->compare('favorit_talk',$this->favorit_talk,true);
+		$criteria->compare('email',$this->email,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
