@@ -17,9 +17,7 @@ class SubscribeController extends Controller
 					$body = '
 						<img src="http://www.tedxguc.com/img/mainElements/tedxguc_black.png" style="float:right;padding-right:10px;width:100px;" />
 						<section>
-						Thank you for subscribing to the TEDxGUC newsletter! 
-						<br/><br/>
-						We look forward to see you at our event
+						Thank you for subscribing to the TEDxGUC newsletter!
 						</section>
 					';
 					// To send HTML mail, the Content-type header must be set
