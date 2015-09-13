@@ -66,10 +66,10 @@ return array(
 		*/
 		/* //deployment copy
 		'db'=>array(
-			'connectionString' => 'mysql:host=50.63.233.6;dbname=tedxguc',
+			'connectionString' => 'mysql:host=;dbname=',
 			'emulatePrepare' => true,
-			'username' => 'tedxguc',
-			'password' => 'Ted@db123',
+			'username' => '',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		//*/
@@ -77,8 +77,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=tedxguc',
 			'emulatePrepare' => true,
-			'username' => 'tedxguc',
-			'password' => 'Ted@db123',
+			'username' => '',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		//*/
